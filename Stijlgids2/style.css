@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.navbar{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.static{
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 200px;
+    padding: 5px 10px;
+    list-style-type: none;
+}
+.static a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    
+    
+}
+
+.static a:hover{
+    text-decoration: underline;
+}
+
+
+
+.inschrijvingen{
+    display: flex;
+    align-items:center;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 200px;
+    padding: 5px 10px;
+    list-style-type: none;
+    border: black 2px solid;
+}
+
+.inschrijvingen a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    
+    
+}
+.logo img{
+    position: absolute;
+
+    top: 5px;
+    left: 30px;
+    width: 100px;
+    height: 150px;
+    
+}
+
+.midden{
+    display: flex;
+    justify-content: space-between;
+}
+
+.teksten{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.kleuren{
+    margin-right: 20px;
+    margin-top: 200px;
+    padding: 0px 20px;
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.kleur img{
+    width: 100px;
+    height: 100px;
+    margin: 0px 10px;
+}
+
+
+.fotogalery{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;    
+}
+
+.box div{
+    background-color: white;
+    border: black 5px solid;
+    margin: 0px 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.Bollekes{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.Bol1{
+    background-color: black;
+    margin: 0px 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.Bol2{
+    background-color: gray;
+    margin: 0px 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
