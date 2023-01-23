@@ -1,9 +1,16 @@
 body{
     padding: 0px;
     margin: 0px;
+   background-color: #E6E6E6; 
 }
 
+header img{
+    max-width: 100%;
+}
 
+.artboard img{
+    max-width: 100%;
+}
 footer img{
     max-width: 100%;
 }
