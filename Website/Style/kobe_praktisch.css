@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-body{
-    background-image: url("../images/banner\ onze\ school.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+body {
     background-color: #E6E6E6;
     margin: 0;
+
 }
 
-.header{
+
+
+
+.header {
     width: 100%;
     height: 100px;
     display: flex;
@@ -16,38 +17,37 @@ body{
     align-items: center;
 }
 
-.logo img{
+.logo img {
     width: 70%;
 }
 
-.nav ul{
+
+
+
+
+.nav ul {
+
     margin: 0;
     padding: 0;
 }
 
-.nav ul li{
+.nav ul li {
     display: inline-block;
     margin-right: 20px;
     font-size: 18px;
 }
 
-.nav ul li a{
+.nav ul li a {
     text-decoration: none;
     color: white;
     font-family: Archivo, sans-serif;
 }
 
-.nav ul li a.button{
-    background-color: #E6E6E6;
+.nav ul li a.button {
+    background-color: #121583;
     padding: 10px 20px;
-    color: #414141;
+    color: #FFF;
     border-radius: 7px;
     font-weight: bold;
     text-decoration: none;
-}
-
-.wrapper{
-    background-color: red;
-    width: 80%;
-    margin: 500px auto 0 auto;
 }
