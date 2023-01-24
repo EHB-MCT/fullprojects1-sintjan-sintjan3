@@ -1,16 +1,101 @@
-body{
-    padding: 0px;
-    margin: 0px;
-   background-color: #E6E6E6; 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*  font-family: 'Montserrat'; */
+body {
+	background-image: url(../Images/Artboard\ 5.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+	background-color: #e6e6e6;
 }
 
-header img{
-    max-width: 100%;
+header img {
+	max-width: 100%;
+	background-image: none;
 }
 
-.artboard img{
+.navbar {
+	width: 100%;
+	height: 100px;
+	position: relative;
+	top: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 18px;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-family: Archivo, sans-serif;
+}
+
+.nav ul li a.button {
+	background-color: #121583;
+	padding: 10px 20px;
+	color: #fff;
+	border-radius: 7px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* midden */
+.boxes {
+	margin-top: 600px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.boxes3 {
+    margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.box3{
+    margin: 0px 50px;
+}
+
+.box {
+	margin: 0px 150px;
+	border-radius: 20px;
+}
+
+.text {
+	font-family: "Montserrat";
+	padding: 5px 10px;
+}
+
+.button a {
+	background-color: #005daa;
+	border-radius: 10px;
+	font-family: "Monserrat";
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+}
+
+.box img {
+	max-width: 100%;
+}
+
+.box3 img{
     max-width: 100%;
 }
-footer img{
-    max-width: 100%;
+.artboard img {
+	max-width: 100%;
+}
+footer img {
+	max-width: 100%;
 }
