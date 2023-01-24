@@ -59,9 +59,7 @@ body {
     padding: 0
 }
 
-#primary_nav_wrap ul li.current-menu-item {
-    background: #ddd
-}
+
 
 #primary_nav_wrap ul li:hover {
     background: #FFCC00;
@@ -92,12 +90,19 @@ body {
     left: 100%
 }
 
-#primary_nav_wrap ul li:hover ul {
+#primary_nav_wrap ul li:hover>ul {
     display: block
 }
 
 
-
+.nav ul li a.button {
+    background-color: #121583;
+    padding: 10px 20px;
+    color: #FFF;
+    border-radius: 7px;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 .praktisch {
     text-align: center;
