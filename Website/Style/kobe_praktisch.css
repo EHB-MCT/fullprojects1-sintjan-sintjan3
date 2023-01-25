@@ -2,11 +2,12 @@
 
 body {
     background-color: #e6e6e6;
-    background-image: url("../Images/temporary\ banner.png");
-    background-size: cover;
+    background-image: url("../Images/footer\ &\ banners.png");
+    background-size: 100%;
     background-repeat: no-repeat;
     background-color: #e6e6e6;
     margin: 0;
+
 }
 
 .header {
@@ -41,7 +42,7 @@ body {
     font-size: 18px;
     line-height: 32px;
     padding: 0 15px;
-    font-family: Archivo, sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 
 #primary_nav_wrap ul li {
@@ -94,17 +95,11 @@ body {
     text-decoration: none;
 }
 
-.praktisch {
-    text-align: center;
-    position: relative;
-    font-size: 35px;
-    margin-top: 40%;
-    font-family: Archivo, sans-serif;
-    color: #414141;
 
+
+.footer img {
+    width: 100%;
 }
-
-.footer img {}
 
 h2 {
     font-size: 30px;
@@ -113,9 +108,9 @@ h2 {
 .digisprong {
     display: flex;
     text-align: center;
-    font-family: Archivo, sans-serif;
+    font-family: Montserrat, sans-serif;
     margin-left: 20%;
-    margin-top: -2%;
+    margin-top: 30%;
     color: #414141;
     gap: 80px;
     margin-right: 10%;
@@ -131,6 +126,7 @@ h2 {
     width: 25%;
     font-weight: lighter;
     margin-right: 10%;
+    margin-top: 4%;
 }
 
 .h3 {
@@ -139,9 +135,19 @@ h2 {
 }
 
 .button1 a {
-    background-color: #121583;
+    background-color: #005DAA;
     padding: 1%;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 10px;
+    width: 35px;
 
+}
+
+.button1 {
+    margin-left: 20%;
+    margin-top: 2%;
 }
 
 .nav ul li a.button {
@@ -158,4 +164,106 @@ h2 {
     position: relative;
     font-size: 55px;
     margin-top: 30%;
+}
+
+.leerlingen {
+    display: flex;
+    text-align: center;
+    flex-direction: row-reverse;
+    font-family: Montserrat, sans-serif;
+    margin-left: 15%;
+    margin-top: 5%;
+    color: #414141;
+    gap: 10px;
+    margin-right: 15%;
+}
+
+.titel2 {
+    margin-top: 5%;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.leerlingen img {
+    width: 25%;
+    font-weight: lighter;
+
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.button2 {
+    margin-left: 77%;
+    margin-top: -1%;
+}
+
+.button2 a {
+    background-color: #005DAA;
+    padding: 4%;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 10px;
+    width: 35px;
+
+}
+
+.leerkrachten {
+    display: flex;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    margin-left: 20%;
+    margin-top: 5%;
+    color: #414141;
+    gap: 80px;
+    margin-right: 10%;
+
+}
+
+.titel3 {
+    margin-top: 5%;
+    text-align: left;
+}
+
+.leerkrachten img {
+    width: 25%;
+    font-weight: lighter;
+    margin-right: 10%;
+    margin-top: 4%;
+}
+
+.button3 a {
+    background-color: #005DAA;
+    padding: 1%;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 10px;
+    width: 35px;
+
+}
+
+.button3 {
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.tussenstuk img {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.onderstuk {
+    display: flex;
+
+    gap: 70px;
+
+    margin-left: 23%;
+
+}
+
+.onderstuk img {
+    width: 20%;
+
+
 }
