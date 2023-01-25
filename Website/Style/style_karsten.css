@@ -65,6 +65,10 @@ header img {
 	flex-direction: column;
 }
 
+.boxes div:nth-child(3){
+	margin-top: 50px;
+}
+
 .boxes3 {
 	margin-top: 50px;
 	display: flex;
@@ -103,7 +107,7 @@ header img {
 
 .button1 {
 	margin-left: 155px;
-	margin-top: -50px;
+	margin-top: -70px;
 	margin-bottom: 10px;
 }
 
@@ -132,9 +136,11 @@ header img {
 
 .boxes3 img.image1{
 	margin-top: -20px;
+	margin-left: 30px;
 }
 
 .box img.image2{
+	margin-top: -80px;
 	width: 400px;
 	height: 400px;
 }
@@ -144,6 +150,14 @@ header img {
 	height: 400px;
 	margin-top: -60px;
 }
+
+.boxes3 img.imageZorg{
+	width: 300px;
+	height: 300px;
+	margin-left: 40px;
+	
+}
+
 .boxes3 img {
 	width: 300px;
 	height: 300px;
@@ -158,6 +172,22 @@ header img {
 	align-content: center;
 }
 
+.textDanku{
+	margin-top: -30px;
+	font-family: "Montserrat";
+    font-weight: 100
+}
+
+.textSchoolvisie{
+	margin-top: 45px;
+	font-family: "Montserrat";
+    font-weight: 100
+}
+
+
+.Wijzoekenjou img{
+	margin: 40px 100px;
+}
 
 .artboard img {
 	max-width: 100%;
