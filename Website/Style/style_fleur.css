@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body{
-    background-image: url("../images/banner\ onze\ school.png");
+    background-image: url("../images/fotos_fleur/onzeschool.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: #E6E6E6;
@@ -10,6 +10,30 @@ body{
 
 body img:nth-child(3){
     width: 100%;
+}
+
+h1{
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+h2{
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+h3{
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+p{
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
 }
 
 .header{
@@ -51,9 +75,14 @@ body img:nth-child(3){
 }
 
 .wrapper{
-    background-color: red;
     width: 80%;
-    margin: 650px auto 0 auto;
+    margin: 450px auto 0 auto;
+    text-align: center;
+}
+
+.wrapper2{
+    width: 80%;
+    margin: 60px auto 0 auto;
     text-align: center;
 }
 
@@ -68,7 +97,7 @@ article .schoolvisie{
 }
 
 .bekwaam img{
-    width: 70%;
+    height: 160px;
 }
 
 .bekwaam p{
@@ -80,7 +109,7 @@ article .schoolvisie{
 }
 
 .bewust img{
-    width: 70%;
+    height: 160px;
 }
 
 .bewust p{
@@ -92,7 +121,7 @@ article .schoolvisie{
 }
 
 .bewogen img{
-    width: 70%;
+    height: 160px;
 }
 
 .bewogen p{
@@ -113,6 +142,20 @@ article .schoolvisie{
     text-align: left;
 }
 
+footer{
+    margin-top: 60px;
+}
+
 footer img{
     width: 100%;
+}
+
+button{
+    display: block;
+    background-color: #005DAA;
+    border-color: #005DAA;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    padding: 7px;
 }
