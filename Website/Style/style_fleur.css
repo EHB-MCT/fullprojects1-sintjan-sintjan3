@@ -2,10 +2,14 @@
 
 body{
     background-image: url("../images/banner\ onze\ school.png");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-color: #E6E6E6;
     margin: 0;
+}
+
+body img:nth-child(3){
+    width: 100%;
 }
 
 .header{
@@ -49,5 +53,66 @@ body{
 .wrapper{
     background-color: red;
     width: 80%;
-    margin: 500px auto 0 auto;
+    margin: 650px auto 0 auto;
+    text-align: center;
+}
+
+article .schoolvisie{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.bekwaam{
+    grid-column: 1;
+}
+
+.bekwaam img{
+    width: 70%;
+}
+
+.bekwaam p{
+    text-align: justify;
+}
+
+.bewust{
+    grid-column: 2;
+}
+
+.bewust img{
+    width: 70%;
+}
+
+.bewust p{
+    text-align: justify;
+}
+
+.bewogen{
+    grid-column: 3;
+}
+
+.bewogen img{
+    width: 70%;
+}
+
+.bewogen p{
+    text-align: justify;
+}
+
+.opvoedingsproject{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.opvoedingsproject img{
+    width: 65%;
+    margin: auto;
+}
+
+.text-opvoeding{
+    text-align: left;
+}
+
+footer img{
+    width: 100%;
 }
