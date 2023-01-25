@@ -98,10 +98,10 @@ body {
 }
 
 
-.nav ul li a.button {
+.nav li a button {
     background-color: #121583;
     padding: 10px 20px;
-    color: #FFF;
+    color: #121583;
     border-radius: 7px;
     font-weight: bold;
     text-decoration: none;
@@ -110,7 +110,7 @@ body {
 .praktisch {
     text-align: center;
     position: relative;
-    font-size: 55px;
+    font-size: 35px;
     margin-top: 40%;
     font-family: Archivo, sans-serif;
     color: #414141;
@@ -118,3 +118,41 @@ body {
 }
 
 .footer img {}
+
+h2 {
+    font-size: 30px;
+}
+
+.digisprong {
+    display: flex;
+    text-align: center;
+    font-family: Archivo, sans-serif;
+    margin-left: 20%;
+    margin-top: -2%;
+    color: #414141;
+    gap: 80px;
+    margin-right: 10%;
+
+}
+
+.titel {
+    margin-top: 5%;
+    text-align: left;
+}
+
+.digisprong img {
+    width: 25%;
+    font-weight: lighter;
+    margin-right: 10%;
+}
+
+.h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.button1 a {
+    background-color: #121583;
+    padding: 1%;
+
+}
