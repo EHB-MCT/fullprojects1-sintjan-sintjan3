@@ -9,6 +9,14 @@ body {
 	background-color: #e6e6e6;
 }
 
+.banner1 img {
+	max-width: 100%;
+}
+
+.gelebanner img {
+	max-width: 100%;
+}
+
 header img {
 	max-width: 100%;
 	background-image: none;
@@ -54,27 +62,49 @@ header img {
 .boxes {
 	margin-top: 600px;
 	display: flex;
-	justify-content: space-evenly;
+	flex-direction: column;
 }
 
 .boxes3 {
-    margin-top: 50px;
+	margin-top: 50px;
 	display: flex;
 	justify-content: center;
 }
 
-.box3{
-    margin: 0px 50px;
+.box3 {
+	margin: 0px 50px;
 }
 
 .box {
+	display: flex;
 	margin: 0px 150px;
 	border-radius: 20px;
 }
 
-.text {
+.text h1{
 	font-family: "Montserrat";
+	font-weight: 500;
+	
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	font-family: "Montserrat";
+	font-weight: 100;
 	padding: 5px 10px;
+}
+
+.button {
+	margin-left: 550px;
+	margin-top: -50px;
+	margin-bottom: 10px;
+}
+
+.button1 {
+	margin-left: 155px;
+	margin-top: -50px;
+	margin-bottom: 10px;
 }
 
 .button a {
@@ -86,13 +116,49 @@ header img {
 	padding: 5px 20px;
 }
 
+.button1 a {
+	background-color: #005daa;
+	border-radius: 10px;
+	font-family: "Monserrat";
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+}
 .box img {
-	max-width: 100%;
+	width: 300px;
+	height: 300px;
+	margin-right: 100px;
 }
 
-.box3 img{
-    max-width: 100%;
+.boxes3 img.image1{
+	margin-top: -20px;
 }
+
+.box img.image2{
+	width: 400px;
+	height: 400px;
+}
+
+.boxes3 img.image3{
+	width: 400px;
+	height: 400px;
+	margin-top: -60px;
+}
+.boxes3 img {
+	width: 300px;
+	height: 300px;
+}
+
+.Schoolvisie {
+	max-width: 400px;
+	max-height: 500px;
+}
+
+.Schoolvisie img.image1{
+	align-content: center;
+}
+
+
 .artboard img {
 	max-width: 100%;
 }
