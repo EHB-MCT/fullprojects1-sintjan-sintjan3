@@ -207,6 +207,10 @@ button{
     padding: 7px;
 }
 
+button:hover{
+    background-color: #014278;
+}
+
 
 @media (max-width: 480px){
     body{
