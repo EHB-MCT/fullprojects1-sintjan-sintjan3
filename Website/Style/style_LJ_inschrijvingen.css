@@ -102,14 +102,31 @@
 }
 
 .text h1 {
-	font-family: "Montserrat";
+	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
 }
 
 .text {
 	display: flex;
 	flex-direction: column;
-	font-family: "Montserrat";
+	font-family: "Montserrat", sans-serif;
 	font-weight: 100;
 	padding: 5px 10px;
+}
+
+.box img {
+	width: 300px;
+	height: 300px;
+	margin-right: 100px;
+}
+
+.boxes3 img.image1 {
+	margin-top: -20px;
+	margin-left: 30px;
+}
+
+.box img.image2 {
+	margin-top: -80px;
+	width: 400px;
+	height: 400px;
 }
