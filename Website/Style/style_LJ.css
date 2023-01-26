@@ -1,11 +1,15 @@
-body {
-    background-color: #e6e6e6;
-    background-image: url("../../Images/footer\ &\ banners.png");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    background-image: url("../Images/temporarybanner.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: #e6e6e6;
+    background-color: #E6E6E6;
     margin: 0;
+}
 
+.logo img {
+    width: 70%;
 }
 
 .header {
@@ -16,10 +20,6 @@ body {
     align-items: center;
 }
 
-.logo img {
-    width: 70%;
-}
-
 #primary_nav_wrap {
     margin-top: 15px;
 }
@@ -28,13 +28,13 @@ body {
     list-style: none;
     position: relative;
     float: right;
-    margin: 0;
+	margin-right: 10px;
     padding: 0;
 }
 
 #primary_nav_wrap ul a {
     display: block;
-    color: #414141;
+    color: white;
     text-decoration: none;
     font-weight: 700;
     font-size: 18px;
@@ -57,6 +57,7 @@ body {
 #primary_nav_wrap ul ul {
     display: none;
     position: absolute;
+	
     top: 100%;
     left: 0;
     background: #fff;
@@ -71,6 +72,7 @@ body {
 #primary_nav_wrap ul ul a {
     line-height: 120%;
     padding: 10px 15px;
+	color: #414141;
 }
 
 #primary_nav_wrap ul ul ul {
@@ -82,68 +84,12 @@ body {
     display: block;
 }
 
-
-
-.nav li a button {
-    background-color: #121583;
-    padding: 10px 20px;
-    color: #121583;
-    border-radius: 7px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-
-
-.footer img {
+.wrapper img {
+    margin-top: 650px;
     width: 100%;
 }
 
-.digisprong {
-    display: flex;
-    text-align: left;
-    font-family: Montserrat, sans-serif;
-    margin-left: 5%;
-    margin-top: 30%;
-    color: #414141;
-    gap: 80px;
-    margin-right: 5%;
-    width: 30%;
-
-}
-
-.titel {
-    padding-top: -10%;
-    text-align: left;
-    width: 150%;
-}
-
-.titel h1 {
-    font-size: 80px;
-}
-
-.line {
-    width: 10%;
-    height: 7px;
-    background-color: #ffcc00;
-    margin-left: 5%;
-    margin-top: -5%;
-}
-
-.digisprong img {
-
-    margin-left: 90%;
-    margin-top: 55%;
-    border-width: 20px;
-    border: #ffcc00 4px solid;
-    height: 230px;
-}
-
-.tekst1 {
-    text-align: left;
-    font-family: Montserrat, sans-serif;
-    margin-left: 5%;
-    margin-top: 3%;
-    color: #414141;
-    width: 50%;
+.footer img {
+    margin-top: -10px;
+    width: 100%;
 }
