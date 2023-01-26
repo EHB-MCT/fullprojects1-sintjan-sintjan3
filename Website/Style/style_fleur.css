@@ -42,10 +42,26 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    position: -webkit-sticky;
+    position: sticky;
+    /* sticky or fixed are fine */
+    position: fixed;
+    top: 0;
+    height: 69px;
+    width: 100%;
+}
+
+.logo{
+    margin-left: 40px;
 }
 
 .logo img{
-    width: 70%;
+    width: 60%;
+}
+
+.nav{
+    margin-right: 40px;
 }
 
 .nav ul{
