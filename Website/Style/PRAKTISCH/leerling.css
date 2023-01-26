@@ -93,13 +93,7 @@ body {
     text-decoration: none;
 }
 
-
-
-.footer img {
-    width: 100%;
-}
-
-.digisprong {
+.leerling {
     display: flex;
     text-align: left;
     font-family: Montserrat, sans-serif;
@@ -113,7 +107,7 @@ body {
 }
 
 .titel {
-    padding-top: -10%;
+    margin-top: -10%;
     text-align: left;
     width: 150%;
 }
@@ -127,17 +121,10 @@ body {
     height: 7px;
     background-color: #ffcc00;
     margin-left: 5%;
-    margin-top: -5%;
+    margin-top: -8%;
 }
 
-.digisprong img {
 
-    margin-left: 90%;
-    margin-top: 55%;
-    border-width: 20px;
-    border: #ffcc00 4px solid;
-    height: 230px;
-}
 
 .tekst1 {
     text-align: left;
@@ -146,4 +133,13 @@ body {
     margin-top: 3%;
     color: #414141;
     width: 50%;
+}
+
+.leerling img {
+
+    margin-left: 90%;
+    margin-top: 55%;
+    border-width: 20px;
+    border: #ffcc00 4px solid;
+    height: 230px;
 }
