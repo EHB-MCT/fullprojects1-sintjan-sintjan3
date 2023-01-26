@@ -1,13 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
-body {
-	background-image: url("../Images/temporarybanner.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-color: #e6e6e6;
-	margin: 0;
-}
-
 .logo img {
 	width: 70%;
 }
@@ -84,24 +75,41 @@ body {
 	display: block;
 }
 
-.wrapper img {
-	margin-top: 250px;
-	width: 100%;
+.boxes {
+	margin-top: 600px;
+	display: flex;
+	flex-direction: column;
 }
 
-.footer img {
-	margin-top: -10px;
-	width: 100%;
+.boxes div:nth-child(3) {
+	margin-top: 50px;
 }
 
-@media (max-width: 480px) {
-	body {
-		background-image: none;
-	}
+.boxes3 {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
 
-    .wrapper img{
-        margin-top: 20px;
-    }
+.box3 {
+	margin: 0px 50px;
+}
 
-    
+.box {
+	display: flex;
+	margin: 0px 150px;
+	border-radius: 20px;
+}
+
+.text h1 {
+	font-family: "Montserrat";
+	font-weight: 500;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	font-family: "Montserrat";
+	font-weight: 100;
+	padding: 5px 10px;
 }
