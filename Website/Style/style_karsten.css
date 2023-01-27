@@ -42,14 +42,14 @@ body {
 }
 
 #primary_nav_wrap ul a {
-	display: block;
-	color: white;
-	text-decoration: none;
-	font-weight: 700;
-	font-size: 18px;
-	line-height: 32px;
-	padding: 0 15px;
-	font-family: Montserrat, sans-serif;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 0 15px;
+    font-family: "Montserrat", sans-serif;
 }
 
 #primary_nav_wrap ul li {
@@ -133,15 +133,15 @@ body {
 	border-radius: 20px;
 }
 
-.text h1 {
-	font-family: "Montserrat";
+.text h1{
+	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
 }
 
 .text {
 	display: flex;
 	flex-direction: column;
-	font-family: "Montserrat";
+	font-family: "Montserrat",sans-serif;
 	font-weight: 100;
 	padding: 5px 10px;
 }
@@ -150,18 +150,21 @@ body {
 	margin-left: 550px;
 	margin-top: -50px;
 	margin-bottom: 10px;
+	font-family: "Monserrat",sans-serif;
+	
 }
 
 .button1 {
 	margin-left: 155px;
 	margin-top: -70px;
 	margin-bottom: 10px;
+	font-family: "Monserat",sans-serif;
 }
 
 .button a {
 	background-color: #005daa;
 	border-radius: 10px;
-
+	font-family: "Monserrat",sans-serif;
 	text-decoration: none;
 	color: white;
 	padding: 5px 20px;
@@ -170,7 +173,8 @@ body {
 .button1 a {
 	background-color: #005daa;
 	border-radius: 10px;
-	font-family: "Monserrat";
+	font-family:"Monserat",sans-serif;
+	
 	text-decoration: none;
 	color: white;
 	padding: 5px 20px;
@@ -220,19 +224,26 @@ body {
 
 .textDanku {
 	margin-top: -30px;
-	font-family: "Montserrat";
-	font-weight: 100;
+	font-family: "Montserrat", sans-serif;
+    font-weight: 100
 }
 
 .textSchoolvisie {
 	margin-top: 45px;
-	font-family: "Montserrat";
-	font-weight: 100;
+	font-family: "Montserrat",sans-serif;
+    font-weight: 100
 }
 
 .Wijzoekenjou img {
 	margin: 40px 100px;
 }
+.WijzoekenjouDriehoek{
+	width: 400px;
+	height: 400px;
+	margin-top: -150px;
+	margin-left: 50px;
+}
+
 
 .artboard img {
 	max-width: 100%;

@@ -42,7 +42,7 @@ body {
     font-size: 18px;
     line-height: 32px;
     padding: 0 15px;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #primary_nav_wrap ul li {
@@ -255,8 +255,8 @@ h2 {
 
 .onderstuk {
     display: flex;
-
-    gap: 70px;
+    width: 60%;
+    gap: 40px;
 
     margin-left: 23%;
 
@@ -266,4 +266,18 @@ h2 {
     width: 20%;
 
 
+}
+
+.onderstuk a img {
+    width: 90%;
+    margin-left: -20%;
+}
+
+.afbeelding1 img {
+    width: 60%;
+}
+
+.afbeelding3 img {
+
+    width: 60%;
 }
