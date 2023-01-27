@@ -16,12 +16,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
 }
 
 .logo img {
     width: 70%;
 }
 
+.logo a:nth-child(2) {
+    display: none;
+}
 
 
 #primary_nav_wrap ul {
@@ -278,4 +283,22 @@ h2 {
 .afbeelding3 img {
 
     width: 60%;
+}
+
+html:not([data-scroll="0"]) .header {
+    background-color: #ffcc00;
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+    transition: 0.25s;
+}
+
+html:not([data-scroll="0"]) .header .logo a:nth-child(2) {
+    display: block;
+}
+
+html:not([data-scroll="0"]) .header .logo a:nth-child(1) {
+    display: none;
+}
+
+html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
+    color: #414141;
 }
