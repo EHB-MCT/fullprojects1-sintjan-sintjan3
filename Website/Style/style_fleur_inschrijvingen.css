@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 /*  font-family: 'Montserrat'; */
 body {
 	background-image: url(../images/inschrijvingen.png);
@@ -23,14 +24,16 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	position: fixed;
+	top: 0;
 }
 
 .logo img {
-	width: 70%;
+	width: 60%;
 }
 
-#primary_nav_wrap {
-	margin-top: 15px;
+.logo a:nth-child(2) {
+	display: none;
 }
 
 #primary_nav_wrap ul {
@@ -89,7 +92,7 @@ body {
 	left: 100%;
 }
 
-#primary_nav_wrap ul li:hover > ul {
+#primary_nav_wrap ul li:hover>ul {
 	display: block;
 }
 
@@ -108,7 +111,7 @@ body {
 
 /* midden */
 .boxes {
-	margin-top: 600px;
+	margin-top: 750px;
 	display: flex;
 	flex-direction: column;
 }
@@ -139,69 +142,91 @@ body {
 	border-radius: 20px;
 }
 
-.box1 img{
+.box1 img {
 	height: 270px;
 }
 
-.box1 .text1{
+.box1 .text1 {
 	margin-top: 40px;
 	margin-right: 90px;
 	margin-left: 40px;
 }
 
-.box2 img{
+.box2 img {
 	height: 270px;
 }
 
-.box2 .text2{
+.box2 .text2 {
 	margin-top: 40px;
 	margin-right: 50px;
 }
 
-.box1 .text1 h1{
+.box1 .text1 h1 {
 	font-family: Montserrat, sans-serif;
-    font-weight: 800;
-    font-size: 40px;
+	font-weight: 800;
+	font-size: 40px;
 }
 
-.box2 .text2 h1{
+.box2 .text2 h1 {
 	font-family: Montserrat, sans-serif;
-    font-weight: 800;
-    font-size: 40px;
+	font-weight: 800;
+	font-size: 40px;
 }
 
-.box1 .text1 p{
+.box1 .text1 p {
 	font-family: Montserrat, sans-serif;
-    font-weight: 400;
-    font-size: 13px;
+	font-weight: 400;
+	font-size: 13px;
 }
 
-.box2 .text2 p{
+.box2 .text2 p {
 	font-family: Montserrat, sans-serif;
-    font-weight: 400;
-    font-size: 13px;
+	font-weight: 400;
+	font-size: 13px;
 }
 
-footer img{
+footer img {
 	width: 100%;
 }
 
-button{
+button {
 	display: block;
 	margin: 0 auto;
-    background-color: #005DAA;
-    border-color: #005DAA;
-    border-radius: 5px;
-    border: 0;
-    padding: 12px 100px 12px 100px;
+	background-color: #005DAA;
+	border-color: #005DAA;
+	border-radius: 5px;
+	border: 0;
+	padding: 12px 100px 12px 100px;
 }
 
-a{
+a {
 	color: white;
 	font-size: 16px;
 	text-decoration: none;
 }
 
-button:hover{
-    background-color: #014278;
+button:hover {
+	background-color: #014278;
+}
+
+
+
+
+
+html:not([data-scroll="0"]) .header {
+	background-color: #ffcc00;
+	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+	transition: 0.25s;
+}
+
+html:not([data-scroll="0"]) .header .logo a:nth-child(2){
+	display: block;
+}
+
+html:not([data-scroll="0"]) .header .logo a:nth-child(1){
+	display: none;
+}
+
+html:not([data-scroll="0"]) .header #primary_nav_wrap ul a{
+	color: #414141;
 }
