@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*  font-family: 'Montserrat'; */
+body {
+	background-image: url(../images/inschrijvingen.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+	background-color: #e6e6e6;
+}
+
+.banner1 img {
+	max-width: 100%;
+}
+
+.gelebanner img {
+	max-width: 100%;
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo img {
+	width: 70%;
+}
+
+#primary_nav_wrap {
+	margin-top: 15px;
+}
+
+#primary_nav_wrap ul {
+	list-style: none;
+	position: relative;
+	float: right;
+	margin-right: 10px;
+	padding: 0;
+}
+
+#primary_nav_wrap ul a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 32px;
+	padding: 0 15px;
+	font-family: Montserrat, sans-serif;
+}
+
+#primary_nav_wrap ul li {
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#primary_nav_wrap ul li:hover {
+	background: #ffcc00;
+}
+
+#primary_nav_wrap ul ul {
+	display: none;
+	position: absolute;
+
+	top: 100%;
+	left: 0;
+	background: #fff;
+	padding: 0;
+}
+
+#primary_nav_wrap ul ul li {
+	float: none;
+	width: 200px;
+}
+
+#primary_nav_wrap ul ul a {
+	line-height: 120%;
+	padding: 10px 15px;
+	color: #414141;
+}
+
+#primary_nav_wrap ul ul ul {
+	top: 0;
+	left: 100%;
+}
+
+#primary_nav_wrap ul li:hover > ul {
+	display: block;
+}
+
+.Knopke {
+	padding: 10px 20px;
+	color: #121583;
+	border-radius: 7px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.knopke:hover {
+	background-color: #121583;
+	border-radius: 7px;
+}
+
+/* midden */
+.boxes {
+	margin-top: 600px;
+	display: flex;
+	flex-direction: column;
+}
+
+.boxes div:nth-child(3) {
+	margin-top: 50px;
+}
+
+.boxes3 {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.box3 {
+	margin: 0px 50px;
+}
+
+.box1 {
+	display: flex;
+	margin: 0px 150px;
+	border-radius: 20px;
+}
+
+.box2 {
+	display: flex;
+	margin: 0px 150px;
+	border-radius: 20px;
+}
+
+.box1 img{
+	height: 270px;
+}
+
+.box1 .text1{
+	margin-top: 40px;
+	margin-right: 90px;
+	margin-left: 40px;
+}
+
+.box2 img{
+	height: 270px;
+}
+
+.box2 .text2{
+	margin-top: 40px;
+	margin-right: 50px;
+}
+
+.box1 .text1 h1{
+	font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.box2 .text2 h1{
+	font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.box1 .text1 p{
+	font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.box2 .text2 p{
+	font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+footer img{
+	width: 100%;
+}
+
+button{
+	display: block;
+	margin: 0 auto;
+    background-color: #005DAA;
+    border-color: #005DAA;
+    border-radius: 5px;
+    border: 0;
+    padding: 12px 100px 12px 100px;
+}
+
+a{
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+button:hover{
+    background-color: #014278;
+}

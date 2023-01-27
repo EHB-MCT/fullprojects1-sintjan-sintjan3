@@ -40,7 +40,7 @@ body {
     font-size: 18px;
     line-height: 32px;
     padding: 0 15px;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #primary_nav_wrap ul li {
@@ -98,7 +98,7 @@ body {
     text-align: left;
     font-family: Montserrat, sans-serif;
     margin-left: 5%;
-    margin-top: 30%;
+    margin-top: 40%;
     color: #414141;
     gap: 80px;
     margin-right: 5%;
@@ -121,7 +121,7 @@ body {
     height: 7px;
     background-color: #ffcc00;
     margin-left: 5%;
-    margin-top: -8%;
+    margin-top: -5%;
 }
 
 
@@ -142,4 +142,62 @@ body {
     border-width: 20px;
     border: #ffcc00 4px solid;
     height: 230px;
+}
+
+.tussenstuk img {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.ouders {
+    display: flex;
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+    margin-left: 5%;
+
+    color: #414141;
+    gap: 80px;
+    margin-right: 5%;
+    width: 30%;
+
+}
+
+.titel2 {
+    padding-top: -10%;
+    text-align: left;
+    width: 150%;
+}
+
+.titel2 h1 {
+    font-size: 80px;
+}
+
+.line2 {
+    width: 10%;
+    height: 7px;
+    background-color: #ffcc00;
+    margin-left: 5%;
+    margin-top: -3%;
+}
+
+.ouders img {
+
+    margin-left: 120%;
+    margin-top: 55%;
+    border-width: 20px;
+    border: #ffcc00 4px solid;
+    height: 230px;
+}
+
+.tekst2 {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5%;
+    margin-top: 3%;
+    color: #414141;
+    width: 50%;
+}
+
+.footer img {
+    width: 100%;
 }

@@ -4,6 +4,8 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #e6e6e6;
+	background-image: url(../Images/banners.png/banners-06.png);
+	background-size: 100%;
 	margin: 0;
 	padding: 0;
 	font-family: Montserrat, sans-serif;
@@ -95,6 +97,8 @@ body {
 }
 
 .contact {
+	margin-top: 620px;
+	background-color: #e6e6e6;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -138,20 +142,6 @@ body {
 	width: 250px;
 }
 
-.map {
-	margin-bottom: 50px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.map img {
-	margin-left: 80px;
-	margin-bottom: 120px;
-	width: 20%;
-}
-
 .navigatie img {
 	margin-top: 150px;
 	width: 60%;
@@ -168,4 +158,59 @@ body {
 
 .footer img {
 	width: 100%;
+}
+
+@media (max-width: 480px) {
+	body {
+		background-image: none;
+	}
+
+	.wrapper img {
+		margin-top: 20px;
+	}
+
+	.contact {
+		flex-direction: column;
+		margin-top: 0px;
+	}
+
+	.map iframe {
+		width: 450px;
+		height: 300px;
+		margin-left: 15px;
+	}
+
+	.contact-text {
+		display: flex;
+		flex-direction: row;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: 25px;
+		background-image: url(../Images/contact-03.png);
+		background-repeat: no-repeat;
+		background-position: 50%;
+		background-size: 250px;
+
+		width: 400px;
+		font-size: 10px;
+	}
+
+	.functie {
+		display: flex;
+		flex-direction: column;
+
+		width: 110px;
+		margin-left: 50px;
+		text-align: left;
+	}
+
+	.naam {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-top: 15px;
+		margin-right: 200px;
+		height: 80px;
+		width: 100px;
+	}
 }
