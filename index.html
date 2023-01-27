@@ -11,6 +11,9 @@
 		<div class="header">
 			<div class="logo">
 				<a href="./index.html"><img src="../Website/Images/LOGO.png" /></a>
+				<a class="logo2" href="./index.html"
+					><img src="./Website/Images/logo_grijs.png"
+				/></a>
 			</div>
 
 			<nav id="primary_nav_wrap">
@@ -67,7 +70,10 @@
 		<div class="midden">
 			<div class="boxes">
 				<div class="box">
-					<img src="./Website/Images/Fotos_Karsten/svgs/InfoDriehoek.svg" alt="" />
+					<img
+						src="./Website/Images/Fotos_Karsten/svgs/InfoDriehoek.svg"
+						alt=""
+					/>
 					<div class="text">
 						<h1>Donderdag 9 maart 2023</h1>
 						<p>
@@ -77,14 +83,15 @@
 							van 4 februari. U kan enkel deelnemen aan deze sessie indien u
 							zich via dit formulier
 						</p>
+						<a href="#" class="but"> Klik meer</a>
 					</div>
 				</div>
-				<!-- <div class="button">
-					<a href="#"> Klik meer</a>
-				</div> -->
 
-				<div class="box">
+				<div class="boxje">
+					<img
+						class="image2"src="./Website/Images/Fotos_Karsten/svgs/Opendeurdag.svg"alt=""/>
 					<div class="text">
+
 						<h1>Zaterdag 4 februari 2023</h1>
 						<p>
 							Op zondag 4 februari 2023 hebben wij een opendeurdag van
@@ -92,16 +99,8 @@
 							kennismaken met een leerkracht van Sint-Jan?Elk uur een infosessie
 							in onze mediatheek,vanaf 11u tot en met 16u.
 						</p>
+						<a href="#" class="but"> Klik meer</a>
 					</div>
-
-					<img
-						class="image2"
-						src="./Website/Images/Fotos_Karsten/svgs/Opendeurdag.svg"
-						alt=""
-					/>
-				</div>
-				<div class="button1">
-					<a href="#"> Klik meer</a>
 				</div>
 			</div>
 
@@ -156,20 +155,64 @@
 			<div class="gelebanner">
 				<img src="./website/Images/Fotos_Karsten/gelebanner.svg" alt="" />
 			</div>
+
+
 			<div class="aanwerving">
 				<div class="Wijzoekenjou">
-					<img src="./Website/Images/Fotos_Karsten/svgs/WijZoekenJou.svg" alt="" />
+					<img
+						src="./Website/Images/Fotos_Karsten/svgs/WijZoekenJou.svg"
+						alt=""
+					/>
 				</div>
-				
+
 				<div class="WijzoekenjouDriehoek">
-					<a href=""><img src="./Website/Images/Fotos_Karsten/svgs/assets-09.svg" alt=""></a>
+					<a href=""
+						><img
+							src="./Website/Images/Fotos_Karsten/svgs/assets-09.svg"
+							alt=""
+					/></a>
 				</div>
 			</div>
-			
 		</div>
 
 		<footer>
 			<img src="./Website/Images/footer.png" alt="Footer" />
 		</footer>
+
+		<script>
+			// The debounce function receives our function as a parameter
+			const debounce = (fn) => {
+				// This holds the requestAnimationFrame reference, so we can cancel it if we wish
+				let frame;
+
+				// The debounce function returns a new function that can receive a variable number of arguments
+				return (...params) => {
+					// If the frame variable has been defined, clear it now, and queue for next frame
+					if (frame) {
+						cancelAnimationFrame(frame);
+					}
+
+					// Queue our function call for the next frame
+					frame = requestAnimationFrame(() => {
+						// Call our function and pass any params we received
+						fn(...params);
+					});
+				};
+			};
+
+			// Reads out the scroll position and stores it in the data attribute
+			// so we can use it in our stylesheets
+			const storeScroll = () => {
+				document.documentElement.dataset.scroll = window.scrollY;
+			};
+
+			// Listen for new scroll events, here we debounce our `storeScroll` function
+			document.addEventListener("scroll", debounce(storeScroll), {
+				passive: true,
+			});
+
+			// Update scroll position for first time
+			storeScroll();
+		</script>
 	</body>
 </html>
