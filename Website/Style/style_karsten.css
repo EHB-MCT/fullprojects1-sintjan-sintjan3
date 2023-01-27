@@ -17,16 +17,23 @@ body {
 	max-width: 100%;
 }
 
+
 .header {
 	width: 100%;
 	height: 100px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	position: fixed;
+	top: 0;
 }
 
 .logo img {
 	width: 70%;
+}
+
+.logo a:nth-child(2) {
+	display: none;
 }
 
 #primary_nav_wrap ul {
@@ -110,11 +117,11 @@ body {
 }
 
 .boxes div:nth-child(3) {
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
 .boxes3 {
-	margin-top: 50px;
+	margin: 25px 30px;
 	display: flex;
 	justify-content: center;
 }
@@ -126,6 +133,7 @@ body {
 .box {
 	display: flex;
 	margin: 0px 150px;
+	margin-top: 50px;
 	border-radius: 20px;
 }
 
@@ -142,39 +150,24 @@ body {
 	padding: 5px 10px;
 }
 
-.button {
-	margin-left: 550px;
-	margin-top: -50px;
-	margin-bottom: 10px;
-	font-family: "Monserrat",sans-serif;
-	
-}
-
-.button1 {
-	margin-left: 155px;
-	margin-top: -70px;
-	margin-bottom: 10px;
-	font-family: "Monserat",sans-serif;
-}
-
-.button a {
+.but{
 	background-color: #005daa;
+	text-align: center;
 	border-radius: 10px;
 	font-family: "Monserrat",sans-serif;
 	text-decoration: none;
+	margin: 0px 300px;
 	color: white;
 	padding: 5px 20px;
-}
+	}
 
-.button1 a {
-	background-color: #005daa;
-	border-radius: 10px;
-	font-family:"Monserat",sans-serif;
-	
-	text-decoration: none;
-	color: white;
-	padding: 5px 20px;
-}
+	.boxje{
+		display: flex;
+		margin: 0px 150px;
+		border-radius: 20px;
+		flex-direction: row-reverse;
+	}
+
 .box img {
 	width: 300px;
 	height: 300px;
@@ -186,7 +179,7 @@ body {
 	margin-left: 30px;
 }
 
-.box img.image2 {
+.boxje img.image2 {
 	margin-top: -80px;
 	width: 400px;
 	height: 400px;
@@ -259,6 +252,10 @@ footer img {
 		display: none;
 	}
 
+	.logo a:nth-child(2) {
+		display: none;
+	}
+
 	.body{
 	background-image: url(../Images/Artboard\ 5.png);
 	background-size: contain;
@@ -310,6 +307,16 @@ footer img {
 		height: 400px;
 	}
 
+	.boxje {
+		display: flex;
+		margin: 5px 150px;
+		border-radius: 20px;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-content: space-around;
+		align-items: center;
+	}
+
 	.boxes3 {
 		margin-top: 50px;
 		display: flex;
@@ -359,7 +366,37 @@ footer img {
 	.WijzoekenjouDriehoek{
 		width: 200px;
 		height: 200px;
-		margin-top: 100px;
+		margin-top: -90px;
+		margin-left: 20px;
+	}
+
+	.but{
+	background-color: #005daa;
+	text-align: center;
+	border-radius: 10px;
+	font-family: "Monserrat",sans-serif;
+	text-decoration: none;
+	margin: 0px 25px;
+	color: white;
+	padding: 5px 20px;
 	}
 	
+}
+
+html:not([data-scroll="0"]) .header {
+	background-color: #ffcc00;
+	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+	transition: 0.25s;
+}
+
+html:not([data-scroll="0"]) .header .logo a:nth-child(2){
+	display: block;
+}
+
+html:not([data-scroll="0"]) .header .logo a:nth-child(1){
+	display: none;
+}
+
+html:not([data-scroll="0"]) .header #primary_nav_wrap ul a{
+	color: #414141;
 }
