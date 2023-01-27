@@ -29,10 +29,6 @@ body {
 	width: 70%;
 }
 
-#primary_nav_wrap {
-	margin-top: 15px;
-}
-
 #primary_nav_wrap ul {
 	list-style: none;
 	position: relative;
@@ -250,4 +246,120 @@ body {
 }
 footer img {
 	max-width: 100%;
+}
+
+
+@media (max-width: 600px){
+
+	html{
+		margin: 0px;
+		padding: 0px;
+	}
+	#primary_nav_wrap{
+		display: none;
+	}
+
+	.body{
+	background-image: url(../Images/Artboard\ 5.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	}
+
+	.text h1 {
+		font-family: "Montserrat", sans-serif;
+		font-weight: 500;
+		text-align: center;
+	}
+
+	.text p{
+		text-align: center;
+	}
+
+	.boxes{
+		margin-top: 300px;
+	}
+
+	.box {
+		display: flex;
+		margin: 0px 150px;
+		border-radius: 20px;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-content: space-around;
+		align-items: center;
+	}
+
+	.button1 {
+		margin-left: 170px;
+		margin-top: -70px;
+		margin-bottom: 10px;
+		font-family: "Monserat",sans-serif;
+	}
+
+	.box img {
+    width: 300px;
+    height: 300px;
+	margin-right: 0px;
+}
+	.box img.image2 {
+		margin-top: -80px;
+		margin-left: -0px;
+		width: 400px;
+		height: 400px;
+	}
+
+	.boxes3 {
+		margin-top: 50px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-content: space-around;
+	}
+
+	.Schoolvisie {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.textSchoolvisie {
+		margin-top: 0px;
+		font-family: "Montserrat",sans-serif;
+		font-weight: 100;
+		text-align: center;
+	}
+
+	.textDanku{
+		text-align: center;
+	}
+
+	.boxes3 img.image3 {
+		width: 400px;
+		height: 400px;
+		margin-top: -80px;
+	}
+
+	.boxes3 img.imageZorg {
+		width: 300px;
+		height: 300px;
+		margin-left: 0px;
+	}
+	.boxes3 img.image1 {
+		margin-top: -20px;
+		margin-left: 0px;
+	}
+
+	.Wijzoekenjou img {
+		margin: 40px 50px;
+	}
+
+	.WijzoekenjouDriehoek{
+		width: 200px;
+		height: 200px;
+		margin-top: 100px;
+	}
+	
 }

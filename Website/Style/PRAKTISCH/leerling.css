@@ -1,6 +1,6 @@
 body {
     background-color: #e6e6e6;
-    background-image: url("../../Images/footer\ &\ banners.png");
+    background-image: url("../../Images/banners.png/banners-03.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: #e6e6e6;
@@ -20,9 +20,7 @@ body {
     width: 70%;
 }
 
-#primary_nav_wrap {
-    margin-top: 15px;
-}
+
 
 #primary_nav_wrap ul {
     list-style: none;
