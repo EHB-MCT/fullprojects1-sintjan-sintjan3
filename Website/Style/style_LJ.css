@@ -20,10 +20,6 @@ body {
 	align-items: center;
 }
 
-#primary_nav_wrap {
-	margin-top: 15px;
-}
-
 #primary_nav_wrap ul {
 	list-style: none;
 	position: relative;
