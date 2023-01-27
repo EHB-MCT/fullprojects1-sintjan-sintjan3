@@ -54,10 +54,6 @@ p{
 	display: none;
 }
 
-#primary_nav_wrap {
-    margin-top: 15px;
-}
-
 #primary_nav_wrap ul {
     list-style: none;
     position: relative;
@@ -68,13 +64,17 @@ p{
 
 #primary_nav_wrap ul a {
     display: block;
-    color: #414141;
+    color: #E6E6E6;
     text-decoration: none;
     font-weight: 700;
     font-size: 18px;
     line-height: 32px;
     padding: 0 15px;
     font-family: Montserrat, sans-serif;
+}
+
+#primary_nav_wrap ul li .praktisch a{
+    color: #414141;
 }
 
 #primary_nav_wrap ul li {
