@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 body {
-	background-image: url("../Images/temporarybanner.png");
+	background-image: url("../Images/banners.png/banners-04.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-color: #e6e6e6;
@@ -40,7 +40,7 @@ body {
 	font-size: 18px;
 	line-height: 32px;
 	padding: 0 15px;
-	font-family: Montserrat, sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 
 #primary_nav_wrap ul li {
@@ -85,7 +85,7 @@ body {
 }
 
 .wrapper img {
-	margin-top: 250px;
+	margin-top: 600px;
 	width: 100%;
 }
 
@@ -94,14 +94,18 @@ body {
 	width: 100%;
 }
 
+@media (max-width: 780px) {
+	.wrapper img {
+		margin-top: 250px;
+	}
+}
+
 @media (max-width: 480px) {
 	body {
 		background-image: none;
 	}
 
-    .wrapper img{
-        margin-top: 20px;
-    }
-
-    
+	.wrapper img {
+		margin-top: 20px;
+	}
 }
