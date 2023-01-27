@@ -1,6 +1,6 @@
 body {
     background-color: #e6e6e6;
-    background-image: url("../../Images/footer\ &\ banners.png");
+    background-image: url("../../Images/banners.png/banners-01.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: #e6e6e6;
@@ -20,9 +20,7 @@ body {
     width: 70%;
 }
 
-#primary_nav_wrap {
-    margin-top: 15px;
-}
+
 
 #primary_nav_wrap ul {
     list-style: none;
@@ -97,6 +95,7 @@ body {
 
 .footer img {
     width: 100%;
+    margin-top: 10%;
 }
 
 .FAQ {
@@ -104,11 +103,11 @@ body {
     text-align: left;
     font-family: Montserrat, sans-serif;
     margin-left: 5%;
-    margin-top: 30%;
+    margin-top: 35%;
     color: #414141;
-    gap: 80px;
+
     margin-right: 5%;
-    width: 30%;
+    width: 50%;
 
 }
 
@@ -116,6 +115,11 @@ body {
     padding-top: -10%;
     text-align: left;
     width: 150%;
+}
+
+.titel a {
+    text-decoration: none;
+    color: #414141;
 }
 
 .titel h1 {
@@ -127,13 +131,14 @@ body {
     height: 7px;
     background-color: #ffcc00;
     margin-left: 5%;
-    margin-top: -5%;
+    margin-top: 5;
+
 }
 
 .FAQ img {
 
     margin-left: 90%;
-    margin-top: 55%;
+    margin-top: 18%;
     border-width: 20px;
     border: #ffcc00 4px solid;
     height: 230px;
@@ -146,4 +151,5 @@ body {
     margin-top: 3%;
     color: #414141;
     width: 50%;
+    margin-bottom: 30%;
 }
