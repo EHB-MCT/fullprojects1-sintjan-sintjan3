@@ -9,6 +9,10 @@ body {
 	background-color: #e6e6e6;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 .banner1 img {
 	max-width: 100%;
 }
@@ -445,6 +449,20 @@ footer img {
 	.Location p{
 		margin-top: -30px;
 	}
+}
+
+.backToTop{
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+    scroll-behavior: smooth;
+}
+.backToTop img{
+    text-align: center;
+    max-width: 50px;
+    max-height:50px ;
+    border-radius: 100%;
+    background-color: #ffcc00;
 }
 
 html:not([data-scroll="0"]) .header {
