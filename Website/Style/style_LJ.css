@@ -35,14 +35,14 @@ body {
 }
 
 #primary_nav_wrap ul a {
-	display: block;
-	color: white;
-	text-decoration: none;
-	font-weight: 700;
-	font-size: 18px;
-	line-height: 32px;
-	padding: 0 15px;
-	font-family: "Montserrat", sans-serif;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 0 15px;
+    font-family: "Montserrat", sans-serif;
 }
 
 #primary_nav_wrap ul li {
@@ -84,6 +84,19 @@ body {
 
 #primary_nav_wrap ul li:hover > ul {
 	display: block;
+}
+
+.Knopke {
+	padding: 10px 20px;
+	color: #121583;
+	border-radius: 7px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.knopke:hover {
+	background-color: #121583;
+	border-radius: 7px;
 }
 
 .wrapper img {
