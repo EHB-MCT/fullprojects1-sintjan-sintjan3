@@ -22,6 +22,7 @@
 
     .logo img {
         width: 70%;
+        margin-left: 20px;
     }
 
     .logo a:nth-child(2) {
@@ -226,6 +227,7 @@ body {
 
 .logo img {
     width: 70%;
+    margin-left: 20px;
 }
 
 .logo a:nth-child(2) {

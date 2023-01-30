@@ -24,6 +24,7 @@ body {
 
 .logo img {
     width: 70%;
+    margin-left: 20px;
 }
 
 .logo a:nth-child(2) {
@@ -330,6 +331,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 
     .logo img {
         width: 70%;
+        margin-left: 20px;
     }
 
     .logo a:nth-child(2) {
