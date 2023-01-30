@@ -17,28 +17,35 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	position: fixed;
+	top: 0;
 }
 
 .logo img {
 	width: 70%;
 }
 
+.logo a:nth-child(2) {
+	display: none;
+}
+
 #primary_nav_wrap ul {
 	list-style: none;
 	position: relative;
 	float: right;
-	margin: 0;
+	margin-right: 10px;
 	padding: 0;
 }
 
 #primary_nav_wrap ul a {
-	display: block;
-	color: #414141;
-	text-decoration: none;
-	font-weight: 700;
-	font-size: 18px;
-	line-height: 32px;
-	padding: 0 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 0 15px;
+    font-family: "Montserrat", sans-serif;
 }
 
 #primary_nav_wrap ul li {
@@ -55,6 +62,7 @@ body {
 #primary_nav_wrap ul ul {
 	display: none;
 	position: absolute;
+
 	top: 100%;
 	left: 0;
 	background: #fff;
@@ -69,6 +77,7 @@ body {
 #primary_nav_wrap ul ul a {
 	line-height: 120%;
 	padding: 10px 15px;
+	color: #414141;
 }
 
 #primary_nav_wrap ul ul ul {
@@ -78,6 +87,19 @@ body {
 
 #primary_nav_wrap ul li:hover > ul {
 	display: block;
+}
+
+.Knopke {
+	padding: 10px 20px;
+	color: #121583;
+	border-radius: 7px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.knopke:hover {
+	background-color: #121583;
+	border-radius: 7px;
 }
 
 .nav ul li a.button {
@@ -210,4 +232,24 @@ body {
 		height: 80px;
 		width: 100px;
 	}
+}
+
+
+
+html:not([data-scroll="0"]) .header {
+	background-color: #ffcc00;
+	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+	transition: 0.25s;
+}
+
+html:not([data-scroll="0"]) .header .logo a:nth-child(2){
+	display: block;
+}
+
+html:not([data-scroll="0"]) .header .logo a:nth-child(1){
+	display: none;
+}
+
+html:not([data-scroll="0"]) .header #primary_nav_wrap ul a{
+	color: #414141;
 }
