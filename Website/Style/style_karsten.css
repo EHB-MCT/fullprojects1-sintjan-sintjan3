@@ -15,8 +15,38 @@ body {
 
 .gelebanner img {
 	max-width: 100%;
+	margin-bottom: -10px;
 }
 
+.gelebanner p{
+	font-family: "Monserat",sans-serif;
+	
+	padding: 50px 0px;
+}
+
+.Contact{
+	background-color: #ffc507;
+	display: flex;
+	justify-content: space-around;
+}
+
+.Phone{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Mail{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Location{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 .header {
 	width: 100%;
@@ -381,6 +411,40 @@ footer img {
 	padding: 5px 20px;
 	}
 	
+	.Contact{
+		background-color: #ffc507;
+		display: flex;
+    flex-direction: column;
+    align-items: center;
+	}
+
+	.Phone{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.Phone p{
+		margin-top: -30px;
+	}
+	
+	.Mail{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.Mail p{
+		margin-top: -30px;
+	}
+	
+	.Location{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.Location p{
+		margin-top: -30px;
+	}
 }
 
 html:not([data-scroll="0"]) .header {
