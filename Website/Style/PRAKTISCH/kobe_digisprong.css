@@ -304,6 +304,8 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 
     .footer img {
         width: 100%;
+        margin-top: -10%;
+
     }
 
     .digisprong {
@@ -311,12 +313,16 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
         text-align: left;
         font-family: Montserrat, sans-serif;
         margin-left: 5%;
-        margin-top: 35%;
+        margin-top: 45%;
         color: #414141;
         gap: 80px;
         margin-right: 5%;
         width: 30%;
 
+    }
+
+    .foto1 img {
+        margin-top: -15%;
     }
 
     .titel {
@@ -334,14 +340,14 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
         height: 7px;
         background-color: #ffcc00;
         margin-left: 5%;
-        margin-top: -5%;
+        margin-top: -3%;
 
     }
 
     .digisprong img {
 
         margin-left: 90%;
-        margin-top: 60%;
+
         border-width: 20px;
         border: #ffcc00 4px solid;
         height: 230px;
