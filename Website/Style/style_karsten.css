@@ -275,8 +275,15 @@ footer img {
 	max-width: 100%;
 }
 
+#menuToggle{
+    display: none!important;
+}
 
 @media (max-width: 600px){
+
+	#menuToggle{
+        display: block!important;
+    }
 
 	html{
 		margin: 0px;
