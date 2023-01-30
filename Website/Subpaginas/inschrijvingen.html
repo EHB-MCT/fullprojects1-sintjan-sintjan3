@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Inschrijven</title>
+	<link rel="icon" type="image/x-icon" href="../images/favicon.png">
 	<link rel="stylesheet" href="../../Website/Style/style_fleur_inschrijvingen.css" />
 	<link rel="stylesheet" href="../../Website/Script/script.js" />
 </head>
@@ -14,39 +15,39 @@
 
 	<div class="header">
 		<div class="logo">
-			<a href="../index.html"><img src="../Images/LOGO_geel.png"/></a>
-			<a href="../index.html"><img src="../Images/logo_grijs.png"/></a>
+			<a href="../index.html"><img src="../Images/LOGO_geel.png" /></a>
+			<a href="../index.html"><img src="../Images/logo_grijs.png" /></a>
 		</div>
 
 
-        <nav id="primary_nav_wrap">
-            <ul>
-                <li class="current-menu-item"><a href="../index.html">Home</a></li>
-                <li><a href="onze_school.html">Onze School</a>
+		<nav id="primary_nav_wrap">
+			<ul>
+				<li class="current-menu-item"><a href="../index.html">Home</a></li>
+				<li><a href="onze_school.html">Onze School</a>
 
 
-                </li>
-                <li><a href="studieaanbod.html">Studieaanbod</a>
+				</li>
+				<li><a href="studieaanbod.html">Studieaanbod</a>
 
-                </li>
-                <li><a href="PRAKTISCH/">Praktisch</a>
-                    <ul>
-                        <li class="dir"><a href="PRAKTISCH/digisprong.html">Digisprong</a></li>
-                        <li class="dir"><a href="PRAKTISCH/leerling_praktisch.html">Leerlingen</a></li>
-                        <li><a href="PRAKTISCH/leerkrachten.html">Leerkrachten</a></li>
-                        <li><a href="PRAKTISCH/vacatures.html">Vacatures</a></li>
-                        <li><a href="https://sint-jan-brussel.smartschool.be/login">Smartschool</a></li>
-                        <li><a href="PRAKTISCH/FAQ.html">FAQ</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
+				</li>
+				<li><a href="PRAKTISCH/praktisch.html">Praktisch</a>
+					<ul>
+						<li class="dir"><a href="PRAKTISCH/digisprong.html">Digisprong</a></li>
+						<li class="dir"><a href="PRAKTISCH/leerling_praktisch.html">Leerlingen</a></li>
+						<li><a href="PRAKTISCH/leerkrachten.html">Leerkrachten</a></li>
+						<li><a href="PRAKTISCH/vacatures.html">Vacatures</a></li>
+						<li><a href="https://sint-jan-brussel.smartschool.be/login">Smartschool</a></li>
+						<li><a href="PRAKTISCH/FAQ.html">FAQ</a></li>
+					</ul>
+				</li>
+				<li><a href="contact.html">Contact</a></li>
 
 
 
-                <li><a href="inschrijvingen.html" class="button">Inschrijven</a></li>
+				<li><a href="inschrijvingen.html" class="button">Inschrijven</a></li>
 
-            </ul>
-        </nav>
+			</ul>
+		</nav>
 	</div>
 	<div class="content">
 		<div class="boxes">
@@ -81,45 +82,45 @@
 		<br>
 		<br>
 		<br>
-		<button><a href="https://www.inschrijveninbrussel.be">Schrijf je hier in</button>
+		<button><a href="https://www.inschrijveninbrussel.be" target="_blank">Schrijf je hier in</a></button>
 		<br>
-		<br>
+		<br> 
 		<br>
 	</div>
 	<footer>
-        <img src="../images/footer.png" alt="footer">
-    </footer>
+		<img src="../images/footer.png" alt="footer">
+	</footer>
 
 	<script>
 		// The debounce function receives our function as a parameter
 		const debounce = (fn) => {
 
-		// This holds the requestAnimationFrame reference, so we can cancel it if we wish
-		let frame;
+			// This holds the requestAnimationFrame reference, so we can cancel it if we wish
+			let frame;
 
-		// The debounce function returns a new function that can receive a variable number of arguments
-		return (...params) => {
-		
-		// If the frame variable has been defined, clear it now, and queue for next frame
-		if (frame) { 
-			cancelAnimationFrame(frame);
-		}
+			// The debounce function returns a new function that can receive a variable number of arguments
+			return (...params) => {
 
-		// Queue our function call for the next frame
-		frame = requestAnimationFrame(() => {
-			
-			// Call our function and pass any params we received
-			fn(...params);
-		});
+				// If the frame variable has been defined, clear it now, and queue for next frame
+				if (frame) {
+					cancelAnimationFrame(frame);
+				}
 
-		} 
+				// Queue our function call for the next frame
+				frame = requestAnimationFrame(() => {
+
+					// Call our function and pass any params we received
+					fn(...params);
+				});
+
+			}
 		};
 
 
 		// Reads out the scroll position and stores it in the data attribute
 		// so we can use it in our stylesheets
 		const storeScroll = () => {
-		document.documentElement.dataset.scroll = window.scrollY;
+			document.documentElement.dataset.scroll = window.scrollY;
 		}
 
 		// Listen for new scroll events, here we debounce our `storeScroll` function
