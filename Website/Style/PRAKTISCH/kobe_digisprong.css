@@ -20,6 +20,7 @@ body {
 
 .logo img {
     width: 70%;
+    margin-left: 20px;
 }
 
 .logo a:nth-child(2) {
@@ -27,78 +28,63 @@ body {
 }
 
 
-
 #primary_nav_wrap ul {
-	list-style: none;
-	position: relative;
-	float: right;
-	margin-right: 10px;
-	padding: 0;
+    list-style: none;
+    position: relative;
+    float: right;
+    margin: 0;
+    padding: 0;
 }
 
 #primary_nav_wrap ul a {
     display: block;
-    color: white;
+    color: #FFF;
     text-decoration: none;
     font-weight: 700;
     font-size: 18px;
     line-height: 32px;
     padding: 0 15px;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 100;
 }
 
 #primary_nav_wrap ul li {
-	position: relative;
-	float: left;
-	margin: 0;
-	padding: 0;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
 }
 
 #primary_nav_wrap ul li:hover {
-	background: #ffcc00;
+    background: #ffcc00;
 }
 
 #primary_nav_wrap ul ul {
-	display: none;
-	position: absolute;
-
-	top: 100%;
-	left: 0;
-	background: #fff;
-	padding: 0;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    padding: 0;
 }
 
 #primary_nav_wrap ul ul li {
-	float: none;
-	width: 200px;
+    float: none;
+    width: 200px;
 }
 
 #primary_nav_wrap ul ul a {
-	line-height: 120%;
-	padding: 10px 15px;
-	color: #414141;
+    line-height: 120%;
+    padding: 10px 15px;
 }
 
 #primary_nav_wrap ul ul ul {
-	top: 0;
-	left: 100%;
+    top: 0;
+    left: 100%;
 }
 
-#primary_nav_wrap ul li:hover > ul {
-	display: block;
-}
-
-.Knopke {
-	padding: 10px 20px;
-	color: #121583;
-	border-radius: 7px;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-.knopke:hover {
-	background-color: #121583;
-	border-radius: 7px;
+#primary_nav_wrap ul li:hover>ul {
+    display: block;
 }
 
 
@@ -116,24 +102,25 @@ body {
 
 .footer img {
     width: 100%;
-    margin-top: 40%;
+    margin-top: 10%;
+
 }
 
 .digisprong {
-
-    text-align: center;
+    display: flex;
+    text-align: left;
     font-family: Montserrat, sans-serif;
-    margin-left: 8%;
+    margin-left: 5%;
     margin-top: 45%;
     color: #414141;
     gap: 80px;
-
-    width: 50%;
+    margin-right: 5%;
+    width: 30%;
 
 }
 
-p {
-    font-size: 15px;
+.foto1 img {
+    margin-top: 25%;
 }
 
 .titel {
@@ -143,40 +130,34 @@ p {
 }
 
 .titel h1 {
-    font-size: 70px;
+    font-size: 80px;
 }
 
 .line {
-    width: 20%;
+    width: 10%;
     height: 7px;
     background-color: #ffcc00;
-    margin-left: 8%;
-    margin-top: -115%;
+    margin-left: 5%;
+    margin-top: 3%;
 
-}
-
-.foto1 {
-    margin-top: 50%;
 }
 
 .digisprong img {
-    flex-direction: column-reverse;
 
-    margin-top: 100%;
+    margin-left: 90%;
+
     border-width: 20px;
     border: #ffcc00 4px solid;
     height: 230px;
-
 }
 
 .tekst1 {
     text-align: left;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 8%;
-    margin-top: 10%;
+    margin-left: 5%;
+    margin-top: 3%;
     color: #414141;
-    width: 80%;
-    margin-bottom: 20%;
+    width: 50%;
 }
 
 html:not([data-scroll="0"]) .header {
@@ -197,10 +178,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
     color: #414141;
 }
 
-
-
-@media (min-width: 480px) {
-
+@media (max-width: 480px) {
     body {
         background-color: #e6e6e6;
         background-image: url("../../Images/banners.png/banners-10.png");
@@ -223,6 +201,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 
     .logo img {
         width: 70%;
+        margin-left: 20px;
     }
 
     .logo a:nth-child(2) {
@@ -230,11 +209,12 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
     }
 
 
+
     #primary_nav_wrap ul {
         list-style: none;
         position: relative;
         float: right;
-        margin: 0;
+        margin-right: 10px;
         padding: 0;
     }
 
@@ -246,8 +226,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
         font-size: 18px;
         line-height: 32px;
         padding: 0 15px;
-        font-family: 'Montserrat', sans-serif;
-        opacity: 100;
+        font-family: "Montserrat", sans-serif;
     }
 
     #primary_nav_wrap ul li {
@@ -264,6 +243,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
     #primary_nav_wrap ul ul {
         display: none;
         position: absolute;
+
         top: 100%;
         left: 0;
         background: #fff;
@@ -278,6 +258,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
     #primary_nav_wrap ul ul a {
         line-height: 120%;
         padding: 10px 15px;
+        color: #414141;
     }
 
     #primary_nav_wrap ul ul ul {
@@ -287,6 +268,19 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 
     #primary_nav_wrap ul li:hover>ul {
         display: block;
+    }
+
+    .Knopke {
+        padding: 10px 20px;
+        color: #121583;
+        border-radius: 7px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .knopke:hover {
+        background-color: #121583;
+        border-radius: 7px;
     }
 
 
@@ -304,25 +298,25 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 
     .footer img {
         width: 100%;
-        margin-top: -10%;
-
+        margin-top: 60%;
     }
 
     .digisprong {
-        display: flex;
-        text-align: left;
+        display: block;
+        text-align: center;
         font-family: Montserrat, sans-serif;
-        margin-left: 5%;
+        margin-left: 8%;
         margin-top: 45%;
         color: #414141;
-        gap: 80px;
-        margin-right: 5%;
-        width: 30%;
+
+        flex-wrap: wrap;
+        width: 70%;
+
 
     }
 
-    .foto1 img {
-        margin-top: -15%;
+    p {
+        font-size: 15px;
     }
 
     .titel {
@@ -332,34 +326,39 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
     }
 
     .titel h1 {
-        font-size: 80px;
+        font-size: 70px;
     }
 
     .line {
-        width: 10%;
+        width: 20%;
         height: 7px;
         background-color: #ffcc00;
-        margin-left: 5%;
-        margin-top: -3%;
+        margin-left: 8%;
+        margin-top: -5%;
 
     }
 
+    .foto1 {}
+
     .digisprong img {
+        flex-direction: column-reverse;
 
-        margin-left: 90%;
-
+        margin-top: 80%;
         border-width: 20px;
         border: #ffcc00 4px solid;
         height: 230px;
+        margin-left: 0%;
+
     }
 
     .tekst1 {
         text-align: left;
         font-family: 'Montserrat', sans-serif;
-        margin-left: 5%;
-        margin-top: 3%;
+        margin-left: 8%;
+        margin-top: -100%;
         color: #414141;
-        width: 50%;
+        width: 80%;
+        margin-bottom: 20%;
     }
 
     html:not([data-scroll="0"]) .header {
@@ -379,4 +378,11 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
     html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
         color: #414141;
     }
+
+
+
+    .digisprong div {
+        width: 100%;
+    }
+
 }
