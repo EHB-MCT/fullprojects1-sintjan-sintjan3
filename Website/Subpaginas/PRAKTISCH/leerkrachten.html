@@ -1,120 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Leerkrachten</title>
+		<link rel="stylesheet" href="../../Style/PRAKTISCH/leerkrachten.css" />
+		<link rel="icon" type="image/x-icon" href="../../Images/favicon.png" />
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leerkrachten</title>
-    <link rel="stylesheet" href="../../Style/PRAKTISCH/leerkrachten.css">
-    <link rel="icon" type="image/x-icon" href="../../Images/favicon.png" />
-</head>
+	<body>
+		<div class="header">
+			<div class="logo">
+				<a href="../../../index.html"><img src="../../Images/LOGO_geel.png" /></a>
+				<a href="../../index.html"><img src="../../Images/logo-grijs.png" /></a>
+			</div>
 
-<body>
-    <div class="header">
-        <div class="logo">
-            <a href="../../../index.html"><img src="../../Images/LOGO_geel.png"></a>
-            <a href="../../index.html"><img src="../../Images/logo_grijs.png" /></a>
-        </div>
+			<nav id="primary_nav_wrap">
+				<ul>
+					<li class="current-menu-item"><a href="../../index.html">Home</a></li>
+					<li><a href="../onze_school.html">Onze School</a></li>
 
+					<li>
+						<a href="../studieaanbod.html">Studieaanbod</a>
+						<ul>
+							<li><a href="#">Sub Menu 1</a></li>
+							<li><a href="#">Sub Menu 2</a></li>
+							<li><a href="#">Sub Menu 3</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="../PRAKTISCH/praktisch.html">Praktisch</a>
+						<ul>
+							<li class="dir"><a href="../PRAKTISCH/digisprong.html">Digisprong</a></li>
+							<li class="dir"><a href="./leerling_praktisch.html">Leerlingen</a></li>
+							<li><a href="../PRAKTISCH/leerkrachten.html">Leerkrachten</a></li>
+							<li><a href="../PRAKTISCH/vacatures.html">Vacatures</a></li>
+							<li><a href="https://sint-jan-brussel.smartschool.be/login" target="_blank">Smartschool</a></li>
+							<li><a href="../PRAKTISCH/FAQ.html">FAQ</a></li>
+						</ul>
+					</li>
+					<li><a href="../contact.html">Contact</a></li>
 
-        <nav id="primary_nav_wrap">
-            <ul>
-                <li class="current-menu-item"><a href="../../index.html">Home</a></li>
-                <li><a href="../onze_school.html">Onze School</a>
+					<li><a href="../inschrijvingen.html" class="button">Inschrijven</a></li>
+				</ul>
+			</nav>
+		</div>
 
+		<div class="leerkrachten">
+			<div class="titel">
+				<h1>Leerkrachten</h1>
+				<p>
+					Leraren zijn succesvoller als ze goed contact kunnen maken met hun leerlingen, een persoonlijke presentatie hebben en hun vak verstaan. Door analyse van dat gedrag blijkt dat de leraar in zijn lessen verschillende rollen vervult: de rol van
+					gastheer, presentator, didacticus, pedagoog en afsluiter.
+				</p>
+			</div>
+			<div class="foto1">
+				<img src="../../Images/digisprong.jpeg" />
+			</div>
+		</div>
 
-                <li><a href="../studieaanbod.html">Studieaanbod</a>
-                    <ul>
-                        <li><a href="#">Sub Menu 1</a></li>
-                        <li><a href="#">Sub Menu 2</a></li>
-                        <li><a href="#">Sub Menu 3</a></li>
-                    </ul>
-                </li>
-                <li><a href="../PRAKTISCH/praktisch.html">Praktisch</a>
-                    <ul>
-                        <li class="dir"><a href="../PRAKTISCH/digisprong.html">Digisprong</a></li>
-                        <li class="dir"><a href="./leerling_praktisch.html">Leerlingen</a>
+		<div class="line"></div>
+		<div class="tekst1">
+			<p>
+				Als leerkracht draag je kennis en bekwaamheid over aan leerlingen. Je bent werkzaam in het basisonderwijs, het secundair onderwijs of in het hoger onderwijs. In het kleuter- en basisonderwijs geef je (bijna) alle vakken aan 1 klas. Je
+				organiseert je lessen naar de eindtermen en ontwikkelingsdoelen die moeten gehaald worden.
+			</p>
+		</div>
 
-                        </li>
-                        <li><a href="../PRAKTISCH/leerkrachten.html">Leerkrachten</a></li>
-                        <li><a href="../PRAKTISCH/vacatures.html">Vacatures</a></li>
-                        <li><a href="https://sint-jan-brussel.smartschool.be/login" target="_blank">Smartschool</a></li>
-                        <li><a href="../PRAKTISCH/FAQ.html">FAQ</a></li>
-                    </ul>
-                </li>
-                <li><a href="../contact.html">Contact</a></li>
+		<div class="footer">
+			<img src="../../Images/footer.png" />
+		</div>
+		<script>
+			// The debounce function receives our function as a parameter
+			const debounce = (fn) => {
+				// This holds the requestAnimationFrame reference, so we can cancel it if we wish
+				let frame;
 
+				// The debounce function returns a new function that can receive a variable number of arguments
+				return (...params) => {
+					// If the frame variable has been defined, clear it now, and queue for next frame
+					if (frame) {
+						cancelAnimationFrame(frame);
+					}
 
+					// Queue our function call for the next frame
+					frame = requestAnimationFrame(() => {
+						// Call our function and pass any params we received
+						fn(...params);
+					});
+				};
+			};
 
-                <li><a href="../inschrijvingen.html" class="button">Inschrijven</a></li>
+			// Reads out the scroll position and stores it in the data attribute
+			// so we can use it in our stylesheets
+			const storeScroll = () => {
+				document.documentElement.dataset.scroll = window.scrollY;
+			};
 
-            </ul>
-        </nav>
-    </div>
+			// Listen for new scroll events, here we debounce our `storeScroll` function
+			document.addEventListener("scroll", debounce(storeScroll), { passive: true });
 
-    <div class="leerkrachten">
-        <div class="titel">
-            <h1>Leerkrachten</h1>
-            <p> Leraren zijn succesvoller als ze goed contact kunnen maken met hun leerlingen, een persoonlijke
-                presentatie hebben en hun vak verstaan. Door analyse van dat gedrag blijkt dat de leraar in zijn lessen
-                verschillende rollen vervult: de rol van gastheer, presentator, didacticus, pedagoog en afsluiter.</p>
-        </div>
-        <div class="foto1">
-            <img src="../../Images/digisprong.jpeg">
-        </div>
-    </div>
-
-
-    <div class="line"></div>
-    <div class="tekst1">
-        <p>Als leerkracht draag je kennis en bekwaamheid over aan leerlingen. Je bent werkzaam in het basisonderwijs,
-            het secundair onderwijs of in het hoger onderwijs. In het kleuter- en basisonderwijs geef je (bijna) alle
-            vakken aan 1 klas. Je organiseert je lessen naar de eindtermen en ontwikkelingsdoelen die moeten gehaald
-            worden.</p>
-    </div>
-
-    <div class="footer">
-        <img src="../../Images/footer.png">
-    </div>
-    <script>
-        // The debounce function receives our function as a parameter
-        const debounce = (fn) => {
-
-            // This holds the requestAnimationFrame reference, so we can cancel it if we wish
-            let frame;
-
-            // The debounce function returns a new function that can receive a variable number of arguments
-            return (...params) => {
-
-                // If the frame variable has been defined, clear it now, and queue for next frame
-                if (frame) {
-                    cancelAnimationFrame(frame);
-                }
-
-                // Queue our function call for the next frame
-                frame = requestAnimationFrame(() => {
-
-                    // Call our function and pass any params we received
-                    fn(...params);
-                });
-
-            }
-        };
-
-
-        // Reads out the scroll position and stores it in the data attribute
-        // so we can use it in our stylesheets
-        const storeScroll = () => {
-            document.documentElement.dataset.scroll = window.scrollY;
-        }
-
-        // Listen for new scroll events, here we debounce our `storeScroll` function
-        document.addEventListener('scroll', debounce(storeScroll), { passive: true });
-
-        // Update scroll position for first time
-        storeScroll();
-    </script>
-</body>
-
+			// Update scroll position for first time
+			storeScroll();
+		</script>
+	</body>
 </html>
