@@ -64,6 +64,7 @@ html {
 
 .logo img {
 	width: 70%;
+	margin-left: 20px;
 }
 
 .logo a:nth-child(2) {
@@ -278,7 +279,7 @@ footer img {
 	display: none !important;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
 	#menuToggle {
 		display: block !important;
 	}
