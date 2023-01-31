@@ -1,101 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Digisprong</title>
-		<link rel="stylesheet" href="../../Style/PRAKTISCH/kobe_digisprong.css" />
-		<link rel="icon" type="image/x-icon" href="../../Images/favicon.png" />
-	</head>
 
-	<body>
-		<div class="header">
-			<div class="logo">
-				<a href="../../../index.html"><img src="../../Images/LOGO_geel.png" /></a>
-				<a href="../../index.html"><img src="../../Images/logo-grijs.png" /></a>
-			</div>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Digisprong</title>
+	<link rel="stylesheet" href="../../Style/PRAKTISCH/kobe_digisprong.css" />
+	<link rel="icon" type="image/x-icon" href="../../Images/favicon.png" />
+</head>
 
-			<nav id="primary_nav_wrap">
-				<ul>
-					<li class="current-menu-item"><a href="../../index.html">Home</a></li>
-					<li><a href="../onze_school.html">Onze School</a></li>
-					<li><a href="../studieaanbod.html">Studieaanbod</a></li>
-					<li>
-						<a href="../PRAKTISCH/praktisch.html">Praktisch</a>
-						<ul>
-							<li class="dir"><a href="../PRAKTISCH/digisprong.html">Digisprong</a></li>
-							<li class="dir"><a href="./leerling_praktisch.html">Leerlingen</a></li>
-							<li><a href="../PRAKTISCH/leerkrachten.html">Leerkrachten</a></li>
-							<li><a href="../PRAKTISCH/vacatures.html">Vacatures</a></li>
-							<li><a href="https://sint-jan-brussel.smartschool.be/login" target="_blank">Smartschool</a></li>
-							<li><a href="../PRAKTISCH/FAQ.html">FAQ</a></li>
-						</ul>
-					</li>
-					<li><a href="../contact.html">Contact</a></li>
-
-					<li><a href="../inschrijvingen.html" class="button">Inschrijven</a></li>
-				</ul>
-			</nav>
+<body>
+	<div class="header">
+		<div class="logo">
+			<a href="../../../index.html"><img src="../../Images/LOGO_geel.png" /></a>
+			<a href="../../index.html"><img src="../../Images/logo-grijs.png" /></a>
 		</div>
 
-		<div class="digisprong">
-			<div class="titel">
-				<h1>Digisprong</h1>
-				<p>
-					Kwaliteitsvolle digitalisering in het onderwijs: Een toekomstgerichte en veilige ICT-infrastructuur voor alle scholen van het leerplichtonderwijs. Een sterk ondersteunend en doeltreffend ICT-schoolbeleid. ICT-competente leerkrachten en
-					lerarenopleiders en aangepaste digitale leermiddelen.
-				</p>
-			</div>
-			<div class="foto1">
-				<img src="../../Images/digisprong.jpeg" />
-			</div>
-		</div>
+		<nav id="primary_nav_wrap">
+			<ul>
+				<li class="current-menu-item"><a href="../../index.html">Home</a></li>
+				<li><a href="../onze_school.html">Onze School</a></li>
+				<li><a href="../studieaanbod.html">Studieaanbod</a></li>
+				<li>
+					<a href="../PRAKTISCH/praktisch.html">Praktisch</a>
+					<ul>
+						<li class="dir"><a href="../PRAKTISCH/digisprong.html">Digisprong</a></li>
+						<li class="dir"><a href="./leerling_praktisch.html">Leerlingen</a></li>
+						<li><a href="../PRAKTISCH/leerkrachten.html">Leerkrachten</a></li>
+						<li><a href="../PRAKTISCH/vacatures.html">Vacatures</a></li>
+						<li><a href="https://sint-jan-brussel.smartschool.be/login" target="_blank">Smartschool</a></li>
+						<li><a href="../PRAKTISCH/FAQ.html">FAQ</a></li>
+					</ul>
+				</li>
+				<li><a href="../contact.html">Contact</a></li>
 
-		<div class="line"></div>
-		<div class="tekst1">
+				<li><a href="../inschrijvingen.html" class="button">Inschrijven</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="digisprong">
+		<div class="title">
+			<h1>Digisprong</h1>
 			<p>
-				De Vlaamse scholen kunnen beginnen met de voorbereiding van de Digisprong: een ongeziene investering in de digitalisering van ons onderwijs. In totaal gaat er € 375 miljoen naar ICT-toestellen, ICT-opleidingen en ICT-coördinatoren. De Vlaamse
-				Regering heeft nu beslist hoeveel budget elke school krijgt om in de komende jaren te investeren in digitaal onderwijs. Vanaf het eerste kleuterklasje tot en met het 4de leerjaar komt er in elk klaslokaal een ICT-toestel voor gedeeld gebruik.
-				Vanaf het 5de leerjaar zal elke leerling kunnen beschikken over een eigen ICT-toestel.
+				Kwaliteitsvolle digitalisering in het onderwijs: Een toekomstgerichte en veilige ICT-infrastructuur voor
+				alle scholen van het leerplichtonderwijs. Een sterk ondersteunend en doeltreffend ICT-schoolbeleid.
+				ICT-competente leerkrachten en
+				lerarenopleiders en aangepaste digitale leermiddelen.
 			</p>
 		</div>
-
-		<div class="footer">
-			<img src="../../Images/footer.png" />
+		<div class="photo1">
+			<img src="../../Images/digisprong.jpeg" />
 		</div>
-		<script>
-			// The debounce function receives our function as a parameter
-			const debounce = (fn) => {
-				// This holds the requestAnimationFrame reference, so we can cancel it if we wish
-				let frame;
+	</div>
 
-				// The debounce function returns a new function that can receive a variable number of arguments
-				return (...params) => {
-					// If the frame variable has been defined, clear it now, and queue for next frame
-					if (frame) {
-						cancelAnimationFrame(frame);
-					}
+	<div class="line"></div>
+	<div class="text1">
+		<p>
+			De Vlaamse scholen kunnen beginnen met de voorbereiding van de Digisprong: een ongeziene investering in de
+			digitalisering van ons onderwijs. In totaal gaat er € 375 miljoen naar ICT-toestellen, ICT-opleidingen en
+			ICT-coördinatoren. De Vlaamse
+			Regering heeft nu beslist hoeveel budget elke school krijgt om in de komende jaren te investeren in digitaal
+			onderwijs. Vanaf het eerste kleuterklasje tot en met het 4de leerjaar komt er in elk klaslokaal een
+			ICT-toestel voor gedeeld gebruik.
+			Vanaf het 5de leerjaar zal elke leerling kunnen beschikken over een eigen ICT-toestel.
+		</p>
+	</div>
 
-					// Queue our function call for the next frame
-					frame = requestAnimationFrame(() => {
-						// Call our function and pass any params we received
-						fn(...params);
-					});
-				};
+	<div class="footer">
+		<img src="../../Images/footer.png" />
+	</div>
+	<script>
+		// The debounce function receives our function as a parameter
+		const debounce = (fn) => {
+			// This holds the requestAnimationFrame reference, so we can cancel it if we wish
+			let frame;
+
+			// The debounce function returns a new function that can receive a variable number of arguments
+			return (...params) => {
+				// If the frame variable has been defined, clear it now, and queue for next frame
+				if (frame) {
+					cancelAnimationFrame(frame);
+				}
+
+				// Queue our function call for the next frame
+				frame = requestAnimationFrame(() => {
+					// Call our function and pass any params we received
+					fn(...params);
+				});
 			};
+		};
 
-			// Reads out the scroll position and stores it in the data attribute
-			// so we can use it in our stylesheets
-			const storeScroll = () => {
-				document.documentElement.dataset.scroll = window.scrollY;
-			};
+		// Reads out the scroll position and stores it in the data attribute
+		// so we can use it in our stylesheets
+		const storeScroll = () => {
+			document.documentElement.dataset.scroll = window.scrollY;
+		};
 
-			// Listen for new scroll events, here we debounce our `storeScroll` function
-			document.addEventListener("scroll", debounce(storeScroll), { passive: true });
+		// Listen for new scroll events, here we debounce our `storeScroll` function
+		document.addEventListener("scroll", debounce(storeScroll), { passive: true });
 
-			// Update scroll position for first time
-			storeScroll();
-		</script>
-	</body>
+		// Update scroll position for first time
+		storeScroll();
+	</script>
+</body>
+
 </html>

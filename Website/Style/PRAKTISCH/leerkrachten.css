@@ -96,18 +96,7 @@ body {
 	display: block;
 }
 
-.Knopke {
-	padding: 10px 20px;
-	color: #121583;
-	border-radius: 7px;
-	font-weight: bold;
-	text-decoration: none;
-}
 
-.knopke:hover {
-	background-color: #121583;
-	border-radius: 7px;
-}
 
 .nav li a button {
 	background-color: #121583;
@@ -122,7 +111,7 @@ body {
 	width: 100%;
 }
 
-.leerkrachten {
+.teachers {
 	display: flex;
 	text-align: left;
 	font-family: Montserrat, sans-serif;
@@ -134,13 +123,13 @@ body {
 	width: 30%;
 }
 
-.titel {
+.title {
 	padding-top: -10%;
 	text-align: left;
 	width: 150%;
 }
 
-.titel h1 {
+.title h1 {
 	font-size: 80px;
 }
 
@@ -152,7 +141,7 @@ body {
 	margin-top: -5%;
 }
 
-.leerkrachten img {
+.teachers img {
 	margin-left: 80%;
 	margin-top: 55%;
 	border-width: 20px;
@@ -160,7 +149,7 @@ body {
 	height: 230px;
 }
 
-.tekst1 {
+.text1 {
 	text-align: left;
 	font-family: "Montserrat", sans-serif;
 	margin-left: 5%;
@@ -190,7 +179,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 @media (max-width: 480px) {
 	body {
 		background-color: #e6e6e6;
-		background-image: url("../../Images/banners.png/banners-05.png");
+		background-image: url("../../Images/banners.png/banners-08.png");
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-color: #e6e6e6;
@@ -226,14 +215,13 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 
 	#primary_nav_wrap ul a {
 		display: block;
-		color: white;
+		color: #FFF;
 		text-decoration: none;
 		font-weight: 700;
 		font-size: 18px;
 		line-height: 32px;
 		padding: 0 15px;
 		font-family: "Montserrat", sans-serif;
-		opacity: 0;
 	}
 
 	#primary_nav_wrap ul li {
@@ -277,18 +265,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		display: block;
 	}
 
-	.Knopke {
-		padding: 10px 20px;
-		color: #121583;
-		border-radius: 7px;
-		font-weight: bold;
-		text-decoration: none;
-	}
 
-	.knopke:hover {
-		background-color: #121583;
-		border-radius: 7px;
-	}
 
 	.nav li a button {
 		background-color: #121583;
@@ -303,7 +280,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		width: 100%;
 	}
 
-	.leerkrachten {
+	.teachers {
 		display: flex;
 		text-align: left;
 		font-family: Montserrat, sans-serif;
@@ -315,13 +292,13 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		width: 60%;
 	}
 
-	.titel {
+	.title {
 		padding-top: -10%;
 		text-align: left;
 		width: 150%;
 	}
 
-	.titel h1 {
+	.title h1 {
 		font-size: 60px;
 	}
 
@@ -333,7 +310,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		margin-top: 5%;
 	}
 
-	.leerkrachten img {
+	.teachers img {
 		margin-left: 0%;
 		margin-top: 0%;
 		border-width: 0px;
@@ -342,7 +319,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 	}
 
 
-	.tekst1 {
+	.text1 {
 		text-align: left;
 		font-family: "Montserrat", sans-serif;
 		margin-left: 5%;

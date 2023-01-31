@@ -81,22 +81,11 @@ body {
 	left: 100%;
 }
 
-#primary_nav_wrap ul li:hover > ul {
+#primary_nav_wrap ul li:hover>ul {
 	display: block;
 }
 
-.Knopke {
-	padding: 10px 20px;
-	color: #121583;
-	border-radius: 7px;
-	font-weight: bold;
-	text-decoration: none;
-}
 
-.knopke:hover {
-	background-color: #121583;
-	border-radius: 7px;
-}
 
 .nav li a button {
 	background-color: #121583;
@@ -111,7 +100,7 @@ body {
 	width: 100%;
 }
 
-.vacatures {
+.vacancies {
 	display: flex;
 	text-align: left;
 	font-family: Montserrat, sans-serif;
@@ -123,13 +112,13 @@ body {
 	width: 30%;
 }
 
-.titel {
+.title {
 	padding-top: -10%;
 	text-align: left;
 	width: 150%;
 }
 
-.titel h1 {
+.title h1 {
 	font-size: 80px;
 }
 
@@ -140,7 +129,7 @@ body {
 	margin-left: 5%;
 }
 
-.vacatures img {
+.vacancies img {
 	margin-left: 90%;
 	margin-top: 60%;
 	border-width: 20px;
@@ -148,7 +137,7 @@ body {
 	height: 230px;
 }
 
-.tekst1 {
+.text1 {
 	text-align: left;
 	font-family: "Montserrat", sans-serif;
 	margin-left: 5%;
@@ -178,7 +167,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 @media (max-width: 480px) {
 	body {
 		background-color: #e6e6e6;
-		background-image: url("../../Images/tops/tops-01.jpg");
+		background-image: url("../../Images/banners.png/banners-08.png");
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-color: #e6e6e6;
@@ -214,7 +203,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 
 	#primary_nav_wrap ul a {
 		display: block;
-		color: #414141;
+		color: #FFF;
 		text-decoration: none;
 		font-weight: 700;
 		font-size: 18px;
@@ -260,22 +249,10 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		left: 100%;
 	}
 
-	#primary_nav_wrap ul li:hover > ul {
+	#primary_nav_wrap ul li:hover>ul {
 		display: block;
 	}
 
-	.Knopke {
-		padding: 10px 20px;
-		color: #121583;
-		border-radius: 7px;
-		font-weight: bold;
-		text-decoration: none;
-	}
-
-	.knopke:hover {
-		background-color: #121583;
-		border-radius: 7px;
-	}
 
 	.nav li a button {
 		background-color: #121583;
@@ -288,7 +265,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 
 	.footer img {
 		width: 100%;
-		margin-top: 75%;
+		margin-top: 25%;
 	}
 
 	.FAQ {
@@ -299,50 +276,52 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		color: #414141;
 
 		margin-right: 5%;
-		width: 100%;
-	}
-
-	.titel {
-		padding-top: -10%;
-		text-align: left;
 		width: 150%;
 	}
 
-	.titel a {
+	.title {
+
+		text-align: left;
+		width: 160%;
+	}
+
+
+	.title p {
+		width: 310px;
+	}
+
+	.title a {
 		text-decoration: none;
 		color: #414141;
 	}
 
-	.titel h1 {
+	.title h1 {
 		font-size: 80px;
 	}
 
 	.line {
-		width: 70%;
+		width: 40%;
 		height: 7px;
 		background-color: #ffcc00;
 		margin-left: 5%;
-		margin-top: 20%;
+		margin-top: 5%;
 	}
 
-	.foto1 {
-		margin-top: 140%;
-		margin-left: -285%;
+	.photo1 {}
+
+	.vacancies img {
+		border-width: 0px;
+		border: #ffcc00 0px solid;
+		height: 0px;
+		margin-bottom: 0%;
 	}
 
-	.vacatures img {
-		border-width: 20px;
-		border: #ffcc00 4px solid;
-		height: 230px;
-		margin-bottom: 20%;
-	}
-
-	.tekst1 {
+	.text1 {
 		text-align: left;
 		font-family: "Montserrat", sans-serif;
 		margin-left: 5%;
-		margin-top: 3%;
+		margin-top: 8%;
 		color: #414141;
-		width: 100%;
+		width: 80%;
 	}
 }
