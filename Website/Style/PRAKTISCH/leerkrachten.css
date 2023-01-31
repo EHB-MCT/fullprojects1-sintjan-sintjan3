@@ -1,10 +1,20 @@
 body {
+<<<<<<< HEAD
 	background-color: #e6e6e6;
 	background-image: url("../../Images/banners.png/banners-05.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-color: #e6e6e6;
 	margin: 0;
+=======
+    background-color: #e6e6e6;
+    background-image: url("../../Images/tops/tops-09.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #e6e6e6;
+    margin: 0;
+
+>>>>>>> 1b25ce68ac716b7e75c0320332a9d376c20e04e2
 }
 
 .header {

@@ -4,7 +4,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #e6e6e6;
-	background-image: url(../Images/banners.png/banners-06.png);
+	background-image: url(../Images/tops/tops-04.jpg);
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
@@ -117,7 +117,11 @@ body {
 }
 
 .contact {
+<<<<<<< HEAD
 	margin-top: 720px;
+=======
+	margin-top: 680px;
+>>>>>>> 1b25ce68ac716b7e75c0320332a9d376c20e04e2
 	background-color: #e6e6e6;
 	display: flex;
 	flex-direction: row;

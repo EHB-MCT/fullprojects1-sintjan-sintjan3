@@ -1,39 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-body{
-    background-image: url("../images/fotos_fleur/onzeschool.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: #E6E6E6;
-    margin: 0;
+body {
+	background-image: url("../Images/tops/tops-14.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #e6e6e6;
+	margin: 0;
 }
 
-body img:nth-child(3){
-    width: 100%;
+body img:nth-child(3) {
+	width: 100%;
 }
 
-h1{
-    font-family: Montserrat, sans-serif;
-    font-weight: 800;
-    font-size: 50px;
+h1 {
+	font-family: Montserrat, sans-serif;
+	font-weight: 800;
+	font-size: 50px;
 }
 
-h2{
-    font-family: Montserrat, sans-serif;
-    font-weight: 700;
-    font-size: 30px;
+h2 {
+	font-family: Montserrat, sans-serif;
+	font-weight: 700;
+	font-size: 30px;
 }
 
-h3{
-    font-family: Montserrat, sans-serif;
-    font-weight: 500;
-    font-size: 20px;
+h3 {
+	font-family: Montserrat, sans-serif;
+	font-weight: 500;
+	font-size: 20px;
 }
 
-p{
-    font-family: Montserrat, sans-serif;
-    font-weight: 400;
-    font-size: 13px;
+p {
+	font-family: Montserrat, sans-serif;
+	font-weight: 400;
+	font-size: 13px;
 }
 
 .header {
@@ -47,8 +47,8 @@ p{
 }
 
 .logo img {
-    width: 70%;
-    margin-left: 20px;
+	width: 70%;
+	margin-left: 20px;
 }
 
 .logo a:nth-child(2) {
@@ -64,14 +64,14 @@ p{
 }
 
 #primary_nav_wrap ul a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 32px;
-    padding: 0 15px;
-    font-family: "Montserrat", sans-serif;
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 32px;
+	padding: 0 15px;
+	font-family: "Montserrat", sans-serif;
 }
 
 #primary_nav_wrap ul li {
@@ -128,133 +128,128 @@ p{
 	border-radius: 7px;
 }
 
-
-
 .nav li a button {
-    background-color: #121583;
-    padding: 10px 20px;
-    color: #121583;
-    border-radius: 7px;
-    font-weight: bold;
-    text-decoration: none;
+	background-color: #121583;
+	padding: 10px 20px;
+	color: #121583;
+	border-radius: 7px;
+	font-weight: bold;
+	text-decoration: none;
 }
 
-.wrapper{
-    width: 80%;
-    margin: 450px auto 0 auto;
-    text-align: center;
+.wrapper {
+	width: 80%;
+	margin: 450px auto 0 auto;
+	text-align: center;
 }
 
-.wrapper2{
-    width: 80%;
-    margin: 60px auto 0 auto;
-    text-align: center;
+.wrapper2 {
+	width: 80%;
+	margin: 60px auto 0 auto;
+	text-align: center;
 }
 
-article .schoolvisie{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
+article .schoolvisie {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 40px;
 }
 
-.bekwaam{
-    grid-column: 1;
+.bekwaam {
+	grid-column: 1;
 }
 
-.bekwaam img{
-    height: 160px;
+.bekwaam img {
+	height: 160px;
 }
 
-.bekwaam p{
-    text-align: justify;
+.bekwaam p {
+	text-align: justify;
 }
 
-.bewust{
-    grid-column: 2;
+.bewust {
+	grid-column: 2;
 }
 
-.bewust img{
-    height: 160px;
+.bewust img {
+	height: 160px;
 }
 
-.bewust p{
-    text-align: justify;
+.bewust p {
+	text-align: justify;
 }
 
-.bewogen{
-    grid-column: 3;
+.bewogen {
+	grid-column: 3;
 }
 
-.bewogen img{
-    height: 160px;
+.bewogen img {
+	height: 160px;
 }
 
-.bewogen p{
-    text-align: justify;
+.bewogen p {
+	text-align: justify;
 }
 
-.opvoedingsproject{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+.opvoedingsproject {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
 }
 
-.opvoedingsproject img{
-    width: 65%;
-    margin: auto;
+.opvoedingsproject img {
+	width: 65%;
+	margin: auto;
 }
 
-.text-opvoeding{
-    text-align: left;
+.text-opvoeding {
+	text-align: left;
 }
 
-footer{
-    margin-top: 60px;
+footer {
+	margin-top: 60px;
 }
 
-footer img{
-    width: 100%;
+footer img {
+	width: 100%;
 }
 
-button{
-    display: block;
-    background-color: #005DAA;
-    border-color: #005DAA;
-    border-radius: 5px;
-    border: 0;
-    color: white;
-    padding: 7px;
+button {
+	display: block;
+	background-color: #005daa;
+	border-color: #005daa;
+	border-radius: 5px;
+	border: 0;
+	color: white;
+	padding: 7px;
 }
 
-button:hover{
-    background-color: #014278;
+button:hover {
+	background-color: #014278;
 }
 
+@media (max-width: 480px) {
+	body {
+		background-image: none;
+	}
 
-@media (max-width: 480px){
-    body{
-        background-image: none;
-    }
+	.wrapper {
+		width: 80%;
+		margin: 30px auto 0 auto;
+	}
 
-    .wrapper{
-        width: 80%;
-        margin: 30px auto 0 auto;
-    }
+	article .schoolvisie {
+		display: inline;
+	}
 
-    article .schoolvisie{
-        display: inline;
-    }
+	body img:nth-child(3) {
+		display: none;
+	}
 
-    body img:nth-child(3){
-        display: none;
-    }
-
-    .opvoedingsproject{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+	.opvoedingsproject {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
 }
-
-
 
 html:not([data-scroll="0"]) .header {
 	background-color: #ffcc00;
@@ -262,14 +257,14 @@ html:not([data-scroll="0"]) .header {
 	transition: 0.25s;
 }
 
-html:not([data-scroll="0"]) .header .logo a:nth-child(2){
+html:not([data-scroll="0"]) .header .logo a:nth-child(2) {
 	display: block;
 }
 
-html:not([data-scroll="0"]) .header .logo a:nth-child(1){
+html:not([data-scroll="0"]) .header .logo a:nth-child(1) {
 	display: none;
 }
 
-html:not([data-scroll="0"]) .header #primary_nav_wrap ul a{
+html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 	color: #414141;
 }
