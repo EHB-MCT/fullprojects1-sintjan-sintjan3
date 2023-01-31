@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /*  font-family: 'Montserrat'; */
 body {
-	background-image: url(../Images/Artboard\ 5.png);
+	background-image: url(../Images/tops/tops-08.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding: 0px;
@@ -9,7 +9,7 @@ body {
 	background-color: #e6e6e6;
 }
 
-html{
+html {
 	scroll-behavior: smooth;
 }
 
@@ -22,34 +22,34 @@ html{
 	margin-bottom: -10px;
 }
 
-.gelebanner p{
-	font-family: "Monserat",sans-serif;
-	
+.gelebanner p {
+	font-family: "Monserat", sans-serif;
+
 	padding: 50px 0px;
 }
 
-.Contact{
+.Contact {
 	background-color: #ffc507;
 	display: flex;
 	justify-content: space-around;
 }
 
-.Phone{
+.Phone {
 	display: flex;
-    flex-direction: row;
-    align-items: center;
+	flex-direction: row;
+	align-items: center;
 }
 
-.Mail{
+.Mail {
 	display: flex;
-    flex-direction: row;
-    align-items: center;
+	flex-direction: row;
+	align-items: center;
 }
 
-.Location{
+.Location {
 	display: flex;
-    flex-direction: row;
-    align-items: center;
+	flex-direction: row;
+	align-items: center;
 }
 
 .header {
@@ -79,14 +79,14 @@ html{
 }
 
 #primary_nav_wrap ul a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 32px;
-    padding: 0 15px;
-    font-family: "Montserrat", sans-serif;
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 32px;
+	padding: 0 15px;
+	font-family: "Montserrat", sans-serif;
 }
 
 #primary_nav_wrap ul li {
@@ -171,7 +171,7 @@ html{
 	border-radius: 20px;
 }
 
-.text h1{
+.text h1 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
 }
@@ -179,28 +179,28 @@ html{
 .text {
 	display: flex;
 	flex-direction: column;
-	font-family: "Montserrat",sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-weight: 100;
 	padding: 5px 10px;
 }
 
-.but{
+.but {
 	background-color: #005daa;
 	text-align: center;
 	border-radius: 10px;
-	font-family: "Monserrat",sans-serif;
+	font-family: "Monserrat", sans-serif;
 	text-decoration: none;
 	margin: 0px 300px;
 	color: white;
 	padding: 5px 20px;
-	}
+}
 
-	.boxje{
-		display: flex;
-		margin: 0px 150px;
-		border-radius: 20px;
-		flex-direction: row-reverse;
-	}
+.boxje {
+	display: flex;
+	margin: 0px 150px;
+	border-radius: 20px;
+	flex-direction: row-reverse;
+}
 
 .box img {
 	width: 300px;
@@ -248,25 +248,24 @@ html{
 .textDanku {
 	margin-top: -30px;
 	font-family: "Montserrat", sans-serif;
-    font-weight: 100
+	font-weight: 100;
 }
 
 .textSchoolvisie {
 	margin-top: 45px;
-	font-family: "Montserrat",sans-serif;
-    font-weight: 100
+	font-family: "Montserrat", sans-serif;
+	font-weight: 100;
 }
 
 .Wijzoekenjou img {
 	margin: 40px 100px;
 }
-.WijzoekenjouDriehoek{
+.WijzoekenjouDriehoek {
 	width: 400px;
 	height: 400px;
 	margin-top: -150px;
 	margin-left: 50px;
 }
-
 
 .artboard img {
 	max-width: 100%;
@@ -275,21 +274,20 @@ footer img {
 	max-width: 100%;
 }
 
-#menuToggle{
-    display: none!important;
+#menuToggle {
+	display: none !important;
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
+	#menuToggle {
+		display: block !important;
+	}
 
-	#menuToggle{
-        display: block!important;
-    }
-
-	html{
+	html {
 		margin: 0px;
 		padding: 0px;
 	}
-	#primary_nav_wrap{
+	#primary_nav_wrap {
 		display: none;
 	}
 
@@ -297,12 +295,12 @@ footer img {
 		display: none;
 	}
 
-	.body{
-	background-image: url(../Images/Artboard\ 5.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-	margin: 0px;
-	padding: 0px;
+	.body {
+		background-image: url(../Images/Artboard\ 5.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin: 0px;
+		padding: 0px;
 	}
 
 	.text h1 {
@@ -311,11 +309,11 @@ footer img {
 		text-align: center;
 	}
 
-	.text p{
+	.text p {
 		text-align: center;
 	}
 
-	.boxes{
+	.boxes {
 		margin-top: 300px;
 	}
 
@@ -333,14 +331,14 @@ footer img {
 		margin-left: 170px;
 		margin-top: -70px;
 		margin-bottom: 10px;
-		font-family: "Monserat",sans-serif;
+		font-family: "Monserat", sans-serif;
 	}
 
 	.box img {
-    width: 300px;
-    height: 300px;
-	margin-right: 0px;
-}
+		width: 300px;
+		height: 300px;
+		margin-right: 0px;
+	}
 	.box img.image2 {
 		margin-top: -80px;
 		margin-left: -0px;
@@ -375,12 +373,12 @@ footer img {
 
 	.textSchoolvisie {
 		margin-top: 0px;
-		font-family: "Montserrat",sans-serif;
+		font-family: "Montserrat", sans-serif;
 		font-weight: 100;
 		text-align: center;
 	}
 
-	.textDanku{
+	.textDanku {
 		text-align: center;
 	}
 
@@ -404,72 +402,72 @@ footer img {
 		margin: 40px 50px;
 	}
 
-	.WijzoekenjouDriehoek{
+	.WijzoekenjouDriehoek {
 		width: 200px;
 		height: 200px;
 		margin-top: -90px;
 		margin-left: 20px;
 	}
 
-	.but{
-	background-color: #005daa;
-	text-align: center;
-	border-radius: 10px;
-	font-family: "Monserrat",sans-serif;
-	text-decoration: none;
-	margin: 0px 25px;
-	color: white;
-	padding: 5px 20px;
+	.but {
+		background-color: #005daa;
+		text-align: center;
+		border-radius: 10px;
+		font-family: "Monserrat", sans-serif;
+		text-decoration: none;
+		margin: 0px 25px;
+		color: white;
+		padding: 5px 20px;
 	}
-	
-	.Contact{
+
+	.Contact {
 		background-color: #ffc507;
 		display: flex;
-    flex-direction: column;
-    align-items: center;
-	}
-
-	.Phone{
-		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	.Phone p{
-		margin-top: -30px;
-	}
-	
-	.Mail{
+	.Phone {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
-	.Mail p{
+
+	.Phone p {
 		margin-top: -30px;
 	}
-	
-	.Location{
+
+	.Mail {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
-	.Location p{
+	.Mail p {
+		margin-top: -30px;
+	}
+
+	.Location {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.Location p {
 		margin-top: -30px;
 	}
 }
 
-.backToTop{
-    display: flex;
-    justify-content: right;
-    margin-right: 50px;
-    scroll-behavior: smooth;
+.backToTop {
+	display: flex;
+	justify-content: right;
+	margin-right: 50px;
+	scroll-behavior: smooth;
 }
-.backToTop img{
-    text-align: center;
-    max-width: 50px;
-    max-height:50px ;
-    border-radius: 100%;
-    background-color: #ffcc00;
+.backToTop img {
+	text-align: center;
+	max-width: 50px;
+	max-height: 50px;
+	border-radius: 100%;
+	background-color: #ffcc00;
 }
 
 html:not([data-scroll="0"]) .header {
@@ -478,14 +476,14 @@ html:not([data-scroll="0"]) .header {
 	transition: 0.25s;
 }
 
-html:not([data-scroll="0"]) .header .logo a:nth-child(2){
+html:not([data-scroll="0"]) .header .logo a:nth-child(2) {
 	display: block;
 }
 
-html:not([data-scroll="0"]) .header .logo a:nth-child(1){
+html:not([data-scroll="0"]) .header .logo a:nth-child(1) {
 	display: none;
 }
 
-html:not([data-scroll="0"]) .header #primary_nav_wrap ul a{
+html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 	color: #414141;
 }

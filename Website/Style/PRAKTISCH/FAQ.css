@@ -1,389 +1,362 @@
 @media (max-width: 480px) {
+	body {
+		background-color: #e6e6e6;
+		background-image: url("../../Images/tops/tops-11.jpg");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-color: #e6e6e6;
+		margin: 0;
+	}
 
-    body {
-        background-color: #e6e6e6;
-        background-image: url("../../Images/banners.png/banners-01.png");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-color: #e6e6e6;
-        margin: 0;
+	.header {
+		width: 100%;
+		height: 100px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		position: fixed;
+		top: 0;
+	}
 
-    }
+	.logo img {
+		width: 70%;
+		margin-left: 20px;
+	}
 
-    .header {
-        width: 100%;
-        height: 100px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        top: 0;
-    }
+	.logo a:nth-child(2) {
+		display: none;
+	}
 
-    .logo img {
-        width: 70%;
-        margin-left: 20px;
-    }
+	#primary_nav_wrap ul {
+		list-style: none;
+		position: relative;
+		float: right;
+		margin-right: 10px;
+		padding: 0;
+	}
 
-    .logo a:nth-child(2) {
-        display: none;
-    }
+	#primary_nav_wrap ul a {
+		display: block;
+		color: #414141;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 32px;
+		padding: 0 15px;
+		font-family: "Montserrat", sans-serif;
+	}
 
-    #primary_nav_wrap ul {
-        list-style: none;
-        position: relative;
-        float: right;
-        margin-right: 10px;
-        padding: 0;
-    }
+	#primary_nav_wrap ul li {
+		position: relative;
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
 
-    #primary_nav_wrap ul a {
-        display: block;
-        color: #414141;
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 32px;
-        padding: 0 15px;
-        font-family: "Montserrat", sans-serif;
-    }
+	#primary_nav_wrap ul li:hover {
+		background: #ffcc00;
+	}
 
-    #primary_nav_wrap ul li {
-        position: relative;
-        float: left;
-        margin: 0;
-        padding: 0;
-    }
+	#primary_nav_wrap ul ul {
+		display: none;
+		position: absolute;
 
-    #primary_nav_wrap ul li:hover {
-        background: #ffcc00;
-    }
+		top: 100%;
+		left: 0;
+		background: #fff;
+		padding: 0;
+	}
 
-    #primary_nav_wrap ul ul {
-        display: none;
-        position: absolute;
+	#primary_nav_wrap ul ul li {
+		float: none;
+		width: 200px;
+	}
 
-        top: 100%;
-        left: 0;
-        background: #fff;
-        padding: 0;
-    }
+	#primary_nav_wrap ul ul a {
+		line-height: 120%;
+		padding: 10px 15px;
+		color: #414141
+	}
 
-    #primary_nav_wrap ul ul li {
-        float: none;
-        width: 200px;
-    }
+	#primary_nav_wrap ul ul ul {
+		top: 0;
+		left: 100%;
+	}
 
-    #primary_nav_wrap ul ul a {
-        line-height: 120%;
-        padding: 10px 15px;
-        color: #414141;
-    }
+	#primary_nav_wrap ul li:hover > ul {
+		display: block;
+	}
 
-    #primary_nav_wrap ul ul ul {
-        top: 0;
-        left: 100%;
-    }
+	.Knopke {
+		padding: 10px 20px;
+		color: #121583;
+		border-radius: 7px;
+		font-weight: bold;
+		text-decoration: none;
+	}
 
-    #primary_nav_wrap ul li:hover>ul {
-        display: block;
-    }
+	.knopke:hover {
+		background-color: #121583;
+		border-radius: 7px;
+	}
 
-    .Knopke {
-        padding: 10px 20px;
-        color: #121583;
-        border-radius: 7px;
-        font-weight: bold;
-        text-decoration: none;
-    }
+	.nav li a button {
+		background-color: #121583;
+		padding: 10px 20px;
+		color: #121583;
+		border-radius: 7px;
+		font-weight: bold;
+		text-decoration: none;
+	}
 
-    .knopke:hover {
-        background-color: #121583;
-        border-radius: 7px;
-    }
+	.footer img {
+		width: 100%;
+		margin-top: 75%;
+	}
 
+	.FAQ {
+		text-align: left;
+		font-family: Montserrat, sans-serif;
+		margin-left: 5%;
+		margin-top: 60%;
+		color: #414141;
 
+		margin-right: 5%;
+		width: 100%;
+	}
 
-    .nav li a button {
-        background-color: #121583;
-        padding: 10px 20px;
-        color: #121583;
-        border-radius: 7px;
-        font-weight: bold;
-        text-decoration: none;
-    }
+	.titel {
+		padding-top: -10%;
+		text-align: left;
+		width: 150%;
+	}
 
+	.titel a {
+		text-decoration: none;
+		color: #414141;
+	}
 
+	.titel h1 {
+		font-size: 80px;
+	}
 
-    .footer img {
-        width: 100%;
-        margin-top: 75%;
-    }
+	.line {
+		width: 70%;
+		height: 7px;
+		background-color: #ffcc00;
+		margin-left: 5%;
+		margin-top: 20%;
+	}
 
-    .FAQ {
+	.foto1 {
+		margin-top: 140%;
+		margin-left: -285%;
+	}
 
-        text-align: left;
-        font-family: Montserrat, sans-serif;
-        margin-left: 5%;
-        margin-top: 60%;
-        color: #414141;
+	.FAQ img {
+		border-width: 20px;
+		border: #ffcc00 4px solid;
+		height: 230px;
+		margin-bottom: 20%;
+	}
 
-        margin-right: 5%;
-        width: 100%;
+	.tekst1 {
+		text-align: left;
+		font-family: "Montserrat", sans-serif;
+		margin-left: 5%;
+		margin-top: 3%;
+		color: #414141;
+		width: 100%;
+	}
 
-    }
+	html:not([data-scroll="0"]) .header {
+		background-color: #ffcc00;
+		box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+		transition: 0.25s;
+	}
 
+	html:not([data-scroll="0"]) .header .logo a:nth-child(2) {
+		display: block;
+	}
 
+	html:not([data-scroll="0"]) .header .logo a:nth-child(1) {
+		display: none;
+	}
 
-    .titel {
-        padding-top: -10%;
-        text-align: left;
-        width: 150%;
-    }
-
-    .titel a {
-        text-decoration: none;
-        color: #414141;
-    }
-
-    .titel h1 {
-        font-size: 80px;
-    }
-
-    .line {
-        width: 70%;
-        height: 7px;
-        background-color: #ffcc00;
-        margin-left: 5%;
-        margin-top: 20%;
-
-
-    }
-
-    .foto1 {
-        margin-top: 140%;
-        margin-left: -285%;
-    }
-
-    .FAQ img {
-
-
-        border-width: 20px;
-        border: #ffcc00 4px solid;
-        height: 230px;
-        margin-bottom: 20%;
-    }
-
-    .tekst1 {
-        text-align: left;
-        font-family: 'Montserrat', sans-serif;
-        margin-left: 5%;
-        margin-top: 3%;
-        color: #414141;
-        width: 100%;
-
-    }
-
-    html:not([data-scroll="0"]) .header {
-        background-color: #ffcc00;
-        box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
-        transition: 0.25s;
-    }
-
-    html:not([data-scroll="0"]) .header .logo a:nth-child(2) {
-        display: block;
-    }
-
-    html:not([data-scroll="0"]) .header .logo a:nth-child(1) {
-        display: none;
-    }
-
-    html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
-        color: #414141;
-    }
-
+	html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
+		color: #414141;
+	}
 }
 
-
 body {
-    background-color: #e6e6e6;
-    background-image: url("../../Images/banners.png/banners-01.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: #e6e6e6;
-    margin: 0;
-
+	background-color: #e6e6e6;
+	background-image: url("../../Images/tops/tops-10.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #e6e6e6;
+	margin: 0;
 }
 
 .header {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
 }
 
 .logo img {
-    width: 70%;
-    margin-left: 20px;
+	width: 70%;
+	margin-left: 20px;
 }
 
 .logo a:nth-child(2) {
-    display: none;
+	display: none;
 }
 
-
-
 #primary_nav_wrap ul {
-    list-style: none;
-    position: relative;
-    float: right;
-    margin: 0;
-    padding: 0;
+	list-style: none;
+	position: relative;
+	float: right;
+	margin: 0;
+	padding: 0;
 }
 
 #primary_nav_wrap ul a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 32px;
-    padding: 0 15px;
-    font-family: Montserrat, sans-serif;
-    opacity: 100%;
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 32px;
+	padding: 0 15px;
+	font-family: Montserrat, sans-serif;
+	opacity: 100%;
 }
 
 #primary_nav_wrap ul li {
-    position: relative;
-    float: left;
-    margin: 0;
-    padding: 0;
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
 }
 
 #primary_nav_wrap ul li:hover {
-    background: #ffcc00;
+	background: #ffcc00;
 }
 
 #primary_nav_wrap ul ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background: #fff;
-    padding: 0;
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: #fff;
+	padding: 0;
 }
 
 #primary_nav_wrap ul ul li {
-    float: none;
-    width: 200px;
+	float: none;
+	width: 200px;
 }
 
 #primary_nav_wrap ul ul a {
-    line-height: 120%;
-    padding: 10px 15px;
+	line-height: 120%;
+	padding: 10px 15px;
+    color: #414141;
 }
 
 #primary_nav_wrap ul ul ul {
-    top: 0;
-    left: 100%;
+	top: 0;
+	left: 100%;
 }
 
-#primary_nav_wrap ul li:hover>ul {
-    display: block;
+#primary_nav_wrap ul li:hover > ul {
+	display: block;
 }
-
-
 
 .nav li a button {
-    background-color: #121583;
-    padding: 10px 20px;
-    color: #121583;
-    border-radius: 7px;
-    font-weight: bold;
-    text-decoration: none;
+	background-color: #121583;
+	padding: 10px 20px;
+	color: #121583;
+	border-radius: 7px;
+	font-weight: bold;
+	text-decoration: none;
 }
 
-
-
 .footer img {
-    width: 100%;
-    margin-top: 10%;
+	width: 100%;
+	margin-top: 10%;
 }
 
 .FAQ {
-    display: flex;
-    text-align: left;
-    font-family: Montserrat, sans-serif;
-    margin-left: 5%;
-    margin-top: 45%;
-    color: #414141;
+	display: flex;
+	text-align: left;
+	font-family: Montserrat, sans-serif;
+	margin-left: 5%;
+	margin-top: 45%;
+	color: #414141;
 
-    margin-right: 5%;
-    width: 50%;
-
+	margin-right: 5%;
+	width: 50%;
 }
 
 .titel {
-    padding-top: -10%;
-    text-align: left;
-    width: 150%;
+	padding-top: -10%;
+	text-align: left;
+	width: 150%;
 }
 
 .titel a {
-    text-decoration: none;
-    color: #414141;
+	text-decoration: none;
+	color: #414141;
 }
 
 .titel h1 {
-    font-size: 80px;
+	font-size: 80px;
 }
 
 .line {
-    width: 15%;
-    height: 7px;
-    background-color: #ffcc00;
-    margin-left: 5%;
-    margin-top: 2%;
-
-
+	width: 15%;
+	height: 7px;
+	background-color: #ffcc00;
+	margin-left: 5%;
+	margin-top: 2%;
 }
 
 .FAQ img {
-
-    margin-left: 90%;
-    margin-top: 18%;
-    border-width: 20px;
-    border: #ffcc00 4px solid;
-    height: 230px;
+	margin-left: 90%;
+	margin-top: 18%;
+	border-width: 20px;
+	border: #ffcc00 4px solid;
+	height: 230px;
 }
 
 .tekst1 {
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 5%;
-    margin-top: 3%;
-    color: #414141;
-    width: 50%;
-    margin-bottom: 30%;
+	text-align: left;
+	font-family: "Montserrat", sans-serif;
+	margin-left: 5%;
+	margin-top: 3%;
+	color: #414141;
+	width: 50%;
+	margin-bottom: 30%;
 }
 
 html:not([data-scroll="0"]) .header {
-    background-color: #ffcc00;
-    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
-    transition: 0.25s;
+	background-color: #ffcc00;
+	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+	transition: 0.25s;
 }
 
 html:not([data-scroll="0"]) .header .logo a:nth-child(2) {
-    display: block;
+	display: block;
 }
 
 html:not([data-scroll="0"]) .header .logo a:nth-child(1) {
-    display: none;
+	display: none;
 }
 
 html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
-    color: #414141;
+	color: #414141;
 }
