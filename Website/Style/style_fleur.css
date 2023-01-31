@@ -44,7 +44,7 @@ p {
 	align-items: center;
 	position: fixed;
 	top: 0;
-    z-index: 1;
+	z-index: 1;
 }
 
 .logo img {
@@ -116,7 +116,6 @@ p {
 #primary_nav_wrap ul li:hover > ul {
 	display: block;
 }
-
 
 .nav li a button {
 	background-color: #121583;
@@ -217,6 +216,7 @@ button:hover {
 	background-color: #014278;
 }
 
+<<<<<<< HEAD
 .blackBox {
 	background-image: url("../Images/assets/rectangles\ gray&black\ 180°.jpg");
 	background-size: 100%;
@@ -233,6 +233,14 @@ button:hover {
 	margin-top: 400px;
 	text-align: center;
 	margin-bottom: 100px;
+=======
+#menuToggle {
+	display: none !important;
+}
+
+html {
+	scroll-behavior: smooth;
+>>>>>>> db80482c4fe32749d2f81d7734af8b47b1f07dee
 }
 
 @media (max-width: 480px) {
@@ -258,10 +266,20 @@ button:hover {
 		grid-template-columns: 1fr;
 	}
 
+<<<<<<< HEAD
 	.blackBox h3{
 		font-size: 12px;
 		margin-top: 50px;
 		margin-bottom: 0;
+=======
+	#menuToggle {
+		display: block !important;
+	}
+
+	html {
+		margin: 0px;
+		padding: 0px;
+>>>>>>> db80482c4fe32749d2f81d7734af8b47b1f07dee
 	}
 }
 

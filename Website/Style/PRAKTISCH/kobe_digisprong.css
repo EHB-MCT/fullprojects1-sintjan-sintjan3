@@ -54,7 +54,8 @@ body {
 }
 
 #primary_nav_wrap ul li:hover {
-	background: #ffcc00;
+	text-decoration: underline #FFF 2px;
+	text-underline-offset: 7px;
 }
 
 #primary_nav_wrap ul ul {
@@ -95,9 +96,22 @@ body {
 	text-decoration: none;
 }
 
-.footer img {
-	width: 100%;
-	margin-top: 10%;
+.blackBox {
+	background-image: url("../../Images/assets/rectangles\ gray&black\ 180°.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 60px;
+	margin-top: -10px;
+}
+
+.blackBox h3 {
+	font-family: "montserrat", sans-serif;
+	font-size: 14px;
+	font-weight: 350;
+	color: #e6e6e6;
+	margin-top: 400px;
+	text-align: center;
+	margin-bottom: 100px;
 }
 
 .digisprong {
@@ -225,7 +239,8 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 	}
 
 	#primary_nav_wrap ul li:hover {
-		background: #ffcc00;
+		text-decoration: underline #FFF 2px;
+		text-underline-offset: 7px;
 	}
 
 	#primary_nav_wrap ul ul {
@@ -269,9 +284,22 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		text-decoration: none;
 	}
 
-	.footer img {
-		width: 100%;
-		margin-top: 60%;
+	.blackBox {
+		background-image: url("../../Images/assets/rectangles\ gray&black\ 180°.jpg");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		padding: 60px;
+		margin-top: 45%;
+	}
+
+	.blackBox h3 {
+		font-family: "montserrat", sans-serif;
+		font-size: 14px;
+		font-weight: 350;
+		color: #e6e6e6;
+		margin-top: 50px;
+		text-align: center;
+		margin-bottom: -10%;
 	}
 
 	.digisprong {
