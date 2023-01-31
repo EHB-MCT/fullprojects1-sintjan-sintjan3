@@ -1,144 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Leerling & Ouder</title>
+		<link rel="stylesheet" href="../../Style/PRAKTISCH/leerling.css" />
+		<link rel="icon" type="image/x-icon" href="../../Images/favicon.png" />
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leerling & Ouder</title>
-    <link rel="stylesheet" href="../../Style/PRAKTISCH/leerling.css">
-    <link rel="icon" type="image/x-icon" href="../../Images/favicon.png" />
+	<body>
+		<div class="header">
+			<div class="logo">
+				<a href="../../../index.html"><img src="../../Images/LOGO_geel.png" /></a>
+				<a href="../../index.html"><img src="../../Images/logo-grijs.png" /></a>
+			</div>
 
-</head>
+			<nav id="primary_nav_wrap">
+				<ul>
+					<li class="current-menu-item"><a href="../../index.html">Home</a></li>
+					<li><a href="../onze_school.html">Onze School</a></li>
 
-<body>
-    <div class="header">
-        <div class="logo">
-            <a href="../../../index.html"><img src="../../Images/LOGO_geel.png"></a>
-            <a href="../../index.html"><img src="../../Images/logo_grijs.png" /></a>
-        </div>
+					<li><a href="../studieaanbod.html">Studieaanbod</a></li>
+					<li>
+						<a href="../PRAKTISCH/praktisch.html">Praktisch</a>
+						<ul>
+							<li class="dir"><a href="../PRAKTISCH/digisprong.html">Digisprong</a></li>
+							<li class="dir"><a href="../PRAKTISCH/leerling_praktisch.html">Leerlingen</a></li>
+							<li><a href="../PRAKTISCH/leerkrachten.html">Leerkrachten</a></li>
+							<li><a href="../PRAKTISCH/vacatures.html">Vacatures</a></li>
+							<li><a href="https://sint-jan-brussel.smartschool.be/login" target="_blank">Smartschool</a></li>
+							<li><a href="../PRAKTISCH/FAQ.html">FAQ</a></li>
+						</ul>
+					</li>
+					<li><a href="../contact.html">Contact</a></li>
 
-        <nav id="primary_nav_wrap">
-            <ul>
-                <li class="current-menu-item"><a href="../../index.html">Home</a></li>
-                <li><a href="../onze_school.html">Onze School</a>
+					<li><a href="../inschrijvingen.html" class="button">Inschrijven</a></li>
+				</ul>
+			</nav>
+		</div>
 
+		<div class="leerling">
+			<div class="titel">
+				<h1>Leerlingen</h1>
+				<p>
+					De 6e beweging van het ignatiaans pedagogisch project stelt dat ons onderwijs zich toelegt op de vorming van de hele persoon: ‘We willen jongeren vormen tot bekwame jongvolwassenen, bewust van wat er in de wereld gebeurt en bewogen door de
+					noden van anderen.’ In onze onderwijsleerpraktijk en andere activiteiten op Sint-Jan zijn deze drie pijlers dan ook terug te vinden..
+				</p>
+			</div>
+			<div class="foto1">
+				<img src="../../Images/digisprong.jpeg" />
+			</div>
+		</div>
 
-                <li><a href="../studieaanbod.html">Studieaanbod</a>
+		<div class="line"></div>
+		<div class="tekst1">
+			<p>
+				Bovendien herinnert onze schoolleuze Libenter! ons aan de patroonheilige van onze school, de heilige Jan Berchmans sj. Deze 17e-eeuwse jongeman deed gewone dingen op een buitengewone manier. Hij studeerde, bad en hielp zijn naasten met veel
+				graagte, libenter in het Latijn. We hopen dat onze leerlingen hier gaandeweg een voorbeeld aan zullen nemen: dat ze libenter bekwame, bewuste en bewogen jongvolwassenen mogen worden.
+			</p>
+		</div>
 
-                </li>
-                <li><a href="../PRAKTISCH/praktisch.html">Praktisch</a>
-                    <ul>
-                        <li class="dir"><a href="../PRAKTISCH/digisprong.html">Digisprong</a></li>
-                        <li class="dir"><a href="../PRAKTISCH/leerling_praktisch.html">Leerlingen</a>
+		<div class="tussenstuk">
+			<img src="../../Images/banner12.png" />
+		</div>
 
-                        </li>
-                        <li><a href="../PRAKTISCH/leerkrachten.html">Leerkrachten</a></li>
-                        <li><a href="../PRAKTISCH/vacatures.html">Vacatures</a></li>
-                        <li><a href="https://sint-jan-brussel.smartschool.be/login" target="_blank">Smartschool</a></li>
-                        <li><a href="../PRAKTISCH/FAQ.html">FAQ</a></li>
-                    </ul>
-                </li>
-                <li><a href="../contact.html">Contact</a></li>
+		<div class="ouders">
+			<div class="titel2">
+				<h1>Ouders</h1>
+				<p>De Ouderraad bestaat uit 20 enthousiaste en geëngageerde ouders die samen met de klasafgevaardigden (in elke klas is 1 ouder aanspreekpunt) volgende uitdagingen succesvol trachten te realiseren:’</p>
+			</div>
+			<div class="foto1">
+				<img src="../../Images/digisprong.jpeg" />
+			</div>
+		</div>
 
+		<div class="line2"></div>
+		<div class="tekst2">
+			<p>
+				De ouderraad draagt haar steentje hiertoe bij door een aantal leuke en leerrijke activiteiten te organiseren zoals het ouderfeest, gespreksavonden, onthaal van nieuwe leerlingen en ouders, het organiseren van een contactdag tussen mensen uit
+				het beroepsleven en leerlingen van het laatste jaar, het financieren van projecten van de school,…
+			</p>
+		</div>
+		<div class="footer">
+			<img src="../../Images/footer.png" />
+		</div>
+		<script>
+			// The debounce function receives our function as a parameter
+			const debounce = (fn) => {
+				// This holds the requestAnimationFrame reference, so we can cancel it if we wish
+				let frame;
 
+				// The debounce function returns a new function that can receive a variable number of arguments
+				return (...params) => {
+					// If the frame variable has been defined, clear it now, and queue for next frame
+					if (frame) {
+						cancelAnimationFrame(frame);
+					}
 
-                <li><a href="../inschrijvingen.html" class="button">Inschrijven</a></li>
+					// Queue our function call for the next frame
+					frame = requestAnimationFrame(() => {
+						// Call our function and pass any params we received
+						fn(...params);
+					});
+				};
+			};
 
-            </ul>
-        </nav>
-    </div>
+			// Reads out the scroll position and stores it in the data attribute
+			// so we can use it in our stylesheets
+			const storeScroll = () => {
+				document.documentElement.dataset.scroll = window.scrollY;
+			};
 
+			// Listen for new scroll events, here we debounce our `storeScroll` function
+			document.addEventListener("scroll", debounce(storeScroll), { passive: true });
 
-    <div class="leerling">
-        <div class="titel">
-            <h1>Leerlingen</h1>
-            <p> De 6e beweging van het ignatiaans pedagogisch project stelt dat ons onderwijs zich toelegt op de vorming
-                van
-                de hele persoon: ‘We willen jongeren vormen tot bekwame jongvolwassenen, bewust van wat er in de wereld
-                gebeurt en bewogen door de noden van anderen.’ In onze onderwijsleerpraktijk en andere activiteiten op
-                Sint-Jan zijn deze drie pijlers dan ook terug te vinden..</p>
-        </div>
-        <div class="foto1">
-            <img src="../../Images/digisprong.jpeg">
-        </div>
-    </div>
-
-
-    <div class="line"></div>
-    <div class="tekst1">
-        <p>Bovendien herinnert onze schoolleuze Libenter! ons aan de patroonheilige van onze school, de heilige Jan
-            Berchmans sj. Deze 17e-eeuwse jongeman deed gewone dingen op een buitengewone manier. Hij studeerde, bad en
-            hielp zijn naasten met veel graagte, libenter in het Latijn. We hopen dat onze leerlingen hier gaandeweg een
-            voorbeeld aan zullen nemen: dat ze libenter bekwame, bewuste en bewogen jongvolwassenen mogen worden.</p>
-    </div>
-
-    <div class="tussenstuk">
-        <img src="../../Images/banner12.png">
-    </div>
-
-    <div class="ouders">
-        <div class="titel2">
-            <h1>Ouders</h1>
-            <p> De Ouderraad bestaat uit 20 enthousiaste en geëngageerde ouders die samen met de klasafgevaardigden (in
-                elke
-                klas is 1 ouder aanspreekpunt) volgende uitdagingen succesvol trachten te realiseren:’</p>
-        </div>
-        <div class="foto1">
-            <img src="../../Images/digisprong.jpeg">
-        </div>
-    </div>
-
-
-    <div class="line2"></div>
-    <div class="tekst2">
-        <p>De ouderraad draagt haar steentje hiertoe bij door een aantal leuke en leerrijke activiteiten te organiseren
-            zoals het ouderfeest, gespreksavonden, onthaal van nieuwe leerlingen en ouders, het organiseren van een
-            contactdag tussen mensen uit het beroepsleven en leerlingen van het laatste jaar, het financieren van
-            projecten
-            van de school,…</p>
-    </div>
-    <div class="footer">
-        <img src="../../Images/footer.png">
-    </div>
-    <script>
-        // The debounce function receives our function as a parameter
-        const debounce = (fn) => {
-
-            // This holds the requestAnimationFrame reference, so we can cancel it if we wish
-            let frame;
-
-            // The debounce function returns a new function that can receive a variable number of arguments
-            return (...params) => {
-
-                // If the frame variable has been defined, clear it now, and queue for next frame
-                if (frame) {
-                    cancelAnimationFrame(frame);
-                }
-
-                // Queue our function call for the next frame
-                frame = requestAnimationFrame(() => {
-
-                    // Call our function and pass any params we received
-                    fn(...params);
-                });
-
-            }
-        };
-
-
-        // Reads out the scroll position and stores it in the data attribute
-        // so we can use it in our stylesheets
-        const storeScroll = () => {
-            document.documentElement.dataset.scroll = window.scrollY;
-        }
-
-        // Listen for new scroll events, here we debounce our `storeScroll` function
-        document.addEventListener('scroll', debounce(storeScroll), { passive: true });
-
-        // Update scroll position for first time
-        storeScroll();
-    </script>
-</body>
-
+			// Update scroll position for first time
+			storeScroll();
+		</script>
+	</body>
 </html>
