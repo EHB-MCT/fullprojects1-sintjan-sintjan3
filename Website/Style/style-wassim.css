@@ -23,6 +23,7 @@ body {
 
 .logo img {
 	width: 70%;
+	margin-left: 20px;
 }
 
 .logo a:nth-child(2) {
@@ -38,14 +39,14 @@ body {
 }
 
 #primary_nav_wrap ul a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 32px;
-    padding: 0 15px;
-    font-family: "Montserrat", sans-serif;
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 32px;
+	padding: 0 15px;
+	font-family: "Montserrat", sans-serif;
 }
 
 #primary_nav_wrap ul li {
@@ -89,7 +90,7 @@ body {
 	display: block;
 }
 
-.Knopke {
+.button {
 	padding: 10px 20px;
 	color: #121583;
 	border-radius: 7px;
@@ -97,7 +98,7 @@ body {
 	text-decoration: none;
 }
 
-.knopke:hover {
+.button:hover {
 	background-color: #121583;
 	border-radius: 7px;
 }
@@ -116,7 +117,7 @@ body {
 }
 
 .contact {
-	margin-top: 620px;
+	margin-top: 720px;
 	background-color: #e6e6e6;
 	display: flex;
 	flex-direction: row;
@@ -139,7 +140,7 @@ body {
 	width: 700px;
 }
 
-.functie {
+.function {
 	display: flex;
 	flex-direction: column;
 	width: 300px;
@@ -147,7 +148,7 @@ body {
 	text-align: left;
 }
 
-.naam {
+.name {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -156,19 +157,9 @@ body {
 	width: 300px;
 }
 
-.naam a {
+.name a {
 	text-decoration: none;
 	width: 250px;
-}
-
-.navigatie img {
-	margin-top: 150px;
-	width: 60%;
-	margin-left: 50px;
-}
-.adres {
-	margin-left: 100px;
-	margin-top: 150px;
 }
 
 .banner img {
@@ -234,22 +225,20 @@ body {
 	}
 }
 
-
-
 html:not([data-scroll="0"]) .header {
 	background-color: #ffcc00;
 	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
 	transition: 0.25s;
 }
 
-html:not([data-scroll="0"]) .header .logo a:nth-child(2){
+html:not([data-scroll="0"]) .header .logo a:nth-child(2) {
 	display: block;
 }
 
-html:not([data-scroll="0"]) .header .logo a:nth-child(1){
+html:not([data-scroll="0"]) .header .logo a:nth-child(1) {
 	display: none;
 }
 
-html:not([data-scroll="0"]) .header #primary_nav_wrap ul a{
+html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 	color: #414141;
 }
