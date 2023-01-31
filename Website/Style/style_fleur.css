@@ -44,7 +44,7 @@ p {
 	align-items: center;
 	position: fixed;
 	top: 0;
-    z-index: 1;
+	z-index: 1;
 }
 
 .logo img {
@@ -83,7 +83,8 @@ p {
 }
 
 #primary_nav_wrap ul li:hover {
-	background: #ffcc00;
+    text-decoration: underline 2px;
+    text-underline-offset: 7px;
 }
 
 #primary_nav_wrap ul ul {
@@ -115,7 +116,6 @@ p {
 #primary_nav_wrap ul li:hover > ul {
 	display: block;
 }
-
 
 .nav li a button {
 	background-color: #121583;
@@ -216,6 +216,33 @@ button:hover {
 	background-color: #014278;
 }
 
+<<<<<<< HEAD
+.blackBox {
+	background-image: url("../Images/assets/rectangles\ gray&black\ 180°.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 60px;
+	margin-top: -10px;
+}
+	
+.blackBox h3 {
+	font-family: "montserrat", sans-serif;
+	font-size: 14px;
+	font-weight: 350;
+	color: #e6e6e6;
+	margin-top: 400px;
+	text-align: center;
+	margin-bottom: 100px;
+=======
+#menuToggle {
+	display: none !important;
+}
+
+html {
+	scroll-behavior: smooth;
+>>>>>>> db80482c4fe32749d2f81d7734af8b47b1f07dee
+}
+
 @media (max-width: 480px) {
 	body {
 		background-image: none;
@@ -237,6 +264,22 @@ button:hover {
 	.education-project {
 		display: grid;
 		grid-template-columns: 1fr;
+	}
+
+<<<<<<< HEAD
+	.blackBox h3{
+		font-size: 12px;
+		margin-top: 50px;
+		margin-bottom: 0;
+=======
+	#menuToggle {
+		display: block !important;
+	}
+
+	html {
+		margin: 0px;
+		padding: 0px;
+>>>>>>> db80482c4fe32749d2f81d7734af8b47b1f07dee
 	}
 }
 
