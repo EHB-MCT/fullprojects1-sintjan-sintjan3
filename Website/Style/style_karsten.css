@@ -55,6 +55,7 @@ html {
 .header {
 	width: 100%;
 	height: 100px;
+	z-index: 1;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -98,7 +99,8 @@ html {
 }
 
 #primary_nav_wrap ul li:hover {
-	background: #ffcc00;
+	text-decoration: underline 2px;
+	text-underline-offset: 7px;
 }
 
 #primary_nav_wrap ul ul {
@@ -271,12 +273,28 @@ html {
 .artboard img {
 	max-width: 100%;
 }
-footer img {
-	max-width: 100%;
-}
+
 
 #menuToggle {
 	display: none !important;
+}
+
+.blackBox {
+	background-image: url(../Images/assets/rectangles\ gray&black\ 180°.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 60px;
+	margin-bottom: -20px;
+}
+
+.blackBox h3 {
+	font-family: "montserrat", sans-serif;
+	font-size: 14px;
+	font-weight: 350;
+	color: #e6e6e6;
+	margin-top: 400px;
+	text-align: center;
+	margin-bottom: 100px;
 }
 
 @media (max-width: 480px) {
@@ -348,7 +366,7 @@ footer img {
 		height: 400px;
 	}
 
-	.boxje {
+	.second-box {
 		display: flex;
 		margin: 5px 150px;
 		border-radius: 20px;
@@ -366,7 +384,7 @@ footer img {
 		align-content: space-around;
 	}
 
-	.Schoolvisie {
+	.Schoolvision {
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: column;
@@ -456,7 +474,15 @@ footer img {
 	.Location p {
 		margin-top: -30px;
 	}
+
+	.blackBox h3 {
+		font-size: 12px;
+		margin-top: 60px;
+		margin-bottom: 0;
+	}
 }
+
+
 
 .backToTop {
 	display: flex;

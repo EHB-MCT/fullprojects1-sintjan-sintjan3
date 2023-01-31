@@ -111,6 +111,15 @@ body {
 	text-align: center;
 	margin-bottom: 100px;
 }
+
+#menuToggle {
+	display: none !important;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
 @media (max-width: 780px) {
 	.wrapper img {
 		margin-top: 350px;
@@ -131,6 +140,19 @@ body {
 		font-size: 12px;
 		margin-top: 50px;
 		margin-bottom: 0;
+	}
+
+	#menuToggle {
+		display: block !important;
+	}
+
+	html {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#primary_nav_wrap {
+		display: none;
 	}
 }
 
