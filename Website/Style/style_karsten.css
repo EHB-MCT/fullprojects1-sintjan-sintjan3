@@ -278,7 +278,7 @@ footer img {
 	display: none !important;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
 	#menuToggle {
 		display: block !important;
 	}
