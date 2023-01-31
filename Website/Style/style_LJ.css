@@ -25,6 +25,7 @@ body {
 	align-items: center;
 	position: fixed;
 	top: 0;
+	z-index: 1;
 }
 
 #primary_nav_wrap ul {
@@ -101,7 +102,7 @@ body {
 }
 
 .wrapper img {
-	margin-top: 700px;
+	margin-top: 750px;
 	width: 100%;
 }
 
