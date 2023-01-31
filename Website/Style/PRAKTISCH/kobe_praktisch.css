@@ -116,7 +116,7 @@ h2 {
 	margin-right: 10%;
 }
 
-.titel {
+.title {
 	margin-top: 5%;
 	text-align: left;
 }
@@ -157,14 +157,9 @@ h2 {
 	text-decoration: none;
 }
 
-.praktisch {
-	text-align: center;
-	position: relative;
-	font-size: 55px;
-	margin-top: 30%;
-}
 
-.leerlingen {
+
+.students {
 	display: flex;
 	text-align: center;
 	flex-direction: row-reverse;
@@ -176,13 +171,13 @@ h2 {
 	margin-right: 15%;
 }
 
-.titel2 {
+.title2 {
 	margin-top: 5%;
 	text-align: left;
 	margin-left: 5%;
 }
 
-.leerlingen img {
+.students img {
 	width: 25%;
 	font-weight: lighter;
 
@@ -205,7 +200,7 @@ h2 {
 	width: 35px;
 }
 
-.leerkrachten {
+.teachers {
 	display: flex;
 	text-align: center;
 	font-family: Montserrat, sans-serif;
@@ -216,12 +211,12 @@ h2 {
 	margin-right: 10%;
 }
 
-.titel3 {
+.title3 {
 	margin-top: 5%;
 	text-align: left;
 }
 
-.leerkrachten img {
+.teachers img {
 	width: 25%;
 	font-weight: lighter;
 	margin-right: 10%;
@@ -243,12 +238,12 @@ h2 {
 	margin-top: 2%;
 }
 
-.tussenstuk img {
+.between img {
 	width: 100%;
 	margin-top: 10%;
 }
 
-.onderstuk {
+.under {
 	display: flex;
 	width: 60%;
 	gap: 40px;
@@ -256,20 +251,20 @@ h2 {
 	margin-left: 23%;
 }
 
-.onderstuk img {
+.under img {
 	width: 20%;
 }
 
-.onderstuk a img {
+.under a img {
 	width: 90%;
 	margin-left: -20%;
 }
 
-.afbeelding1 img {
+.picture1 img {
 	width: 60%;
 }
 
-.afbeelding3 img {
+.picture3 img {
 	width: 60%;
 }
 
@@ -380,18 +375,6 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		display: block;
 	}
 
-	.Knopke {
-		padding: 10px 20px;
-		color: #121583;
-		border-radius: 7px;
-		font-weight: bold;
-		text-decoration: none;
-	}
-
-	.knopke:hover {
-		background-color: #121583;
-		border-radius: 7px;
-	}
 
 	.nav li a button {
 		background-color: #121583;
@@ -421,7 +404,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		margin-right: 10%;
 	}
 
-	.titel {
+	.title {
 		margin-top: 5%;
 		text-align: left;
 
@@ -465,14 +448,9 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		text-decoration: none;
 	}
 
-	.praktisch {
-		text-align: center;
-		position: relative;
-		font-size: 55px;
-		margin-top: 30%;
-	}
 
-	.leerlingen {
+
+	.students {
 		display: block;
 		text-align: center;
 		flex-direction: row-reverse;
@@ -484,13 +462,13 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		margin-right: 15%;
 	}
 
-	.titel2 {
+	.title2 {
 		margin-top: 5%;
 		text-align: left;
 		margin-left: 5%;
 	}
 
-	.leerlingen img {
+	.students img {
 		width: 55%;
 		font-weight: lighter;
 
@@ -513,7 +491,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		width: 35px;
 	}
 
-	.leerkrachten {
+	.teachers {
 		display: block;
 		text-align: center;
 		font-family: Montserrat, sans-serif;
@@ -524,12 +502,12 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		margin-right: 10%;
 	}
 
-	.titel3 {
+	.title3 {
 		margin-top: 5%;
 		text-align: left;
 	}
 
-	.leerkrachten img {
+	.teachers img {
 		width: 55%;
 		font-weight: lighter;
 		margin-right: 10%;
@@ -551,12 +529,12 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		margin-top: 10%;
 	}
 
-	.tussenstuk img {
+	.between img {
 		width: 100%;
 		margin-top: 10%;
 	}
 
-	.onderstuk {
+	.under {
 		display: flex;
 		width: 80%;
 		gap: 80px;
@@ -564,20 +542,20 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		margin-left: 8%;
 	}
 
-	.onderstuk img {
+	.under img {
 		width: 50%;
 	}
 
-	.onderstuk a img {
+	.under a img {
 		width: 160%;
 		margin-left: -20%;
 	}
 
-	.afbeelding1 img {
+	.picture1 img {
 		width: 80%;
 	}
 
-	.afbeelding3 img {
+	.picture3 img {
 		width: 80%;
 	}
 

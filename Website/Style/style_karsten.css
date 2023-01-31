@@ -17,12 +17,12 @@ html {
 	max-width: 100%;
 }
 
-.gelebanner img {
+.yellowbanner img {
 	max-width: 100%;
 	margin-bottom: -10px;
 }
 
-.gelebanner p {
+.yellowbanner p {
 	font-family: "Monserat", sans-serif;
 
 	padding: 50px 0px;
@@ -196,7 +196,7 @@ html {
 	padding: 5px 20px;
 }
 
-.boxje {
+.second-box {
 	display: flex;
 	margin: 0px 150px;
 	border-radius: 20px;
@@ -214,7 +214,7 @@ html {
 	margin-left: 30px;
 }
 
-.boxje img.image2 {
+.second-box img.image2 {
 	margin-top: -80px;
 	width: 400px;
 	height: 400px;
@@ -237,12 +237,12 @@ html {
 	height: 300px;
 }
 
-.Schoolvisie {
+.Schoolvision {
 	max-width: 400px;
 	max-height: 500px;
 }
 
-.Schoolvisie img.image1 {
+.Schoolvision img.image1 {
 	align-content: center;
 }
 

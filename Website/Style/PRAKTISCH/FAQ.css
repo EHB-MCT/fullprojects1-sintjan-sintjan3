@@ -83,22 +83,10 @@
 		left: 100%;
 	}
 
-	#primary_nav_wrap ul li:hover > ul {
+	#primary_nav_wrap ul li:hover>ul {
 		display: block;
 	}
 
-	.Knopke {
-		padding: 10px 20px;
-		color: #121583;
-		border-radius: 7px;
-		font-weight: bold;
-		text-decoration: none;
-	}
-
-	.knopke:hover {
-		background-color: #121583;
-		border-radius: 7px;
-	}
 
 	.nav li a button {
 		background-color: #121583;
@@ -125,18 +113,18 @@
 		width: 100%;
 	}
 
-	.titel {
+	.title {
 		padding-top: -10%;
 		text-align: left;
 		width: 150%;
 	}
 
-	.titel a {
+	.title a {
 		text-decoration: none;
 		color: #414141;
 	}
 
-	.titel h1 {
+	.title h1 {
 		font-size: 80px;
 	}
 
@@ -148,7 +136,7 @@
 		margin-top: 20%;
 	}
 
-	.foto1 {
+	.photo1 {
 		margin-top: 140%;
 		margin-left: -285%;
 	}
@@ -160,7 +148,7 @@
 		margin-bottom: 20%;
 	}
 
-	.tekst1 {
+	.text1 {
 		text-align: left;
 		font-family: "Montserrat", sans-serif;
 		margin-left: 5%;
@@ -264,7 +252,7 @@ body {
 #primary_nav_wrap ul ul a {
 	line-height: 120%;
 	padding: 10px 15px;
-    color: #414141;
+	color: #414141;
 }
 
 #primary_nav_wrap ul ul ul {
@@ -272,7 +260,7 @@ body {
 	left: 100%;
 }
 
-#primary_nav_wrap ul li:hover > ul {
+#primary_nav_wrap ul li:hover>ul {
 	display: block;
 }
 
@@ -308,12 +296,12 @@ body {
 	width: 150%;
 }
 
-.titel a {
+.title a {
 	text-decoration: none;
 	color: #414141;
 }
 
-.titel h1 {
+.title h1 {
 	font-size: 80px;
 }
 
@@ -333,7 +321,7 @@ body {
 	height: 230px;
 }
 
-.tekst1 {
+.text1 {
 	text-align: left;
 	font-family: "Montserrat", sans-serif;
 	margin-left: 5%;
