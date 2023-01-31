@@ -172,7 +172,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 @media (max-width: 480px) {
 	body {
 		background-color: #e6e6e6;
-		background-image: url("../../Images/banners.png/banners-10.png");
+		background-image: url("../../Images/tops/tops-11.jpg");
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-color: #e6e6e6;
@@ -208,7 +208,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 
 	#primary_nav_wrap ul a {
 		display: block;
-		color: #414141;
+		color: #FFF;
 		text-decoration: none;
 		font-weight: 700;
 		font-size: 18px;
@@ -246,7 +246,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 	#primary_nav_wrap ul ul a {
 		line-height: 120%;
 		padding: 10px 15px;
-		color: #414141;
+		color: #414141
 	}
 
 	#primary_nav_wrap ul ul ul {
@@ -293,7 +293,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		margin-top: 45%;
 		color: #414141;
 
-		flex-wrap: wrap;
+
 		width: 70%;
 	}
 
@@ -302,7 +302,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 	}
 
 	.titel {
-		padding-top: -5%;
+		margin-top: 75%;
 		text-align: left;
 		width: 150%;
 	}
@@ -316,7 +316,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		height: 7px;
 		background-color: #ffcc00;
 		margin-left: 8%;
-		margin-top: -5%;
+		margin-top: 5%;
 	}
 
 	.foto1 img {
@@ -324,12 +324,12 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 	}
 
 	.digisprong img {
-		flex-direction: column-reverse;
 
-		margin-top: 80%;
-		border-width: 20px;
-		border: #ffcc00 4px solid;
-		height: 230px;
+
+		margin-top: 0%;
+		border-width: 0px;
+		border: #ffcc00 0px solid;
+		height: 0px;
 		margin-left: 0%;
 	}
 
@@ -337,10 +337,10 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		text-align: left;
 		font-family: "Montserrat", sans-serif;
 		margin-left: 8%;
-		margin-top: -100%;
+		margin-top: 10%;
 		color: #414141;
 		width: 80%;
-		margin-bottom: 20%;
+		margin-bottom: -45%;
 	}
 
 	html:not([data-scroll="0"]) .header {
