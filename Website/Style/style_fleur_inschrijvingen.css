@@ -198,8 +198,6 @@ button:hover {
 
 
 
-
-
 html:not([data-scroll="0"]) .header {
 	background-color: #ffcc00;
 	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
@@ -216,4 +214,9 @@ html:not([data-scroll="0"]) .header .logo a:nth-child(1){
 
 html:not([data-scroll="0"]) .header #primary_nav_wrap ul a{
 	color: #414141;
+}
+
+
+@media (max-width: 480px) {
+	
 }
