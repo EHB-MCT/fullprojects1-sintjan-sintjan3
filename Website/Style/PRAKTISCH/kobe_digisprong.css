@@ -82,7 +82,7 @@ body {
 	left: 100%;
 }
 
-#primary_nav_wrap ul li:hover > ul {
+#primary_nav_wrap ul li:hover>ul {
 	display: block;
 }
 
@@ -254,7 +254,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		left: 100%;
 	}
 
-	#primary_nav_wrap ul li:hover > ul {
+	#primary_nav_wrap ul li:hover>ul {
 		display: block;
 	}
 
@@ -319,7 +319,8 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		margin-top: -5%;
 	}
 
-	.foto1 {
+	.foto1 img {
+		margin-top: 200%;
 	}
 
 	.digisprong img {

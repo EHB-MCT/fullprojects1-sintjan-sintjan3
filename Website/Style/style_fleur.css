@@ -115,18 +115,6 @@ p {
 	display: block;
 }
 
-.Knopke {
-	padding: 10px 20px;
-	color: #121583;
-	border-radius: 7px;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-.knopke:hover {
-	background-color: #121583;
-	border-radius: 7px;
-}
 
 .nav li a button {
 	background-color: #121583;
@@ -139,7 +127,7 @@ p {
 
 .wrapper {
 	width: 80%;
-	margin: 450px auto 0 auto;
+	margin: 700px auto 0 auto;
 	text-align: center;
 }
 
@@ -149,59 +137,59 @@ p {
 	text-align: center;
 }
 
-article .schoolvisie {
+article .schoolvision {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 40px;
 }
 
-.bekwaam {
+.skilled {
 	grid-column: 1;
 }
 
-.bekwaam img {
+.skilled img {
 	height: 160px;
 }
 
-.bekwaam p {
+.skilled p {
 	text-align: justify;
 }
 
-.bewust {
+.aware {
 	grid-column: 2;
 }
 
-.bewust img {
+.aware img {
 	height: 160px;
 }
 
-.bewust p {
+.aware p {
 	text-align: justify;
 }
 
-.bewogen {
+.moved {
 	grid-column: 3;
 }
 
-.bewogen img {
+.moved img {
 	height: 160px;
 }
 
-.bewogen p {
+.moved p {
 	text-align: justify;
 }
 
-.opvoedingsproject {
+.education-project {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 }
 
-.opvoedingsproject img {
+.education-project img {
 	width: 65%;
 	margin: auto;
 }
 
-.text-opvoeding {
+.text-education {
 	text-align: left;
 }
 
@@ -237,7 +225,7 @@ button:hover {
 		margin: 30px auto 0 auto;
 	}
 
-	article .schoolvisie {
+	article .schoolvision {
 		display: inline;
 	}
 
@@ -245,7 +233,7 @@ button:hover {
 		display: none;
 	}
 
-	.opvoedingsproject {
+	.education-project {
 		display: grid;
 		grid-template-columns: 1fr;
 	}
