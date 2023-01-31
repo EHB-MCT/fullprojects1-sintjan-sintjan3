@@ -215,14 +215,6 @@ button:hover {
 	background-color: #014278;
 }
 
-#menuToggle {
-	display: none !important;
-}
-
-html {
-	scroll-behavior: smooth;
-}
-
 @media (max-width: 480px) {
 	body {
 		background-image: none;
@@ -244,15 +236,6 @@ html {
 	.education-project {
 		display: grid;
 		grid-template-columns: 1fr;
-	}
-
-	#menuToggle {
-		display: block !important;
-	}
-
-	html {
-		margin: 0px;
-		padding: 0px;
 	}
 }
 
