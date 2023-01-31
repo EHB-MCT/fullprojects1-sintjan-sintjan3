@@ -301,6 +301,14 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 	color: #414141;
 }
 
+#menuToggle {
+	display: none !important;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
 @media (max-width: 480px) {
 	body {
 		background-color: #e6e6e6;
@@ -340,13 +348,14 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 
 	#primary_nav_wrap ul a {
 		display: block;
-		color: #FFF;
+		color: none;
 		text-decoration: none;
 		font-weight: 700;
 		font-size: 18px;
 		line-height: 32px;
 		padding: 0 15px;
 		font-family: "Montserrat", sans-serif;
+		opacity: 100%;
 	}
 
 	#primary_nav_wrap ul li {
@@ -357,7 +366,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 	}
 
 	#primary_nav_wrap ul li:hover {
-		text-decoration: underline #FFF 2px;
+		text-decoration: underline none 2px;
 		text-underline-offset: 7px;
 	}
 
@@ -367,7 +376,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 
 		top: 100%;
 		left: 0;
-		background: #fff;
+		background: none;
 		padding: 0;
 	}
 
@@ -379,7 +388,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 	#primary_nav_wrap ul ul a {
 		line-height: 120%;
 		padding: 10px 15px;
-		color: #414141;
+		color: none;
 	}
 
 	#primary_nav_wrap ul ul ul {
@@ -391,6 +400,9 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		display: block;
 	}
 
+	#primary_nav_wrap {
+		display: none;
+	}
 
 	.nav li a button {
 		background-color: #121583;
@@ -607,4 +619,14 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 	html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		color: #414141;
 	}
+
+	#menuToggle {
+		display: block !important;
+	}
+
+	html {
+		margin: 0px;
+		padding: 0px;
+	}
+
 }
