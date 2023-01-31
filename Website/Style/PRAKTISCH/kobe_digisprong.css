@@ -54,7 +54,8 @@ body {
 }
 
 #primary_nav_wrap ul li:hover {
-	background: #ffcc00;
+	text-decoration: underline #FFF 2px;
+	text-underline-offset: 7px;
 }
 
 #primary_nav_wrap ul ul {
@@ -238,7 +239,8 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 	}
 
 	#primary_nav_wrap ul li:hover {
-		background: #ffcc00;
+		text-decoration: underline #FFF 2px;
+		text-underline-offset: 7px;
 	}
 
 	#primary_nav_wrap ul ul {
