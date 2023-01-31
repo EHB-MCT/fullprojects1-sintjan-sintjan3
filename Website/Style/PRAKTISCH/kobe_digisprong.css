@@ -112,17 +112,17 @@ body {
 	width: 30%;
 }
 
-.foto1 img {
+.photo1 img {
 	margin-top: 25%;
 }
 
-.titel {
+.title {
 	padding-top: -5%;
 	text-align: left;
 	width: 150%;
 }
 
-.titel h1 {
+.title h1 {
 	font-size: 80px;
 }
 
@@ -142,7 +142,7 @@ body {
 	height: 230px;
 }
 
-.tekst1 {
+.text1 {
 	text-align: left;
 	font-family: "Montserrat", sans-serif;
 	margin-left: 5%;
@@ -258,18 +258,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		display: block;
 	}
 
-	.Knopke {
-		padding: 10px 20px;
-		color: #121583;
-		border-radius: 7px;
-		font-weight: bold;
-		text-decoration: none;
-	}
 
-	.knopke:hover {
-		background-color: #121583;
-		border-radius: 7px;
-	}
 
 	.nav li a button {
 		background-color: #121583;
@@ -301,13 +290,13 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		font-size: 15px;
 	}
 
-	.titel {
+	.title {
 		margin-top: 75%;
 		text-align: left;
 		width: 150%;
 	}
 
-	.titel h1 {
+	.title h1 {
 		font-size: 70px;
 	}
 
@@ -319,7 +308,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		margin-top: 5%;
 	}
 
-	.foto1 img {
+	.photo1 img {
 		margin-top: 200%;
 	}
 
@@ -333,7 +322,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		margin-left: 0%;
 	}
 
-	.tekst1 {
+	.text1 {
 		text-align: left;
 		font-family: "Montserrat", sans-serif;
 		margin-left: 8%;

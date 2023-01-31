@@ -88,18 +88,6 @@ body {
     display: block;
 }
 
-.Knopke {
-    padding: 10px 20px;
-    color: #121583;
-    border-radius: 7px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.knopke:hover {
-    background-color: #121583;
-    border-radius: 7px;
-}
 
 
 
@@ -112,7 +100,7 @@ body {
     text-decoration: none;
 }
 
-.leerling {
+.student {
     display: flex;
     text-align: left;
     font-family: Montserrat, sans-serif;
@@ -125,13 +113,13 @@ body {
 
 }
 
-.titel {
+.title {
     margin-top: -10%;
     text-align: left;
     width: 150%;
 }
 
-.titel h1 {
+.title h1 {
     font-size: 80px;
 }
 
@@ -145,7 +133,7 @@ body {
 
 
 
-.tekst1 {
+.text1 {
     text-align: left;
     font-family: Montserrat, sans-serif;
     margin-left: 5%;
@@ -154,7 +142,7 @@ body {
     width: 50%;
 }
 
-.leerling img {
+.student img {
 
     margin-left: 90%;
     margin-top: 55%;
@@ -163,12 +151,12 @@ body {
     height: 230px;
 }
 
-.tussenstuk img {
+.between img {
     width: 100%;
     margin-top: 10%;
 }
 
-.ouders {
+.parents {
     display: flex;
     text-align: left;
     font-family: Montserrat, sans-serif;
@@ -181,13 +169,13 @@ body {
 
 }
 
-.titel2 {
+.title2 {
     padding-top: -10%;
     text-align: left;
     width: 150%;
 }
 
-.titel2 h1 {
+.title2 h1 {
     font-size: 80px;
 }
 
@@ -199,7 +187,7 @@ body {
     margin-top: -3%;
 }
 
-.ouders img {
+.parents img {
 
     margin-left: 120%;
     margin-top: 55%;
@@ -208,7 +196,7 @@ body {
     height: 230px;
 }
 
-.tekst2 {
+.text2 {
     text-align: left;
     font-family: 'Montserrat', sans-serif;
     margin-left: 5%;
@@ -337,18 +325,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
         display: block;
     }
 
-    .Knopke {
-        padding: 10px 20px;
-        color: #121583;
-        border-radius: 7px;
-        font-weight: bold;
-        text-decoration: none;
-    }
 
-    .knopke:hover {
-        background-color: #121583;
-        border-radius: 7px;
-    }
 
 
 
@@ -361,7 +338,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
         text-decoration: none;
     }
 
-    .leerling {
+    .student {
         display: flex;
         text-align: left;
         font-family: Montserrat, sans-serif;
@@ -374,13 +351,13 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 
     }
 
-    .titel {
+    .title {
         margin-top: -10%;
         text-align: left;
         width: 100%;
     }
 
-    .titel h1 {
+    .title h1 {
         font-size: 80px;
     }
 
@@ -394,7 +371,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 
 
 
-    .tekst1 {
+    .text1 {
         text-align: left;
         font-family: Montserrat, sans-serif;
         margin-left: 5%;
@@ -403,7 +380,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
         width: 80%;
     }
 
-    .leerling img {
+    .student img {
 
         margin-left: 0%;
         margin-top: 0%;
@@ -412,12 +389,12 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
         height: 0px;
     }
 
-    .tussenstuk img {
+    .between img {
         width: 100%;
         margin-top: 10%;
     }
 
-    .ouders {
+    .parents {
         display: flex;
         text-align: left;
         font-family: Montserrat, sans-serif;
@@ -430,13 +407,13 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 
     }
 
-    .titel2 {
+    .title2 {
         padding-top: -10%;
         text-align: left;
         width: 150%;
     }
 
-    .titel2 h1 {
+    .title2 h1 {
         font-size: 80px;
     }
 
@@ -448,7 +425,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
         margin-top: 5%;
     }
 
-    .ouders img {
+    .parents img {
 
         margin-left: 0%;
         margin-top: 0%;
@@ -457,7 +434,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
         height: 0px;
     }
 
-    .tekst2 {
+    .text2 {
         text-align: left;
         font-family: 'Montserrat', sans-serif;
         margin-left: 5%;
