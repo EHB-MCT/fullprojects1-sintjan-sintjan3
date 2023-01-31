@@ -10,6 +10,14 @@ body {
 	background-color: #e6e6e6;
 }
 
+#menuToggle {
+	display: none !important;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
 .banner1 img {
 	max-width: 100%;
 }
@@ -26,10 +34,12 @@ body {
 	align-items: center;
 	position: fixed;
 	top: 0;
+	z-index: 1;
 }
 
 .logo img {
-	width: 60%;
+	width: 70%;
+	margin-left: 20px;
 }
 
 .logo a:nth-child(2) {
@@ -63,7 +73,8 @@ body {
 }
 
 #primary_nav_wrap ul li:hover {
-	background: #ffcc00;
+    text-decoration: underline #FFCC00 2px;
+    text-underline-offset: 7px;
 }
 
 #primary_nav_wrap ul ul {
@@ -118,6 +129,7 @@ body {
 }
 
 .box1 {
+	margin-top: 100px;
 	display: flex;
 	margin: 0px 150px;
 	border-radius: 20px;
@@ -196,6 +208,24 @@ button:hover {
 	background-color: #014278;
 }
 
+.blackBox {
+	background-image: url("../Images/assets/rectangles\ gray&black\ 180°.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 60px;
+	margin-top: -10px;
+}
+	
+.blackBox h3 {
+	font-family: "montserrat", sans-serif;
+	font-size: 14px;
+	font-weight: 350;
+	color: #e6e6e6;
+	margin-top: 400px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
 
 
 html:not([data-scroll="0"]) .header {
@@ -218,5 +248,41 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a{
 
 
 @media (max-width: 480px) {
-	
+	#menuToggle {
+		display: block !important;
+	}
+
+	html {
+		margin: 0px;
+		padding: 0px;
+	}
+	#primary_nav_wrap {
+		display: none;
+	}
+
+	.logo a:nth-child(2) {
+		display: none;
+	}
+
+	.boxes{
+		margin-top: 140px;
+	}
+
+	.box1{
+		flex-direction: column;
+	}
+
+	.box1 img{
+		margin-top: 50px;
+	}
+
+	.box2{
+		flex-direction: column;
+	}
+
+	.blackBox h3{
+		font-size: 12px;
+		margin-top: 50px;
+		margin-bottom: 0;
+	}
 }

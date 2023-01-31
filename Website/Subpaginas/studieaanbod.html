@@ -9,6 +9,8 @@
 		<link rel="stylesheet" href="../../Website/Script/script.js" />
 		<link rel="icon" type="image/x-icon" href="../images/favicon.png" />
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		 
+		<link rel="stylesheet" href="../Style/Hamburger.css" />
 	</head>
 
 	<body>
@@ -17,6 +19,40 @@
 				<a href="../index.html"><img src="../Images/LOGO_geel.png" /></a>
 				<a href="../index.html"><img src="../Images/logo-grijs.png" /></a>
 			</div>
+
+			<!-- hamburger -->
+			<!--    Made by Erik Terwan    -->
+			<!--   24th of November 2015   -->
+			<!--        MIT License        -->
+			<nav role="navigation">
+				<div id="menuToggle">
+					<!--      A fake / hidden checkbox is used as click reciever,      so you can use the :checked selector on it.      --><input
+						type="checkbox"
+					/><!--      Some spans to act as a hamburger.      They are acting like a real hamburger,      not that McDonalds stuff.      --><span></span><span></span><span></span
+					><!--      Too bad the menu has to be inside of the button      but hey, it's pure CSS magic.      -->
+
+					<ul id="menu">
+						<a href="../index.html">
+							<li>Home</li>
+						</a>
+						<a href="onze_school.html">
+							<li>Onze School</li>
+						</a>
+						<a href="studieaanbod.html">
+							<li>Studieaanbod</li>
+						</a>
+						<a href="PRAKTISCH/praktisch.html">
+							<li>Praktisch</li>
+						</a>
+						<a href="contact.html">
+							<li>Contact</li>
+						</a>
+						<a href="#">
+							<li>Inschrijven</li>
+						</a>
+					</ul>
+				</div>
+			</nav>
 
 			<nav id="primary_nav_wrap">
 				<ul>
@@ -34,7 +70,7 @@
 							<li><a href="../Subpaginas/PRAKTISCH/FAQ.html">FAQ</a></li>
 						</ul>
 					</li>
-					<li><a href="../contact.html">Contact</a></li>
+					<li><a href="../Subpaginas/contact.html">Contact</a></li>
 
 					<li><a href="inschrijvingen.html" class="button">Inschrijven</a></li>
 				</ul>
