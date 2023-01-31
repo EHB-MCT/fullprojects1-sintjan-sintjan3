@@ -1,83 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Studieaanbod</title>
-		<link rel="stylesheet" href="../../Website/Style/style_LJ.css" />
-		<link rel="stylesheet" href="../../Website/Script/script.js" />
-		<link rel="icon" type="image/x-icon" href="../images/favicon.png" />
-	</head>
-	<body>
-		<div class="header">
-			<div class="logo">
-				<a href="../index.html"><img src="../Images/LOGO_geel.png" /></a>
-				<a href="#"><img src="../Images/logo_grijs.png" /></a>
-			</div>
 
-			<nav id="primary_nav_wrap">
-				<ul>
-					<li class="current-menu-item"><a href="../index.html">Home</a></li>
-					<li><a href="onze_school.html">Onze School</a></li>
-					<li><a href="studieaanbod.html">Studieaanbod</a></li>
-					<li>
-						<a href="../Subpaginas/PRAKTISCH/praktisch.html">Praktisch</a>
-						<ul>
-							<li class="dir"><a href="../../Website/Subpaginas/PRAKTISCH/digisprong.html">Digisprong</a></li>
-							<li class="dir"><a href="../Subpaginas/PRAKTISCH/leerling_praktisch.html">Leerlingen</a></li>
-							<li><a href="../Subpaginas/PRAKTISCH/leerkrachten.html">Leerkrachten</a></li>
-							<li><a href="../Subpaginas/PRAKTISCH/vacatures.html">Vacatures</a></li>
-							<li><a href="https://sint-jan-brussel.smartschool.be/login">Smartschool</a></li>
-							<li><a href="../Subpaginas/PRAKTISCH/FAQ.html">FAQ</a></li>
-						</ul>
-					</li>
-					<li><a href="../contact.html">Contact</a></li>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Studieaanbod</title>
+	<link rel="stylesheet" href="../../Website/Style/style_LJ.css" />
+	<link rel="stylesheet" href="../../Website/Script/script.js" />
+	<link rel="icon" type="image/x-icon" href="../images/favicon.png" />
+</head>
 
-					<li><a href="inschrijvingen.html" class="button">Inschrijven</a></li>
-				</ul>
-			</nav>
+<body>
+	<div class="header">
+		<div class="logo">
+			<a href="../index.html"><img src="../Images/LOGO_geel.png" /></a>
+			<a href="#"><img src="../Images/logo_grijs.png" /></a>
 		</div>
 
-		<div class="wrapper">
-			<img src="../Images/lessenrooster.png" />
-		</div>
+		<nav id="primary_nav_wrap">
+			<ul>
+				<li class="current-menu-item"><a href="../index.html">Home</a></li>
+				<li><a href="onze_school.html">Onze School</a></li>
+				<li><a href="studieaanbod.html">Studieaanbod</a></li>
+				<li>
+					<a href="../Subpaginas/PRAKTISCH/praktisch.html">Praktisch</a>
+					<ul>
+						<li class="dir"><a href="../../Website/Subpaginas/PRAKTISCH/digisprong.html">Digisprong</a></li>
+						<li class="dir"><a href="../Subpaginas/PRAKTISCH/leerling_praktisch.html">Leerlingen</a></li>
+						<li><a href="../Subpaginas/PRAKTISCH/leerkrachten.html">Leerkrachten</a></li>
+						<li><a href="../Subpaginas/PRAKTISCH/vacatures.html">Vacatures</a></li>
+						<li><a href="https://sint-jan-brussel.smartschool.be/login" target="_blank">Smartschool</a></li>
+						<li><a href="../Subpaginas/PRAKTISCH/FAQ.html">FAQ</a></li>
+					</ul>
+				</li>
+				<li><a href="../contact.html">Contact</a></li>
 
-		<div class="footer">
-			<img src="../Images/footer-02.png" />
-		</div>
-		<script>
-			// The debounce function receives our function as a parameter
-			const debounce = (fn) => {
-				// This holds the requestAnimationFrame reference, so we can cancel it if we wish
-				let frame;
+				<li><a href="inschrijvingen.html" class="button">Inschrijven</a></li>
+			</ul>
+		</nav>
+	</div>
 
-				// The debounce function returns a new function that can receive a variable number of arguments
-				return (...params) => {
-					// If the frame variable has been defined, clear it now, and queue for next frame
-					if (frame) {
-						cancelAnimationFrame(frame);
-					}
+	<div class="wrapper">
+		<img src="../Images/lessenrooster.png" />
+	</div>
 
-					// Queue our function call for the next frame
-					frame = requestAnimationFrame(() => {
-						// Call our function and pass any params we received
-						fn(...params);
-					});
-				};
+	<div class="footer">
+		<img src="../Images/footer-02.png" />
+	</div>
+	<script>
+		// The debounce function receives our function as a parameter
+		const debounce = (fn) => {
+			// This holds the requestAnimationFrame reference, so we can cancel it if we wish
+			let frame;
+
+			// The debounce function returns a new function that can receive a variable number of arguments
+			return (...params) => {
+				// If the frame variable has been defined, clear it now, and queue for next frame
+				if (frame) {
+					cancelAnimationFrame(frame);
+				}
+
+				// Queue our function call for the next frame
+				frame = requestAnimationFrame(() => {
+					// Call our function and pass any params we received
+					fn(...params);
+				});
 			};
+		};
 
-			// Reads out the scroll position and stores it in the data attribute
-			// so we can use it in our stylesheets
-			const storeScroll = () => {
-				document.documentElement.dataset.scroll = window.scrollY;
-			};
+		// Reads out the scroll position and stores it in the data attribute
+		// so we can use it in our stylesheets
+		const storeScroll = () => {
+			document.documentElement.dataset.scroll = window.scrollY;
+		};
 
-			// Listen for new scroll events, here we debounce our `storeScroll` function
-			document.addEventListener("scroll", debounce(storeScroll), { passive: true });
+		// Listen for new scroll events, here we debounce our `storeScroll` function
+		document.addEventListener("scroll", debounce(storeScroll), { passive: true });
 
-			// Update scroll position for first time
-			storeScroll();
-		</script>
-	</body>
+		// Update scroll position for first time
+		storeScroll();
+	</script>
+</body>
+
 </html>
