@@ -84,7 +84,7 @@ body {
 	left: 100%;
 }
 
-#primary_nav_wrap ul li:hover > ul {
+#primary_nav_wrap ul li:hover>ul {
 	display: block;
 }
 
@@ -110,7 +110,7 @@ h2 {
 	text-align: center;
 	font-family: Montserrat, sans-serif;
 	margin-left: 20%;
-	margin-top: 30%;
+	margin-top: 40%;
 	color: #414141;
 	gap: 80px;
 	margin-right: 10%;
@@ -376,7 +376,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		left: 100%;
 	}
 
-	#primary_nav_wrap ul li:hover > ul {
+	#primary_nav_wrap ul li:hover>ul {
 		display: block;
 	}
 
