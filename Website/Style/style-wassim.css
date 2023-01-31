@@ -135,10 +135,7 @@ body {
 	flex-direction: row;
 	justify-content: space-around;
 	margin-top: 50px;
-	background-image: url(../Images/contact-03.png);
-	background-repeat: no-repeat;
-	background-position: 56%;
-	background-size: 500px;
+
 	width: 700px;
 }
 
@@ -177,7 +174,7 @@ body {
 }
 
 .blackBox {
-	background-image: url("../Images/assets/rectangles\ yellow&black\ 180°.jpg");
+	background-image: url("../Images/assets/rectangles\ gray&black\ 180°.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	padding: 60px;

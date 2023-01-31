@@ -34,6 +34,7 @@ html {
 	align-items: center;
 	position: fixed;
 	top: 0;
+	z-index: 1;
 }
 
 .logo img {
@@ -72,7 +73,8 @@ html {
 }
 
 #primary_nav_wrap ul li:hover {
-	background: #ffcc00;
+    text-decoration: underline #FFCC00 2px;
+    text-underline-offset: 7px;
 }
 
 #primary_nav_wrap ul ul {
@@ -207,7 +209,7 @@ button:hover {
 }
 
 .blackBox {
-	background-image: url("../Images/assets/rectangles\ yellow&black\ 180°.jpg");
+	background-image: url("../Images/assets/rectangles\ gray&black\ 180°.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	padding: 60px;
@@ -276,5 +278,11 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a{
 
 	.box2{
 		flex-direction: column;
+	}
+
+	.blackBox h3{
+		font-size: 12px;
+		margin-top: 50px;
+		margin-bottom: 0;
 	}
 }

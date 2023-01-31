@@ -83,7 +83,8 @@ p {
 }
 
 #primary_nav_wrap ul li:hover {
-	background: #ffcc00;
+    text-decoration: underline 2px;
+    text-underline-offset: 7px;
 }
 
 #primary_nav_wrap ul ul {
