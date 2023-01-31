@@ -64,6 +64,7 @@ html {
 
 .logo img {
 	width: 70%;
+	margin-left: 20px;
 }
 
 .logo a:nth-child(2) {
@@ -311,6 +312,7 @@ footer img {
 
 	.text p {
 		text-align: center;
+		width: 400px;
 	}
 
 	.boxes {
@@ -415,7 +417,7 @@ footer img {
 		border-radius: 10px;
 		font-family: "Monserrat", sans-serif;
 		text-decoration: none;
-		margin: 0px 25px;
+		margin: 0px 145px;
 		color: white;
 		padding: 5px 20px;
 	}

@@ -1,20 +1,20 @@
 body {
-<<<<<<< HEAD
+
 	background-color: #e6e6e6;
 	background-image: url("../../Images/banners.png/banners-05.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-color: #e6e6e6;
 	margin: 0;
-=======
-    background-color: #e6e6e6;
-    background-image: url("../../Images/tops/tops-09.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: #e6e6e6;
-    margin: 0;
 
->>>>>>> 1b25ce68ac716b7e75c0320332a9d376c20e04e2
+	background-color: #e6e6e6;
+	background-image: url("../../Images/tops/tops-09.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #e6e6e6;
+	margin: 0;
+
+
 }
 
 .header {
@@ -29,6 +29,7 @@ body {
 
 .logo img {
 	width: 70%;
+	margin-left: 20px;
 }
 
 .logo a:nth-child(2) {
@@ -91,7 +92,7 @@ body {
 	left: 100%;
 }
 
-#primary_nav_wrap ul li:hover > ul {
+#primary_nav_wrap ul li:hover>ul {
 	display: block;
 }
 
@@ -208,6 +209,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 
 	.logo img {
 		width: 70%;
+		margin-left: 20px;
 	}
 
 	.logo a:nth-child(2) {
@@ -271,7 +273,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		left: 100%;
 	}
 
-	#primary_nav_wrap ul li:hover > ul {
+	#primary_nav_wrap ul li:hover>ul {
 		display: block;
 	}
 
@@ -310,7 +312,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		color: #414141;
 		gap: 80px;
 		margin-right: 5%;
-		width: 30%;
+		width: 60%;
 	}
 
 	.titel {
@@ -320,32 +322,33 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 	}
 
 	.titel h1 {
-		font-size: 80px;
+		font-size: 60px;
 	}
 
 	.line {
-		width: 10%;
+		width: 20%;
 		height: 7px;
 		background-color: #ffcc00;
 		margin-left: 5%;
-		margin-top: -5%;
+		margin-top: 5%;
 	}
 
 	.leerkrachten img {
-		margin-left: 80%;
-		margin-top: 55%;
-		border-width: 20px;
-		border: #ffcc00 4px solid;
-		height: 230px;
+		margin-left: 0%;
+		margin-top: 0%;
+		border-width: 0px;
+		border: #ffcc00 0px solid;
+		height: 0px;
 	}
+
 
 	.tekst1 {
 		text-align: left;
 		font-family: "Montserrat", sans-serif;
 		margin-left: 5%;
-		margin-top: 3%;
+		margin-top: 8%;
 		color: #414141;
-		width: 50%;
+		width: 70%;
 	}
 
 	h1 {
