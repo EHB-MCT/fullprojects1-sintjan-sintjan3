@@ -96,20 +96,7 @@ body {
 	display: block;
 }
 
-.Knopke {
-	padding: 10px 20px;
-	color: #121583;
-	border-radius: 7px;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-.knopke:hover {
-	background-color: #121583;
-	border-radius: 7px;
-}
-
-/* midden */
+/* center */
 .boxes {
 	margin-top: 750px;
 	display: flex;
