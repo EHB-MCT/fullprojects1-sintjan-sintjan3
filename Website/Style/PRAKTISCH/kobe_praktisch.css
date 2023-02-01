@@ -17,6 +17,7 @@ body {
 	align-items: center;
 	position: fixed;
 	top: 0;
+	z-index: 1;
 }
 
 .logo img {
@@ -217,7 +218,7 @@ h2 {
 
 .teachers {
 	display: flex;
-	text-align: center;
+	text-align: left;
 	font-family: Montserrat, sans-serif;
 	margin-left: 20%;
 	margin-top: 5%;
@@ -229,6 +230,7 @@ h2 {
 .title3 {
 	margin-top: 5%;
 	text-align: left;
+
 }
 
 .teachers img {
@@ -567,7 +569,7 @@ html {
 	}
 
 	.button3 {
-		margin-left: 37%;
+		margin-left: 40%;
 		margin-top: 10%;
 	}
 

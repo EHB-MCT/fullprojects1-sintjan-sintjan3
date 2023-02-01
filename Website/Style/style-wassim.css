@@ -57,10 +57,6 @@ body {
 	padding: 0;
 }
 
-#primary_nav_wrap ul li:hover {
-	background: #ffcc00;
-}
-
 #primary_nav_wrap ul ul {
 	display: none;
 	position: absolute;
@@ -85,6 +81,11 @@ body {
 #primary_nav_wrap ul ul ul {
 	top: 0;
 	left: 100%;
+}
+
+#primary_nav_wrap ul li:hover {
+	text-decoration: underline #ffcc00 2px;
+	ext-underline-offset: 7px;
 }
 
 #primary_nav_wrap ul li:hover > ul {
@@ -212,23 +213,19 @@ body {
 	}
 
 	.map iframe {
-		width: 450px;
+		width: 350px;
 		height: 300px;
-		margin-left: 15px;
+		margin-left: 25px;
 	}
 
 	.contact-text {
 		display: flex;
-		flex-direction: row;
-		margin-top: 50px;
+		flex-direction: column;
+		margin-top: 100px;
 		margin-bottom: 50px;
 		margin-left: 25px;
-		background-image: url(../Images/contact-03.png);
-		background-repeat: no-repeat;
-		background-position: 50%;
-		background-size: 250px;
-
-		width: 400px;
+		width: 250px;
+		height: 350px;
 		font-size: 10px;
 	}
 
@@ -249,6 +246,24 @@ body {
 		margin-right: 200px;
 		height: 80px;
 		width: 100px;
+	}
+
+	.blackBox {
+		background-image: url("../Images/assets/rectangles\ gray&black\ 180°.jpg");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		padding: 60px;
+		margin-top: -10px;
+	}
+
+	.blackBox h3 {
+		font-family: "montserrat", sans-serif;
+		font-size: 10px;
+		font-weight: 350;
+		color: #e6e6e6;
+		margin-top: 40px;
+		text-align: center;
+		margin-bottom: 0px;
 	}
 }
 
