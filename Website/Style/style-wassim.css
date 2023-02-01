@@ -193,6 +193,7 @@ body {
 @media (max-width: 480px) {
 	#menuToggle {
 		display: block !important;
+		margin-left: 5px;
 	}
 
 	#primary_nav_wrap {
