@@ -29,7 +29,7 @@
       A fake / hidden checkbox is used as click reciever,
       so you can use the :checked selector on it.
       -->
-					<input type="checkbox" />
+					<input type="checkbox" onclick="myFunction()" />
 
 					<!--
       Some spans to act as a hamburger.
@@ -45,7 +45,7 @@
       Too bad the menu has to be inside of the button
       but hey, it's pure CSS magic.
       -->
-					<ul id="menu">
+					<ul id="menu" style="display: none;">
 						<a href="index.html"><li>Home</li></a>
 						<a href="Subpaginas/onze_school.html"><li>Onze School</li></a>
 						<a href="Subpaginas/studieaanbod.html"><li>Studieaanbod</li></a>
@@ -98,6 +98,7 @@
 				</ul>
 			</nav>
 		</div>
+
 		<div class="mid-section">
 			<div class="boxes">
 				<div class="box">
@@ -123,8 +124,7 @@
 					<img
 						class="image2"
 						src="./Images/Fotos_Karsten/svgs/Opendeurdag.svg"
-						alt=""
-						data-aos="fade-left"
+						alt="opendeurdag"
 					/>
 					<div class="text">
 						<h1>Zaterdag 4 februari 2023</h1>
@@ -140,7 +140,7 @@
 			</div>
 
 			<div class="banner1">
-				<img src="./Images/Fotos_Karsten/banner top view.jpg" alt="" />
+				<img src="./Images/Fotos_Karsten/banner top view.jpg" alt="banner" />
 			</div>
 
 			<div class="boxes3">
@@ -148,7 +148,7 @@
 					<img
 						class="image1"
 						src="./Images/Fotos_Karsten/svgs/Schoolvisie.svg"
-						alt=""
+						alt="Schoolvisie"
 						data-aos="fade-down"
 					/>
 					<div class="textSchoolvision">
@@ -163,7 +163,7 @@
 					<img
 						class="image3"
 						src="./Images/Fotos_Karsten/svgs/DankuVoorAlles.svg"
-						alt=""
+						alt="Dankuvooralles"
 						data-aos="fade-down"
 					/>
 					<div class="textThankyou">
@@ -178,7 +178,7 @@
 					<img
 						class="imageZorg"
 						src="./Images/Fotos_Karsten/svgs/Zorgteam.svg"
-						alt=""
+						alt="zorgteam"
 						data-aos="fade-down"
 					/>
 					<div class="text">
@@ -203,14 +203,14 @@
 					<div class="Mail">
 						<img
 							src="Images/Fotos_Karsten/mail_FILL0_wght400_GRAD0_opsz48.svg"
-							alt=""
+							alt="mail"
 						/>
 						<p>secretariaat@sint-jan-brussels.be</p>
 					</div>
 					<div class="Location">
 						<img
 							src="Images/Fotos_Karsten/location_on_FILL0_wght400_GRAD0_opsz48.svg"
-							alt=""
+							alt="locatie"
 						/>
 						<p>Ursulinenstraat 4 1000Brussel</p>
 					</div>
@@ -221,12 +221,14 @@
 
 			<div class="Recruiting">
 				<div class="lookingForYou">
-					<img src="./Images/Fotos_Karsten/svgs/WijZoekenJou.svg" alt="" />
+					<img src="./Images/Fotos_Karsten/wijZoekenJou.jpg" alt="" />
 				</div>
 
 				<div class="lookingForYouTriangle">
 					<a href=""
-						><img src="./Images/Fotos_Karsten/svgs/assets-09.svg" alt=""
+						><img
+							src="./Images/Fotos_Karsten/svgs/assets-09.svg"
+							alt="driehoek"
 					/></a>
 				</div>
 			</div>
@@ -283,9 +285,20 @@
 			storeScroll();
 		</script>
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		     
+
 		<script>
 			AOS.init({ duration: 1200 });
+		</script>
+
+		<script>
+			function myFunction() {
+				var x = document.getElementById("menu");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				} else {
+					x.style.display = "block";
+				}
+			}
 		</script>
 	</body>
 </html>
