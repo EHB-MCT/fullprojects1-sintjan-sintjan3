@@ -216,33 +216,6 @@ button:hover {
 	background-color: #014278;
 }
 
-<<<<<<< HEAD
-.blackBox {
-	background-image: url("../Images/assets/rectangles\ gray&black\ 180°.jpg");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	padding: 60px;
-	margin-top: -10px;
-}
-	
-.blackBox h3 {
-	font-family: "montserrat", sans-serif;
-	font-size: 14px;
-	font-weight: 350;
-	color: #e6e6e6;
-	margin-top: 400px;
-	text-align: center;
-	margin-bottom: 100px;
-=======
-#menuToggle {
-	display: none !important;
-}
-
-html {
-	scroll-behavior: smooth;
->>>>>>> db80482c4fe32749d2f81d7734af8b47b1f07dee
-}
-
 @media (max-width: 480px) {
 	body {
 		background-image: none;
@@ -264,22 +237,6 @@ html {
 	.education-project {
 		display: grid;
 		grid-template-columns: 1fr;
-	}
-
-<<<<<<< HEAD
-	.blackBox h3{
-		font-size: 12px;
-		margin-top: 50px;
-		margin-bottom: 0;
-=======
-	#menuToggle {
-		display: block !important;
-	}
-
-	html {
-		margin: 0px;
-		padding: 0px;
->>>>>>> db80482c4fe32749d2f81d7734af8b47b1f07dee
 	}
 }
 

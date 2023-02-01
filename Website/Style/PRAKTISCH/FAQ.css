@@ -37,7 +37,7 @@
 
 	#primary_nav_wrap ul a {
 		display: block;
-		color: #414141;
+		color: #FFF;
 		text-decoration: none;
 		font-weight: 700;
 		font-size: 18px;
@@ -87,6 +87,7 @@
 	#primary_nav_wrap ul li:hover>ul {
 		display: block;
 	}
+
 
 
 	.nav li a button {
@@ -193,6 +194,9 @@
 	html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		color: #414141;
 	}
+
+
+
 }
 
 body {
