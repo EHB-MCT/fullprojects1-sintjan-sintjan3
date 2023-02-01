@@ -8,6 +8,14 @@ body {
 	margin: 0;
 }
 
+#menuToggle {
+	display: none !important;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
 body img:nth-child(3) {
 	width: 100%;
 }
@@ -235,13 +243,25 @@ button:hover {
 }
 
 @media (max-width: 480px) {
+	#menuToggle {
+		display: block !important;
+	}
+
+	html {
+		margin: 0px;
+		padding: 0px;
+	}
+	#primary_nav_wrap {
+		display: none;
+	}
+
 	body {
 		background-image: none;
 	}
 
 	.wrapper {
 		width: 80%;
-		margin: 30px auto 0 auto;
+		margin: 100px auto 0 auto;
 	}
 
 	article .schoolvision {
