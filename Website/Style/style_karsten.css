@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
-/*  font-family: 'Montserrat'; */
+/*  font-family: "Montserrat", sans-serif; */
 body {
 	background-image: url(../Images/tops/tops-08.jpg);
 	background-size: contain;
@@ -133,18 +133,6 @@ html {
 	display: block;
 }
 
-.Knopke {
-	padding: 10px 20px;
-	color: #121583;
-	border-radius: 7px;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-.knopke:hover {
-	background-color: #121583;
-	border-radius: 7px;
-}
 
 /* midden */
 .boxes {
@@ -248,22 +236,22 @@ html {
 	align-content: center;
 }
 
-.textDanku {
+.textThankyou {
 	margin-top: -30px;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 100;
 }
 
-.textSchoolvisie {
+.textSchoolvision {
 	margin-top: 45px;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 100;
 }
 
-.Wijzoekenjou img {
+.lookingForYou img {
 	margin: 40px 100px;
 }
-.WijzoekenjouDriehoek {
+.lookingForYouTriangle {
 	width: 400px;
 	height: 400px;
 	margin-top: -150px;
@@ -391,15 +379,17 @@ html {
 		align-items: center;
 	}
 
-	.textSchoolvisie {
+	.textSchoolvision {
 		margin-top: 0px;
 		font-family: "Montserrat", sans-serif;
 		font-weight: 100;
 		text-align: center;
 	}
 
-	.textDanku {
+	.textThankyou {
 		text-align: center;
+		
+		font-weight: 100;
 	}
 
 	.boxes3 img.image3 {
@@ -418,11 +408,11 @@ html {
 		margin-left: 0px;
 	}
 
-	.Wijzoekenjou img {
+	.lookingForYou img {
 		margin: 40px 50px;
 	}
 
-	.WijzoekenjouDriehoek {
+	.lookingForYouTriangle {
 		width: 200px;
 		height: 200px;
 		margin-top: -90px;
