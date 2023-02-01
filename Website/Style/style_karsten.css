@@ -59,7 +59,7 @@ html {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	position: fixed;
+	position: fixed; /* veranderd position van hamburger*/
 	top: 0;
 }
 
@@ -181,9 +181,10 @@ html {
 	border-radius: 10px;
 	font-family: "Monserrat", sans-serif;
 	text-decoration: none;
-	margin: 0px 300px;
+	/* margin: 0px 300px; */
 	color: white;
 	padding: 5px 20px;
+	width: 100px;
 }
 
 .second-box {
@@ -249,7 +250,8 @@ html {
 }
 
 .lookingForYou img {
-	margin: 40px 100px;
+	width: 1100px;
+	margin: 40px 160px;
 }
 .lookingForYouTriangle {
 	width: 400px;
@@ -409,7 +411,10 @@ html {
 	}
 
 	.lookingForYou img {
-		margin: 40px 50px;
+		width: 380px;
+			margin: 40px 50px;
+
+	;
 	}
 
 	.lookingForYouTriangle {
@@ -477,8 +482,11 @@ html {
 .backToTop {
 	display: flex;
 	justify-content: right;
-	margin-right: 50px;
+	margin-right: 0;
 	scroll-behavior: smooth;
+	position: fixed;
+	bottom: 30px;
+	right: 50px;
 }
 .backToTop img {
 	text-align: center;
