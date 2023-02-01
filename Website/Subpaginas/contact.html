@@ -27,7 +27,7 @@
       A fake / hidden checkbox is used as click reciever,
       so you can use the :checked selector on it.
       -->
-					<input type="checkbox" />
+	  						<input type="checkbox" onclick="myFunction()" />
 
 					<!--
       Some spans to act as a hamburger.
@@ -43,7 +43,7 @@
       Too bad the menu has to be inside of the button
       but hey, it's pure CSS magic.
       -->
-					<ul id="menu">
+					<ul id="menu" style="display: none;">
 						<a href="../index.html"><li>Home</li></a>
 						<a href="../Subpaginas/onze_school.html"><li>Onze School</li></a>
 						<a href="../Subpaginas/studieaanbod.html"><li>Studieaanbod</li></a>
@@ -157,5 +157,16 @@
 		<script>
 			AOS.init({ duration: 1200 });
 		</script>
+
+<script>
+	function myFunction() {
+		var x = document.getElementById("menu");
+		if (x.style.display === "block") {
+			x.style.display = "none";
+		} else {
+			x.style.display = "block";
+		}
+	}
+</script>
 	</body>
 </html>
