@@ -25,13 +25,15 @@
 			<!--        MIT License        -->
 			<nav role="navigation">
 				<div id="menuToggle">
-					<!--      A fake / hidden checkbox is used as click reciever,      so you can use the :checked selector on it.      --><input
-						type="checkbox"
-					/><!--      Some spans to act as a hamburger.      They are acting like a real hamburger,      not that McDonalds stuff.      --><span
-					></span><span></span><span></span
+					<!--      A fake / hidden checkbox is used as click reciever,      so you can use the :checked selector on it.      -->
+					<input type="checkbox" onclick="myFunction()" />
+					<!--      Some spans to act as a hamburger.      They are acting like a real hamburger,      not that McDonalds stuff.      -->
+					<span></span>
+					<span></span>
+					<span></span
 					><!--      Too bad the menu has to be inside of the button      but hey, it's pure CSS magic.      -->
 
-					<ul id="menu">
+					<ul id="menu" style="display: none">
 						<a href="../index.html">
 							<li>Home</li>
 						</a>
@@ -62,11 +64,31 @@
 					<li>
 						<a href="../Subpaginas/PRAKTISCH/praktisch.html">Praktisch</a>
 						<ul>
-							<li class="dir"><a href="../../Website/Subpaginas/PRAKTISCH/digisprong.html">Digisprong</a></li>
-							<li class="dir"><a href="../Subpaginas/PRAKTISCH/leerling_praktisch.html">Leerlingen</a></li>
-							<li><a href="../Subpaginas/PRAKTISCH/leerkrachten.html">Leerkrachten</a></li>
-							<li><a href="../Subpaginas/PRAKTISCH/vacatures.html">Vacatures</a></li>
-							<li><a href="https://sint-jan-brussel.smartschool.be/login" target="_blank">Smartschool</a></li>
+							<li class="dir">
+								<a href="../../Website/Subpaginas/PRAKTISCH/digisprong.html"
+									>Digisprong</a
+								>
+							</li>
+							<li class="dir">
+								<a href="../Subpaginas/PRAKTISCH/leerling_praktisch.html"
+									>Leerlingen</a
+								>
+							</li>
+							<li>
+								<a href="../Subpaginas/PRAKTISCH/leerkrachten.html"
+									>Leerkrachten</a
+								>
+							</li>
+							<li>
+								<a href="../Subpaginas/PRAKTISCH/vacatures.html">Vacatures</a>
+							</li>
+							<li>
+								<a
+									href="https://sint-jan-brussel.smartschool.be/login"
+									target="_blank"
+									>Smartschool</a
+								>
+							</li>
 							<li><a href="../Subpaginas/PRAKTISCH/FAQ.html">FAQ</a></li>
 						</ul>
 					</li>
@@ -82,7 +104,10 @@
 		</div>
 
 		<div class="blackBox">
-			<h3>© 2023. Sint-Jan Berchmanscollege Brussel. <br /><br />Ursulinenstraat 4, 1000 Brussel - 02/512 03 70</h3>
+			<h3>
+				© 2023. Sint-Jan Berchmanscollege Brussel. <br /><br />Ursulinenstraat
+				4, 1000 Brussel - 02/512 03 70
+			</h3>
 		</div>
 
 		<script>
@@ -113,7 +138,9 @@
 			};
 
 			// Listen for new scroll events, here we debounce our `storeScroll` function
-			document.addEventListener("scroll", debounce(storeScroll), { passive: true });
+			document.addEventListener("scroll", debounce(storeScroll), {
+				passive: true,
+			});
 
 			// Update scroll position for first time
 			storeScroll();
@@ -122,6 +149,17 @@
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script>
 			AOS.init({ duration: 1200 });
+		</script>
+
+		<script>
+			function myFunction() {
+				var x = document.getElementById("menu");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				} else {
+					x.style.display = "block";
+				}
+			}
 		</script>
 	</body>
 </html>
