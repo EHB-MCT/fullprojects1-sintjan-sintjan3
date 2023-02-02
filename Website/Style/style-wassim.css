@@ -201,7 +201,7 @@ body {
 	}
 
 	body {
-		background-image: none;
+		background-image: url(../Images/tops/tops-04.jpg);
 	}
 
 	.wrapper img {
@@ -210,7 +210,7 @@ body {
 
 	.contact {
 		flex-direction: column;
-		margin-top: 0px;
+		margin-top: 220px;
 	}
 
 	.map iframe {
