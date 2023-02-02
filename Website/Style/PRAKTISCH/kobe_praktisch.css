@@ -550,12 +550,13 @@ html {
 	.title3 {
 		margin-top: 5%;
 		text-align: left;
+		margin-right: 5%;
 	}
 
 	.teachers img {
 		width: 55%;
 		font-weight: lighter;
-		margin-right: 5%;
+		margin-right: 2%;
 		margin-top: 4%;
 	}
 
