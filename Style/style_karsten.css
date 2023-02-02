@@ -410,10 +410,6 @@ html {
 		margin-left: 0px;
 	}
 
-	.lookingForYou{
-		display: flex;
-		justify-content: center;
-	}
 	.lookingForYou img {
 		width: 70%;
 		margin: 40px 60px;
