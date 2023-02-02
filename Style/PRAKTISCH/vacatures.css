@@ -125,16 +125,30 @@ body {
 	gap: 80px;
 	margin-right: 5%;
 	width: 30%;
+	font-size: 16px;
+	font-weight: 400;
 }
 
 .title {
 	padding-top: -10%;
 	text-align: left;
 	width: 150%;
+	font-size: 16px;
+	font-weight: 400;
 }
 
 .title h1 {
 	font-size: 80px;
+}
+
+.p{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.title p{
+	font-size: 16px;
+	font-weight: 400;
 }
 
 .line {
