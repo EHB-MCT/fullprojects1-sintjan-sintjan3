@@ -133,10 +133,9 @@ html {
 	display: block;
 }
 
-
 /* midden */
 
-.mid-section{
+.mid-section {
 	overflow: hidden;
 	width: 100%;
 }
@@ -163,10 +162,10 @@ html {
 .box {
 	display: flex;
 	margin: 0px 150px;
-	margin-top: 50px;
 	border-radius: 20px;
+	margin-top: 10%;
+	margin-bottom: 100px;
 }
-
 
 .text h1 {
 	font-family: "Montserrat", sans-serif;
@@ -180,7 +179,6 @@ html {
 	font-weight: 400;
 	padding: 5px 10px;
 }
-
 
 .but {
 	background-color: #005daa;
@@ -271,7 +269,6 @@ html {
 	max-width: 100%;
 }
 
-
 #menuToggle {
 	display: none !important;
 }
@@ -295,7 +292,6 @@ html {
 }
 
 @media (max-width: 480px) {
-
 	#menuToggle {
 		display: block !important;
 	}
@@ -334,7 +330,7 @@ html {
 		/* width: 400px;*/
 	}
 
-	.textThankyou p{
+	.textThankyou p {
 		font-weight: 400;
 		font-size: 16px;
 	}
@@ -419,7 +415,7 @@ html {
 
 	.textThankyou {
 		text-align: center;
-		
+
 		font-weight: 100;
 	}
 
@@ -438,12 +434,12 @@ html {
 		margin-top: -20px;
 		margin-left: 0px;
 	}
-	
+
 	.lookingForYou {
 		display: flex;
 		justify-content: center;
 	}
-	
+
 	.lookingForYou img {
 		width: 70%;
 		margin: 40px 60px;
@@ -508,8 +504,6 @@ html {
 		margin-bottom: 0;
 	}
 }
-
-
 
 .backToTop {
 	display: flex;
