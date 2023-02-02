@@ -85,7 +85,7 @@ body {
 
 #primary_nav_wrap ul li:hover {
 	text-decoration: underline #ffcc00 2px;
-	ext-underline-offset: 7px;
+	text-underline-offset: 7px;
 }
 
 #primary_nav_wrap ul li:hover > ul {
@@ -216,7 +216,7 @@ body {
 	.map iframe {
 		width: 350px;
 		height: 300px;
-		margin-left: 25px;
+		margin-left: 70px;
 	}
 
 	.contact-text {
