@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
 body {
     background-color: #e6e6e6;
     background-image: url("../../Images/tops/tops-07.jpg");
@@ -111,7 +114,8 @@ body {
     gap: 80px;
     margin-right: 5%;
     width: 30%;
-
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .title {
@@ -124,6 +128,11 @@ body {
     font-size: 80px;
 }
 
+.title p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .line {
     width: 10%;
     height: 7px;
@@ -132,8 +141,6 @@ body {
     margin-top: -5%;
 }
 
-
-
 .text1 {
     text-align: left;
     font-family: Montserrat, sans-serif;
@@ -141,6 +148,13 @@ body {
     margin-top: 3%;
     color: #414141;
     width: 50%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text1 p{
+    font-size: 16px;
+    font-weight: 400;   
 }
 
 .student img {
@@ -162,7 +176,6 @@ body {
     text-align: left;
     font-family: Montserrat, sans-serif;
     margin-left: 5%;
-
     color: #414141;
     gap: 80px;
     margin-right: 5%;
@@ -174,6 +187,13 @@ body {
     padding-top: -10%;
     text-align: left;
     width: 150%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.title2 p{
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .title2 h1 {

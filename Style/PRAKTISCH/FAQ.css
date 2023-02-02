@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
 @media (max-width: 480px) {
 	body {
 		background-color: #e6e6e6;
@@ -343,9 +346,10 @@ body {
 	margin-left: 5%;
 	margin-top: 45%;
 	color: #414141;
-
 	margin-right: 5%;
 	width: 50%;
+	font-size: 16px;
+	font-weight: 400;
 }
 
 .titel {
@@ -359,9 +363,15 @@ body {
 	color: #414141;
 }
 
+.title p{
+	font-size: 16px;
+	font-weight: 400;
+}
+
 .title h1 {
 	font-size: 80px;
 }
+
 
 .line {
 	width: 15%;

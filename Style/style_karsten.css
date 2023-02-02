@@ -167,6 +167,7 @@ html {
 	border-radius: 20px;
 }
 
+
 .text h1 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
@@ -176,9 +177,10 @@ html {
 	display: flex;
 	flex-direction: column;
 	font-family: "Montserrat", sans-serif;
-	font-weight: 100;
+	font-weight: 400;
 	padding: 5px 10px;
 }
+
 
 .but {
 	background-color: #005daa;
@@ -245,13 +247,13 @@ html {
 .textThankyou {
 	margin-top: -30px;
 	font-family: "Montserrat", sans-serif;
-	font-weight: 100;
+	font-weight: 400;
 }
 
 .textSchoolvision {
 	margin-top: 45px;
 	font-family: "Montserrat", sans-serif;
-	font-weight: 100;
+	font-weight: 400;
 }
 
 .lookingForYou img {
@@ -326,8 +328,20 @@ html {
 
 	.text p {
 		text-align: center;
+		font-weight: 400;
+		font-size: 16px;
 		/* aanpassing */
 		/* width: 400px;*/
+	}
+
+	.textThankyou p{
+		font-weight: 400;
+		font-size: 16px;
+	}
+
+	.Schoolvision p {
+		font-weight: 400;
+		font-size: 16px;
 	}
 
 	.boxes {

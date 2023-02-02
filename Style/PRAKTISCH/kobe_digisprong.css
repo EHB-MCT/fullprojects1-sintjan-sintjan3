@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
 body {
 	background-color: #e6e6e6;
 	background-image: url("../../Images/tops/tops-12.jpg");
@@ -126,6 +129,8 @@ body {
 	width: 30%;
 }
 
+
+
 .photo1 img {
 	margin-top: 25%;
 }
@@ -138,6 +143,11 @@ body {
 
 .title h1 {
 	font-size: 80px;
+}
+
+.title p {
+	font-weight: 400;
+	font-size: 16px;
 }
 
 .line {
@@ -159,11 +169,15 @@ body {
 .text1 {
 	text-align: left;
 	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
 	margin-left: 5%;
 	margin-top: 3%;
 	color: #414141;
 	width: 50%;
 }
+
+
 
 html:not([data-scroll="0"]) .header {
 	background-color: #ffcc00;
