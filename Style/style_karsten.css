@@ -135,6 +135,11 @@ html {
 
 
 /* midden */
+
+.mid-section{
+	overflow: hidden;
+	width: 100%;
+}
 .boxes {
 	margin-top: 600px;
 	display: flex;
@@ -288,6 +293,7 @@ html {
 }
 
 @media (max-width: 480px) {
+
 	#menuToggle {
 		display: block !important;
 	}
@@ -320,7 +326,8 @@ html {
 
 	.text p {
 		text-align: center;
-		width: 400px;
+		/* aanpassing */
+		/* width: 400px;*/
 	}
 
 	.boxes {
@@ -328,8 +335,10 @@ html {
 	}
 
 	.box {
-		display: flex;
-		margin: 0px 150px;
+		/* aanpassing */
+		/* display: flex; */
+		display: block;
+		margin: 0;
 		border-radius: 20px;
 		flex-direction: column;
 		flex-wrap: nowrap;
@@ -347,11 +356,10 @@ html {
 	.box img {
 		width: 300px;
 		height: 300px;
-		margin-right: 0px;
+		margin-left: 90px;
 	}
 	.box img.image2 {
-		margin-top: -80px;
-		margin-left: -0px;
+		margin-left: 0;
 		width: 400px;
 		height: 400px;
 	}
@@ -364,6 +372,13 @@ html {
 		flex-wrap: nowrap;
 		align-content: space-around;
 		align-items: center;
+	}
+
+	.second-box img.image2 {
+		margin-top: 20px;
+		margin-bottom: -50px;
+		width: 400px;
+		height: 400px;
 	}
 
 	.boxes3 {
