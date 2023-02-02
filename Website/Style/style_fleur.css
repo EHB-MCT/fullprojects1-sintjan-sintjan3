@@ -255,10 +255,6 @@ button:hover {
 		display: none;
 	}
 
-	body {
-		background-image: none;
-	}
-
 	.wrapper {
 		width: 80%;
 		margin: 100px auto 0 auto;
