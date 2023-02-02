@@ -73,7 +73,7 @@ html {
 }
 
 #primary_nav_wrap ul li:hover {
-	text-decoration: underline #FFCC00 2px;
+	text-decoration: underline #ffcc00 2px;
 	text-underline-offset: 7px;
 }
 
@@ -103,7 +103,7 @@ html {
 	left: 100%;
 }
 
-#primary_nav_wrap ul li:hover>ul {
+#primary_nav_wrap ul li:hover > ul {
 	display: block;
 }
 
@@ -166,13 +166,13 @@ html {
 .box1 .text1 p {
 	font-family: Montserrat, sans-serif;
 	font-weight: 400;
-	font-size: 13px;
+	font-size: 16px;
 }
 
 .box2 .text2 p {
 	font-family: Montserrat, sans-serif;
 	font-weight: 400;
-	font-size: 13px;
+	font-size: 16px;
 }
 
 footer img {
@@ -182,8 +182,8 @@ footer img {
 button {
 	display: block;
 	margin: 0 auto;
-	background-color: #005DAA;
-	border-color: #005DAA;
+	background-color: #005daa;
+	border-color: #005daa;
 	border-radius: 5px;
 	border: 0;
 	padding: 12px 100px 12px 100px;
@@ -217,8 +217,6 @@ button:hover {
 	margin-bottom: 100px;
 }
 
-
-
 html:not([data-scroll="0"]) .header {
 	background-color: #ffcc00;
 	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
@@ -236,7 +234,6 @@ html:not([data-scroll="0"]) .header .logo a:nth-child(1) {
 html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 	color: #414141;
 }
-
 
 @media (max-width: 480px) {
 	#menuToggle {
@@ -280,7 +277,6 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		flex-direction: column;
 		margin: 0px 50px;
 	}
-
 
 	.box2 .text2 {
 		margin-top: 0px;

@@ -86,7 +86,7 @@ body {
 	left: 100%;
 }
 
-#primary_nav_wrap ul li:hover>ul {
+#primary_nav_wrap ul li:hover > ul {
 	display: block;
 }
 
@@ -130,6 +130,8 @@ h2 {
 	color: #414141;
 	gap: 80px;
 	margin-right: 10%;
+	font-weight: 400;
+	font-size: 16px;
 }
 
 .title {
@@ -177,8 +179,6 @@ h2 {
 	font-weight: bold;
 	text-decoration: none;
 }
-
-
 
 .students {
 	display: flex;
@@ -235,7 +235,6 @@ h2 {
 .title3 {
 	margin-top: 5%;
 	text-align: left;
-
 }
 
 .teachers img {
@@ -403,7 +402,7 @@ html {
 		left: 100%;
 	}
 
-	#primary_nav_wrap ul li:hover>ul {
+	#primary_nav_wrap ul li:hover > ul {
 		display: block;
 	}
 
@@ -436,7 +435,6 @@ html {
 		margin-top: 100px;
 		text-align: center;
 		margin-bottom: 0;
-
 	}
 
 	h2 {
@@ -498,8 +496,6 @@ html {
 		text-decoration: none;
 	}
 
-
-
 	.students {
 		display: block;
 		text-align: center;
@@ -552,7 +548,7 @@ html {
 		margin-right: 15%;
 	}
 
-	.teachers p{
+	.teachers p {
 		text-align: left;
 	}
 
@@ -641,5 +637,4 @@ html {
 		margin: 0px;
 		padding: 0px;
 	}
-
 }

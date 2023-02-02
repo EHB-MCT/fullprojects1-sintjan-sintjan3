@@ -135,9 +135,23 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-
 	width: 700px;
 	height: 450px;
+}
+
+.function-one{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.function-two{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.function-three {
+	font-size: 16px;
+	font-weight: 400;
 }
 
 .adresse {
@@ -147,12 +161,22 @@ body {
 	width: 150px;
 }
 
+.adresse a{
+	font-weight: 400;
+	font-size: 16px;
+}
+
 .number {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	height: 35px;
 	width: 150px;
+}
+
+.number p {
+	font-size: 16px;
+	font-weight: 400;
 }
 
 .name a {

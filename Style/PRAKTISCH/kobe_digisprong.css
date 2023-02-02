@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-
 body {
 	background-color: #e6e6e6;
 	background-image: url("../../Images/tops/tops-12.jpg");
@@ -57,7 +56,7 @@ body {
 }
 
 #primary_nav_wrap ul li:hover {
-	text-decoration: underline #FFF 2px;
+	text-decoration: underline #fff 2px;
 	text-underline-offset: 7px;
 }
 
@@ -86,7 +85,7 @@ body {
 	left: 100%;
 }
 
-#primary_nav_wrap ul li:hover>ul {
+#primary_nav_wrap ul li:hover > ul {
 	display: block;
 }
 
@@ -128,8 +127,6 @@ body {
 	margin-right: 5%;
 	width: 30%;
 }
-
-
 
 .photo1 img {
 	margin-top: 25%;
@@ -177,8 +174,6 @@ body {
 	width: 50%;
 }
 
-
-
 html:not([data-scroll="0"]) .header {
 	background-color: #ffcc00;
 	box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
@@ -199,11 +194,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 
 .backToTop {
 	display: none;
-
-
 }
-
-
 
 @media (max-width: 480px) {
 	body {
@@ -213,7 +204,6 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		background-repeat: no-repeat;
 		background-color: #e6e6e6;
 		margin: 0;
-
 	}
 
 	.header {
@@ -226,11 +216,9 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		top: 0;
 	}
 
-
 	.logo img {
 		width: 70%;
 		margin-left: 20%;
-
 	}
 
 	.logo a:nth-child(2) {
@@ -247,7 +235,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 
 	#primary_nav_wrap ul a {
 		display: block;
-		color: #FFF;
+		color: #fff;
 		text-decoration: none;
 		font-weight: 700;
 		font-size: 18px;
@@ -264,7 +252,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 	}
 
 	#primary_nav_wrap ul li:hover {
-		text-decoration: underline #FFF 2px;
+		text-decoration: underline #fff 2px;
 		text-underline-offset: 7px;
 	}
 
@@ -286,7 +274,7 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 	#primary_nav_wrap ul ul a {
 		line-height: 120%;
 		padding: 10px 15px;
-		color: #414141
+		color: #414141;
 	}
 
 	#primary_nav_wrap ul ul ul {
@@ -294,11 +282,9 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		left: 100%;
 	}
 
-	#primary_nav_wrap ul li:hover>ul {
+	#primary_nav_wrap ul li:hover > ul {
 		display: block;
 	}
-
-
 
 	.nav li a button {
 		background-color: #121583;
@@ -335,7 +321,6 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		margin-top: 45%;
 		color: #414141;
 
-
 		width: 70%;
 	}
 
@@ -366,8 +351,6 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 	}
 
 	.digisprong img {
-
-
 		margin-top: 0%;
 		border-width: 0px;
 		border: #ffcc00 0px solid;
@@ -407,7 +390,6 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		width: 100%;
 	}
 
-
 	#primary_nav_wrap {
 		display: none;
 	}
@@ -417,7 +399,6 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 		justify-content: right;
 		margin-right: 50px;
 		scroll-behavior: smooth;
-
 	}
 
 	.backToTop img {
@@ -428,7 +409,5 @@ html:not([data-scroll="0"]) .header #primary_nav_wrap ul a {
 
 		margin-top: 600%;
 		border-color: #ffcc00;
-
-
 	}
 }
