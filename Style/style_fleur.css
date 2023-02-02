@@ -24,24 +24,28 @@ h1 {
 	font-family: Montserrat, sans-serif;
 	font-weight: 800;
 	font-size: 50px;
+	color: #414141;
 }
 
 h2 {
 	font-family: Montserrat, sans-serif;
 	font-weight: 700;
 	font-size: 30px;
+	color: #414141;
 }
 
 h3 {
 	font-family: Montserrat, sans-serif;
 	font-weight: 500;
 	font-size: 20px;
+	color: #414141;
 }
 
 p {
 	font-family: Montserrat, sans-serif;
 	font-weight: 400;
 	font-size: 16px;
+	color: #414141;
 }
 
 .header {
@@ -91,8 +95,8 @@ p {
 }
 
 #primary_nav_wrap ul li:hover {
-    text-decoration: underline 2px;
-    text-underline-offset: 7px;
+	text-decoration: underline 2px;
+	text-underline-offset: 7px;
 }
 
 #primary_nav_wrap ul ul {
@@ -231,7 +235,7 @@ button:hover {
 	padding: 60px;
 	margin-top: -10px;
 }
-	
+
 .blackBox h3 {
 	font-family: "montserrat", sans-serif;
 	font-size: 14px;
@@ -260,14 +264,14 @@ button:hover {
 		margin: 250px auto 0 auto;
 	}
 
-	.aware{
+	.aware {
 		margin-top: 70px;
 	}
 
-	.moved{
+	.moved {
 		margin-top: 70px;
 	}
-	
+
 	article .schoolvision {
 		display: inline;
 	}
@@ -281,7 +285,7 @@ button:hover {
 		grid-template-columns: 1fr;
 	}
 
-	.blackBox h3{
+	.blackBox h3 {
 		font-size: 12px;
 		margin-top: 50px;
 		margin-bottom: 0;

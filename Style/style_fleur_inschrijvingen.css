@@ -139,7 +139,8 @@ html {
 .box1 .text1 {
 	margin-top: 40px;
 	margin-right: 90px;
-	margin-left: 40px;
+	margin-left: 100px;
+	color: #414141;
 }
 
 .box2 img {
@@ -149,30 +150,35 @@ html {
 .box2 .text2 {
 	margin-top: 40px;
 	margin-right: 50px;
+	color: #414141;
 }
 
 .box1 .text1 h1 {
 	font-family: Montserrat, sans-serif;
 	font-weight: 800;
 	font-size: 40px;
+	color: #414141;
 }
 
 .box2 .text2 h1 {
 	font-family: Montserrat, sans-serif;
 	font-weight: 800;
 	font-size: 40px;
+	color: #414141;
 }
 
 .box1 .text1 p {
 	font-family: Montserrat, sans-serif;
 	font-weight: 400;
 	font-size: 16px;
+	color: #414141;
 }
 
 .box2 .text2 p {
 	font-family: Montserrat, sans-serif;
 	font-weight: 400;
 	font-size: 16px;
+	color: #414141;
 }
 
 footer img {
