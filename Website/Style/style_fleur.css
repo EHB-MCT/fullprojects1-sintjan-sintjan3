@@ -260,6 +260,14 @@ button:hover {
 		margin: 250px auto 0 auto;
 	}
 
+	.aware{
+		margin-top: 70px;
+	}
+
+	.moved{
+		margin-top: 70px;
+	}
+	
 	article .schoolvision {
 		display: inline;
 	}
